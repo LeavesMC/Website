@@ -58,12 +58,12 @@ const Sponsors: NextPage = () => {
             <FeatureCard
               icon={GlobeAmericasIcon}
               label="Sustainability"
-              description="Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't. Our financial information is available on our Open Collective page."
+              description="Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
             />
             <FeatureCard
               icon={BoltIcon}
               label="Future plans"
-              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Open Collective and GitHub Sponsors."
+              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and AFDIAN."
             />
             <FeatureCard
               icon={HeartIcon}
