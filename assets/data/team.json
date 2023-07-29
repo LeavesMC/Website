@@ -1,0 +1,40 @@
+[
+  {
+    "id": "core-team",
+    "name": "Core Team",
+    "description": "Core Team members are responsible for the direction of the project, and for making the big decisions. Whether they focus on the code or the community, they're essential to making everything run and have final say in just about anything.",
+    "members": [
+      {
+        "name": "violetc",
+        "avatar": "https://avatars.githubusercontent.com/u/58360096?v=4",
+        "discord": "violetc_",
+        "github": "s-yh-china"
+      }
+    ]
+  },
+  {
+    "id": "web-developers",
+    "name": "Web Developers",
+    "description": "Web Developers make LeavesMC onto the information superhighway. Through their efforts, you can touch the software of LeavesMC more conveniently.",
+    "members": [
+      {
+        "name": "LittleChest",
+        "avatar": "https://avatars.githubusercontent.com/u/81231195?v=4",
+        "discord": "littlechestw",
+        "github": "LittleChest"
+      },
+      {
+        "name": "z0z0r4",
+        "avatar": "https://avatars.githubusercontent.com/u/78744121?v=4",
+        "discord": "z0z0r4",
+        "github": "z0z0r4"
+      },
+      {
+        "name": "MC_XiaoHei",
+        "avatar": "https://avatars.githubusercontent.com/u/100807593?v=4",
+        "discord": "mc_xiaohei",
+        "github": "MC-XiaoHei"
+      }
+    ]
+  }
+]

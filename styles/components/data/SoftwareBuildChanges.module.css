@@ -1,0 +1,7 @@
+.commit {
+    @apply text-green-600 dark:text-green-500 mr-1 font-mono;
+}
+
+.issue {
+    @apply text-green-600 dark:text-green-500;
+}
