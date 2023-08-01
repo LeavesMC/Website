@@ -23,8 +23,8 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Modern software. <br />
-            <span className="text-green-500">Built to perform.</span>
+            Pure software. <br />
+            <span className="text-green-500">Born for vanilla.</span>
           </h1>
           <p className="text-xl mt-4">
             LeavesMC improves Minecraft’s ecosystem with fast, secure
