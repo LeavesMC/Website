@@ -61,7 +61,7 @@ const NavBar = ({ component }: NavBarProps) => {
         <NextLink href="/" passHref>
           <a className="leading-0" tabIndex={-1} aria-hidden={true}>
             <Logo
-              className="h-12 cursor-pointer"
+              className="h-8 cursor-pointer"
               alt="LeavesMC"
             />
           </a>
