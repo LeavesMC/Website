@@ -82,7 +82,7 @@ const Contribute: NextPage = () => (
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
           A lot of users result in a lot of questions. Everyone is welcome to
           answer questions or provide support, whether on our Discord server or
-          in our forums
+          in our QQ group
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="/community" dense>
