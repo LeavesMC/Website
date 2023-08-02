@@ -45,7 +45,7 @@ const SoftwareHeader = ({
         </Button>
         <Button
           variant="outlined"
-          href={`https://jd.leavesmc.top/${id}/${versionGroup}`}
+          href={`https://repo.leavesmc.top`}
           className="hidden md:block"
           external
         >
