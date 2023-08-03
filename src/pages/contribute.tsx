@@ -61,7 +61,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/LeavesMC/Leaves/blob/master/CONTRIBUTING.md"
+            href="https://github.com/LeavesMC/Leaves/blob/master/docs/CONTRIBUTING.md"
             external
             dense
           >
