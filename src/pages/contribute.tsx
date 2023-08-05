@@ -35,7 +35,7 @@ const Contribute: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">...Financially</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          LeavesMC uses Pateron and AFDIAN to manage various recurring expenses,
+          LeavesMC uses Pateron and Afdian to manage various recurring expenses,
           mostly related to infrastructure.
         </p>
         <div className="flex flex-row gap-4 mt-8">

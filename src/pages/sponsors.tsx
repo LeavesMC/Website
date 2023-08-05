@@ -63,7 +63,7 @@ const Sponsors: NextPage = () => {
             <FeatureCard
               icon={BoltIcon}
               label="Future plans"
-              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and AFDIAN."
+              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Afdian."
             />
             <FeatureCard
               icon={HeartIcon}
