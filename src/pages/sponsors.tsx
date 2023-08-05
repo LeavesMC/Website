@@ -40,7 +40,7 @@ const Sponsors: NextPage = () => {
               href="https://afdian.net/a/s-yh-china"
               external
             >
-              爱发电
+              afdian
             </Button>
           </div>
         </div>
