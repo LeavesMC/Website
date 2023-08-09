@@ -62,17 +62,17 @@ const CommunityIndex: NextPage = () => (
           developers, project staff, and more.
         </p>
         <div className="flex flex-row gap-4 mt-8">
-        <Giscus
-          repo="LeavesMC/Website"
-          repoId="R_kgDOKAcRiw"
-          mapping="number"
-          term="8"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          theme="preferred_color_scheme"
-          lang="en"
-        />
+          <Giscus
+            repo="LeavesMC/Website"
+            repoId="R_kgDOKAcRiw"
+            mapping="number"
+            term="8"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="preferred_color_scheme"
+            lang="en"
+          />
         </div>
       </div>
       <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
