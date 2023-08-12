@@ -20,6 +20,12 @@ export default defineConfig({
           "sans-serif",
         ],
       },
+      colors: {
+        "background-dark-90": "#111111",
+        "background-dark-80": "#181a1b",
+        "background-light-10": "#f8faff",
+        "background-light-0": "#ffffff",
+      },
       listStyleType: {
         alpha: "lower-alpha",
       },
