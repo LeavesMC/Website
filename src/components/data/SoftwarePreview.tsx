@@ -26,7 +26,7 @@ const SoftwarePreview = ({
     passHref
   >
     <a>
-      <article className="rounded-xl transition-all h-full p-4 md:p-8 hover:(shadow-lg bg-primary-300 dark:bg-gray-800)">
+      <article className="rounded-xl transition-all h-full p-4 md:p-8 hover:(shadow-lg bg-green-300 dark:bg-gray-800)">
         <div className="flex flex-row items-center gap-4">
           <div className="rounded-lg w-12 h-12 bg-gray-800 p-3">
             <Icon />
