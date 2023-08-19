@@ -15,7 +15,6 @@ export interface SoftwareHeaderProps {
 const SoftwareHeader = ({
   id,
   name,
-  versionGroup,
   icon: Icon,
   header,
   description,
