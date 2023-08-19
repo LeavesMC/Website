@@ -118,6 +118,9 @@ const CommunityGuidelines: NextPage = () => (
               asked to stop repeating their question so often and be patient
               instead. They should also be directed to <code>#support</code>{" "}
               if they aren&apos;t there already.
+              Incessantly repeating questions because they&apos;re not being
+              answered isn&apos;t allowed. Please be patient in waiting for a
+              reply.
               <ol className="list-roman list-inside ml-6 space-y-2 py-1">
                 <li>
                   Repeating a question after some time has passed and the
@@ -184,10 +187,9 @@ const CommunityGuidelines: NextPage = () => (
             </li>
             <li>
               Someone pinging a particular person because they are responding to
-              that person is not a problem and not even warranting of a warning.
-              Someone pinging a project developer or contributor just because
-              they want an answer in <code>#support</code> is what is
-              addressed here.
+              that person isn&apos;t a problem. Someone pinging a project
+              developer or contributor just because they want an answer is what
+              is addressed here.
             </li>
             <li>
               There are some users who don&apos;t want to be pinged, so please
@@ -297,6 +299,9 @@ const CommunityGuidelines: NextPage = () => (
         <li>
           <code>#support</code>
         </li>
+        <li>
+          <code>#feature-suggestions</code>
+        </li>
       </ul>
     </section>
     <section
@@ -341,7 +346,7 @@ const CommunityGuidelines: NextPage = () => (
       className="px-4 py-4 max-w-7xl mx-auto leading-7"
     >
       <h2 className="text-2xl font-medium mb-4">
-        Last Updated <code>2023-07-30</code>
+        Last Updated <code>2023-09-09</code>
       </h2>
       <p>
         This document is licensed under{" "}
