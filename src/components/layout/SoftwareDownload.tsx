@@ -67,7 +67,7 @@ const SoftwareDownload = ({
                   "rounded-lg flex flex-row w-full md:w-100 border text-white transition-border pl-5 py-3",
                   isStable
                     ? "dark:border-red-500 dark:text-red-400 border-red-900 text-red-700"
-                    : "dark:border-green-600 dark:text-green-400 border-green-900 text-green-700"
+                    : "dark:border-green-600 dark:text-green-400 border-green-900 text-green-700",
                 )}
                 onClick={toggleStable}
               >

@@ -28,7 +28,7 @@ const Button = ({
         variant === "outlined"
           ? "border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
           : "bg-green-600 hover:bg-green-500 text-white",
-        className
+        className,
       )}
       rel="noreferrer"
       target={external ? "_blank" : "_self"}

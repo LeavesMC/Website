@@ -15,7 +15,7 @@ const NavLink = ({ href, target, className, children }: LinkProps) => (
       target={target}
       className={clsx(
         "color-gray-200 hover:text-green-600 dark:hover:text-green-400 text-sm transition-colors px-2.5",
-        className
+        className,
       )}
     >
       {children}
