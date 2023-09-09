@@ -1,3 +1,4 @@
+import Cookies from "js-cookie";
 import type { SWRResponse } from "swr";
 import useSWR from "swr";
 
@@ -10,7 +11,13 @@ import type {
   VersionFamilyBuilds,
 } from "@/lib/service/types";
 
-const API_ENDPOINT = "https://api.leavesmc.top/v2";
+if (Cookies.get('API') === '1') {
+  // eslint-disable-next-line no-var
+  var API_ENDPOINT = "https://api.leavesmc.top";
+} else {
+  // eslint-disable-next-line no-var
+  var API_ENDPOINT = "https://api.leavesmc.top/v2";
+}
 
 const fetcher = (path: string) =>
   fetch(API_ENDPOINT + path).then((res) => res.json());
