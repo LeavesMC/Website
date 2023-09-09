@@ -37,6 +37,9 @@ devDependencies:
   '@svgr/webpack':
     specifier: 8.0.1
     version: 8.0.1
+  '@types/js-cookie':
+    specifier: ^3.0.3
+    version: 3.0.3
   '@types/node':
     specifier: 20.4.6
     version: 20.4.6
@@ -1789,6 +1792,10 @@ packages:
   /@trysound/sax@0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
+    dev: true
+
+  /@types/js-cookie@3.0.3:
+    resolution: {integrity: sha512-Xe7IImK09HP1sv2M/aI+48a20VX+TdRJucfq4vfRVy6nWN8PYPOEnlMRSgxJAgYQIXJVL8dZ4/ilAM7dWNaOww==}
     dev: true
 
   /@types/json-schema@7.0.12:
