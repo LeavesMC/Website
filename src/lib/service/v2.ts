@@ -11,12 +11,12 @@ import type {
   VersionFamilyBuilds,
 } from "@/lib/service/types";
 
-if (Cookies.get('API') === '1') {
-  // eslint-disable-next-line no-var
-  var API_ENDPOINT = "https://api.leavesmc.top";
-} else {
+if (Cookies.get('API') === '2') {
   // eslint-disable-next-line no-var
   var API_ENDPOINT = "https://api.leavesmc.top/v2";
+} else {
+  // eslint-disable-next-line no-var
+  var API_ENDPOINT = "https://api.leavesmc.top";
 }
 
 const fetcher = (path: string) =>
