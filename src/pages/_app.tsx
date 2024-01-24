@@ -23,6 +23,7 @@ const MyApp = ({ Component, pageProps, router }: AppProps) => (
       data-do-not-track="true"
       data-domains="www.leavesmc.top"
     ></script>
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/gh/sf-yuzifu/eat-fish-together@master/main.js" />
     <NavBar component={Component} />
     <main className="flex-1">
       <Component {...pageProps} />
