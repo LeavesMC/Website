@@ -133,7 +133,9 @@ const SoftwareDownloadButton = ({
                           projectId,
                           version,
                           build.build,
-                          download.name,
+                          Object.keys(build.downloads).find(
+                            (key) => key === name,
+                          )!,
                         )
                       }
                       target="_blank"
@@ -141,25 +143,39 @@ const SoftwareDownloadButton = ({
                       <div className="px-4 py-3">
                         <div className="font-medium">
                           {download.name}
-                          {copied === download.sha256 && (
+                          {name === "ghproxy" && (
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-yellow-200/80 text-yellow-800">
+                              GitHub Proxy
+                            </span>
+                          )}
+                          {name !== "ghproxy" && copied === download.sha256 && (
                             <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
                               Copied
                             </span>
                           )}
                         </div>
-                        <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
-                          <span className="truncate">{download.sha256}</span>
-                          <button
-                            className="ml-2 h-6 w-6"
-                            onClick={(evt) => {
-                              evt.preventDefault();
-                              navigator.clipboard.writeText(download.sha256);
-                              updateCopied(download.sha256);
-                            }}
-                          >
-                            <CloneIcon className="h-4 w-4" />
-                          </button>
-                        </div>
+                        {name !== "ghproxy" && (
+                          <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
+                            <span className="truncate">{download.sha256}</span>
+                            <button
+                              className="ml-2 h-6 w-6"
+                              onClick={(evt) => {
+                                evt.preventDefault();
+                                navigator.clipboard.writeText(download.sha256);
+                                updateCopied(download.sha256);
+                              }}
+                            >
+                              <CloneIcon className="h-4 w-4" />
+                            </button>
+                          </div>
+                        )}
+                        {name === "ghproxy" && (
+                          <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
+                            <span className="truncate">
+                              Powered by ghproxy.com
+                            </span>
+                          </div>
+                        )}
                       </div>
                     </a>
                   </div>
