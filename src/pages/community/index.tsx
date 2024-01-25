@@ -1,3 +1,4 @@
+import Giscus from "@giscus/react";
 import type { NextPage } from "next";
 
 import Button from "@/components/input/Button";
@@ -46,6 +47,32 @@ const CommunityIndex: NextPage = () => (
           >
             Join Our Discord
           </Button>
+        </div>
+      </div>
+      <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
+    </section>
+    <section
+      id="giscus"
+      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
+    >
+      <div className="flex-1">
+        <h2 className="font-medium text-2xl md:text-4xl">GitHub Discussions</h2>
+        <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
+          You can use GitHub to discuss with other administrators, developers,
+          project staff, and more.
+        </p>
+        <div className="flex flex-row gap-4 mt-8">
+          <Giscus
+            repo="LeavesMC/Website"
+            repoId="R_kgDOKAcRiw"
+            mapping="number"
+            term="8"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="preferred_color_scheme"
+            lang="en"
+          />
         </div>
       </div>
       <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
