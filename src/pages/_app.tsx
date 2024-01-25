@@ -13,6 +13,11 @@ import NavBar from "@/components/layout/NavBar";
 
 const MyApp = ({ Component, pageProps, router }: AppProps) => (
   <>
+    <script
+      async
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/sf-yuzifu/eat-fish-together@master/main.js"
+    />
     <NavBar component={Component} />
     <main className="flex-1">
       <Component {...pageProps} />
