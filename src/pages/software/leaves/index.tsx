@@ -140,14 +140,6 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               >
                 Join our Discord
               </Button>
-              <Button
-                variant="outlined"
-                href="https://qm.qq.com/cgi-bin/qm/qr?k=syIcDS00ctoLa22U8opSlU46srVgTpPx&group_code=603461533"
-                external
-                dense
-              >
-                Join our QQ group
-              </Button>
             </div>
           </div>
         </div>
