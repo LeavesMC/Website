@@ -32,7 +32,7 @@ const Team: NextPage = () => {
             secure software.
           </p>
           <div className="flex flex-row gap-4 mt-8">
-            <Button variant="filled" href="/sponsors">
+            <Button variant="filled" href="/sponsor">
               Sponsor
             </Button>
             <Button

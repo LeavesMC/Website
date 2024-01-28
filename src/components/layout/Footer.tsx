@@ -64,7 +64,7 @@ const Footer = () => (
               <Link href="/contribute">Contribute</Link>
             </li>
             <li>
-              <Link href="/sponsors">Sponsors</Link>
+              <Link href="/sponsor">Sponsor</Link>
             </li>
           </ul>
         </div>

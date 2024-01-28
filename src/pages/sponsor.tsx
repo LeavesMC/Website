@@ -7,11 +7,11 @@ import FeatureCard from "@/components/data/FeatureCard";
 import Button from "@/components/input/Button";
 import SEO from "@/components/util/SEO";
 
-const Sponsors: NextPage = () => {
+const Sponsor: NextPage = () => {
   return (
     <>
       <SEO
-        title="Sponsors"
+        title="Sponsor"
         description="Without contributors our projects wouldn't be possible. Find out how you can help."
         keywords={[
           "leavesmc",
@@ -24,7 +24,7 @@ const Sponsors: NextPage = () => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Sponsors
+            Sponsor
           </h1>
           <p className="text-xl mt-4">
             LeavesMC is an open community, and part of managing the community
@@ -83,4 +83,4 @@ const Sponsors: NextPage = () => {
 };
 
 // TODO: Add 爱发电 sponsors & Patreon sponsors
-export default Sponsors;
+export default Sponsor;

@@ -39,7 +39,7 @@ const Contribute: NextPage = () => (
           mostly related to infrastructure.
         </p>
         <div className="flex flex-row gap-4 mt-8">
-          <Button variant="filled" href="/sponsors" dense>
+          <Button variant="filled" href="/sponsor" dense>
             Learn More
           </Button>
         </div>
