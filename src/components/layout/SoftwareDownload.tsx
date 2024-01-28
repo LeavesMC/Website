@@ -46,7 +46,7 @@ const SoftwareDownload = ({
           </div>
           <h2 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
             Get {project.name}&nbsp;
-            <span className={isStable ? "text-blue-600" : "text-red-500"}>
+            <span className={isStable ? "text-green-600" : "text-red-500"}>
               {version}
             </span>
           </h2>
@@ -67,7 +67,7 @@ const SoftwareDownload = ({
                   "rounded-lg flex flex-row w-full md:w-100 border text-white transition-border pl-5 py-3",
                   isStable
                     ? "dark:border-red-500 dark:text-red-400 border-red-900 text-red-700"
-                    : "dark:border-blue-600 dark:text-blue-400 border-blue-900 text-blue-700",
+                    : "dark:border-green-600 dark:text-green-400 border-green-900 text-green-700",
                 )}
                 onClick={toggleStable}
               >

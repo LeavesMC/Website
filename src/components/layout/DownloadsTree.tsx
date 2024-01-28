@@ -28,10 +28,10 @@ const ProjectSubTree = ({
           <button
             key={version}
             className={clsx(
-              "pl-6 py-1 rounded-md hover:bg-blue-100 hover:dark:bg-gray-900 transition-colors text-gray-800 dark:text-gray-200 block w-full text-left",
+              "pl-6 py-1 rounded-md hover:bg-green-100 hover:dark:bg-gray-900 transition-colors text-gray-800 dark:text-gray-200 block w-full text-left",
               selectedProject === id &&
                 selectedVersion === version &&
-                "bg-blue-100 dark:bg-blue-900",
+                "bg-green-100 dark:bg-green-900",
             )}
             onClick={() => onSelect(id, version)}
           >
@@ -52,9 +52,7 @@ interface DownloadsTreeProps {
 const DownloadsTree = (props: DownloadsTreeProps) => {
   return (
     <nav className="w-50 p-2 border-r border-gray-300 overflow-auto">
-      <ProjectSubTree id="paper" name="Paper" {...props} />
-      <ProjectSubTree id="velocity" name="Velocity" {...props} />
-      <ProjectSubTree id="waterfall" name="Waterfall" {...props} />
+      <ProjectSubTree id="leaves" name="Leaves" {...props} />
     </nav>
   );
 };

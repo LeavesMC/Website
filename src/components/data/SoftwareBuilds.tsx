@@ -27,7 +27,7 @@ const SoftwareBuilds = ({
         .slice(0, 10)
         .map((build) => (
           <div
-            className="flex flex-row items-center hover:bg-blue-100 dark:hover:bg-gray-900 px-4 py-2 rounded-lg transition-colors"
+            className="flex flex-row items-center hover:bg-green-100 dark:hover:bg-gray-900 px-4 py-2 rounded-lg transition-colors"
             key={build.build}
           >
             {/* eslint-disable-next-line react/jsx-no-target-blank */}

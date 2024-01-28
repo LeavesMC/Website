@@ -10,7 +10,7 @@ export interface SEOProps {
 const SEO = ({ title, description, keywords }: SEOProps): ReactElement => {
   return (
     <Head>
-      <title>{title + " | PaperMC"}</title>
+      <title>{title + " | LeavesMC"}</title>
 
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords.join(", ")} />
@@ -18,7 +18,7 @@ const SEO = ({ title, description, keywords }: SEOProps): ReactElement => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:site_name" content="PaperMC" />
+      <meta property="og:site_name" content="LeavesMC" />
       <link rel="icon" href="/favicon.ico" />
       <meta property="og:image" content="/assets/logo/256x.png" />
       <meta property="twitter:card" content="summary" />

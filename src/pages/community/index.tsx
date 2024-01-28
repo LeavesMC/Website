@@ -7,8 +7,8 @@ const CommunityIndex: NextPage = () => (
   <>
     <SEO
       title="Community"
-      description="We're happy to have you as a part of the PaperMC community!"
-      keywords={["papermc", "paper", "minecraft", "sponsor", "community"]}
+      description="We're happy to have you as a part of the LeavesMC community!"
+      keywords={["leavesmc", "leaves", "minecraft", "sponsor", "community"]}
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">
@@ -16,7 +16,7 @@ const CommunityIndex: NextPage = () => (
           Join Our Community
         </h1>
         <p className="text-xl mt-4">
-          We&apos;re happy to have you as a part of the PaperMC community!
+          We&apos;re happy to have you as a part of the LeavesMC community!
           Please read our community guidelines before participating.
         </p>
         <div className="flex flex-row gap-4 mt-8">
@@ -40,7 +40,7 @@ const CommunityIndex: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://discord.gg/papermc"
+            href="https://discord.gg/5hgtU72w33"
             external
             dense
           >
@@ -51,23 +51,23 @@ const CommunityIndex: NextPage = () => (
       <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
     </section>
     <section
-      id="forums"
+      id="qq-group"
       className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
     >
       <div className="flex-1">
-        <h2 className="font-medium text-2xl md:text-4xl">Forums</h2>
+        <h2 className="font-medium text-2xl md:text-4xl">QQ Group</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          You can join the forums and chat with other administrators,
+          You can join the QQ group and chat with other administrators,
           developers, project staff, and more.
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://forums.papermc.io/"
+            href="http://qm.qq.com/cgi-bin/qm/qr?k=syIcDS00ctoLa22U8opSlU46srVgTpPx&group_code=603461533"
             external
             dense
           >
-            Forums
+            Join Our QQ Group
           </Button>
         </div>
       </div>

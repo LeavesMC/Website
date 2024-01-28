@@ -12,7 +12,7 @@ const Contribute: NextPage = () => (
     <SEO
       title="Contributing"
       description="Without contributors our projects wouldn't be possible. Find out how you can help."
-      keywords={["papermc", "paper", "minecraft", "sponsor", "contributing"]}
+      keywords={["leavesmc", "leaves", "minecraft", "sponsor", "contributing"]}
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">
@@ -35,10 +35,8 @@ const Contribute: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">...Financially</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          PaperMC uses Open Collective to manage various recurring expenses,
-          mostly related to infrastructure. Open Collective allows us to be
-          extremely transparent, so you can always see how your donations are
-          used.
+          LeavesMC uses Pateron and Afdian to manage various recurring expenses,
+          mostly related to infrastructure.
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="/sponsors" dense>
@@ -63,7 +61,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/PaperMC/Paper/blob/master/CONTRIBUTING.md"
+            href="https://github.com/LeavesMC/Leaves/blob/master/CONTRIBUTING.md"
             external
             dense
           >
@@ -84,7 +82,7 @@ const Contribute: NextPage = () => (
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
           A lot of users result in a lot of questions. Everyone is welcome to
           answer questions or provide support, whether on our Discord server or
-          in our forums
+          in our QQ group
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="/community" dense>
@@ -110,7 +108,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/PaperMC/docs"
+            href="https://github.com/LeavesMC/docs"
             external
             dense
           >

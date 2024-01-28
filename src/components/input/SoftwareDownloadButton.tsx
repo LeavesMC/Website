@@ -48,7 +48,7 @@ const SoftwareDownloadButton = ({
           "rounded-lg flex flex-row ransition-shadow text-white transition-color hover:shadow-lg",
           !compact && "w-full md:w-100",
           stable
-            ? "bg-blue-600 hover:bg-blue-500"
+            ? "bg-green-600 hover:bg-green-500"
             : "bg-red-500 hover:bg-red-400",
         )}
       >
@@ -123,7 +123,7 @@ const SoftwareDownloadButton = ({
             Object.entries(build.downloads).map(([name, download]) => (
               <Menu.Item key={name}>
                 {() => (
-                  <div className="hover:bg-blue-100 dark:hover:bg-gray-800 transition-colors">
+                  <div className="hover:bg-green-100 dark:hover:bg-gray-800 transition-colors">
                     {/* eslint-disable-next-line react/jsx-no-target-blank */}
                     <a
                       href={
@@ -141,11 +141,6 @@ const SoftwareDownloadButton = ({
                       <div className="px-4 py-3">
                         <div className="font-medium">
                           {download.name}
-                          {name === "application" && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-yellow-200/80 text-yellow-800">
-                              Recommended
-                            </span>
-                          )}
                           {copied === download.sha256 && (
                             <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
                               Copied

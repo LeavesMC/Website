@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 
-import LogoMarkerDark from "@/assets/brand/logo-marker-dark.svg";
+import Logo from "@/assets/brand/logo.svg";
 import classes from "@/styles/components/layout/Footer.module.css";
 
 const Footer = () => (
@@ -16,12 +16,15 @@ const Footer = () => (
             </li>
             <li>
               {/* eslint-disable-next-line react/jsx-no-target-blank */}
-              <a href="https://docs.papermc.io" target="_blank">
+              <a href="https://docs.leavesmc.top" target="_blank">
                 Documentation
               </a>
             </li>
             <li>
-              <Link href="/javadocs">Javadocs</Link>
+              {/* eslint-disable-next-line react/jsx-no-target-blank */}
+              <a href="https://repo.leavesmc.top" target="_blank">
+                Javadocs
+              </a>
             </li>
           </ul>
         </div>
@@ -33,7 +36,7 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://github.com/PaperMC"
+                href="https://github.com/LeavesMC"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -42,32 +45,17 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://discord.gg/papermc"
+                href="https://discord.gg/5hgtU72w33"
                 target="_blank"
                 rel="noreferrer"
               >
                 Discord
               </a>
             </li>
-            <li>
-              {/* eslint-disable-next-line react/jsx-no-target-blank */}
-              <a href="https://forums.papermc.io/" target="_blank">
-                Forums
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/PaperPowered"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Twitter
-              </a>
-            </li>
           </ul>
         </div>
         <div>
-          <span className="font-semibold">PaperMC</span>
+          <span className="font-semibold">LeavesMC</span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
               <Link href="/team">Our Team</Link>
@@ -78,38 +66,11 @@ const Footer = () => (
             <li>
               <Link href="/sponsors">Sponsors</Link>
             </li>
-            <li>
-              {/* eslint-disable-next-line react/jsx-no-target-blank */}
-              <a href="https://hangar.papermc.io" target="_blank">
-                Hangar
-              </a>
-            </li>
           </ul>
         </div>
         <div>
           <span className="font-semibold">Terms</span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
-            <li>
-              <Link href="https://forums.papermc.io/help/terms/">Terms</Link>
-            </li>
-            <li>
-              <Link href="https://forums.papermc.io/help/privacy-policy/">
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link href="https://forums.papermc.io/help/legal-notice/">
-                Legal Notice
-              </Link>
-            </li>
-            <li>
-              <Link href="https://hangar.papermc.io/terms">Hangar Terms</Link>
-            </li>
-            <li>
-              <Link href="https://hangar.papermc.io/privacy">
-                Hangar Privacy Policy
-              </Link>
-            </li>
             <li>
               <Link href="/community/guidelines">Community Guidelines</Link>
             </li>
@@ -117,10 +78,10 @@ const Footer = () => (
         </div>
       </div>
       <div className="flex flex-row items-center gap-2 border-t border-gray-600/50 mt-8 pt-10">
-        <LogoMarkerDark className="h-12 cursor-pointer" alt="PaperMC" />
+        <Logo className="h-12 cursor-pointer" alt="LeavesMC" />
         <div className="flex-1" />
         <span className="text-gray-300 text-sm">
-          © {new Date().getFullYear()} The PaperMC Team
+          © {new Date().getFullYear()} The LeavesMC Team
         </span>
       </div>
     </div>

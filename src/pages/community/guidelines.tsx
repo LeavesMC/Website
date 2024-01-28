@@ -9,26 +9,26 @@ const CommunityGuidelines: NextPage = () => (
   <>
     <SEO
       title="Community Guidelines"
-      description="Community Guidelines for the PaperMC community."
-      keywords={["papermc", "paper", "minecraft", "community", "guidelines"]}
+      description="Community Guidelines for the LeavesMC community."
+      keywords={["leavesmc", "leaves", "minecraft", "community", "guidelines"]}
     />
     <header className="max-w-7xl mx-auto px-4 pt-32 pb-16">
       <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-        PaperMC Community Guidelines
+        LeavesMC Community Guidelines
       </h1>
     </header>
     <section id="overview" className="px-4 py-4 max-w-7xl mx-auto leading-7">
       <h2 className="text-2xl font-medium mb-4">Overview</h2>
       <p>
-        PaperMC has grown significantly past what it was originally created to
+        LeavesMC has grown significantly past what it was originally created to
         be — a small group of tightly-knit developers having fun on a side
         project, never really intending it to go anywhere. With this fact in
         mind, we need to be proactive and explicit about how we intend to combat
-        negativity and toxicity in the PaperMC community. We want PaperMC to be
-        a welcoming community to all, where new members feel safe to hang out
+        negativity and toxicity in the LeavesMC community. We want LeavesMC to
+        be a welcoming community to all, where new members feel safe to hang out
         and ask questions, and where old members are happy to hang out, chat,
-        and help others too. We want PaperMC to be an inclusive environment.
-        PaperMC is, at its core, a development community. We want to continue
+        and help others too. We want LeavesMC to be an inclusive environment.
+        LeavesMC is, at its core, a development community. We want to continue
         staying focused on being a development community rather than letting
         toxic behavior take over. This document is the definitive list of
         guidelines everyone in the community must follow to participate in this
@@ -36,35 +36,34 @@ const CommunityGuidelines: NextPage = () => (
       </p>
     </section>
     <section
-      id="the-paper-community"
+      id="the-leaves-community"
       className="px-4 py-4 max-w-7xl mx-auto leading-7"
     >
-      <h2 className="text-2xl font-medium mb-4">The PaperMC Community</h2>
+      <h2 className="text-2xl font-medium mb-4">The LeavesMC Community</h2>
       <p>
-        This document uses the phrase &quot;PaperMC community&quot; to refer to
-        all communication which happens within the PaperMC ecosystem. This
+        This document uses the phrase &quot;LeavesMC community&quot; to refer to
+        all communication which happens within the LeavesMC ecosystem. This
         includes every forum of communication that is officially part of the
-        PaperMC project. To be abundantly clear, these PaperMC Community
+        LeavesMC project. To be abundantly clear, these LeavesMC Community
         Guidelines apply to all of the following:
       </p>
       <ul className="list-disc list-inside my-4">
-        <li>The PaperMC Discord server</li>
-        <li>The PaperMC IRC channels</li>
-        <li>The PaperMC GitHub organization</li>
+        <li>The LeavesMC Discord server</li>
+        <li>The LeavesMC QQ group</li>
+        <li>The LeavesMC GitHub organization</li>
         <li>
           This includes issues, pull requests, and any discussion inside issues
           or pull requests
         </li>
-        <li>The PaperMC forums</li>
       </ul>
     </section>
     <section
-      id="the-paper-community"
+      id="the-leaves-community"
       className="px-4 py-4 max-w-7xl mx-auto leading-7 "
     >
       <h2 className="text-2xl font-medium mb-4">Guidelines</h2>
       <p>
-        PaperMC has a fairly short and sweet set of rules. It generally comes
+        LeavesMC has a fairly short and sweet set of rules. It generally comes
         down to:
       </p>
       <ol className="list-decimal list-inside my-4 ml-4">
@@ -79,7 +78,7 @@ const CommunityGuidelines: NextPage = () => (
         <br />
         <br />
         However, there are specific behaviors we want to avoid in our community.
-        The following behaviors are not permitted in the PaperMC community:
+        The following behaviors are not permitted in the LeavesMC community:
       </p>
       <ol className="list-decimal list-inside my-4 ml-4 space-y-2 py-1">
         <li>
@@ -91,7 +90,7 @@ const CommunityGuidelines: NextPage = () => (
               listed in more detail below in{" "}
               <a
                 href="#zero-tolerance-items"
-                className="text-blue-800 dark:text-blue-300"
+                className="text-green-800 dark:text-green-300"
               >
                 Zero Tolerance Items.
               </a>
@@ -148,7 +147,7 @@ const CommunityGuidelines: NextPage = () => (
             </li>
             <li>
               Impersonating people includes anyone in or out of the server, not
-              just staff and not just those in Paper.
+              just staff and not just those in Leaves.
             </li>
             <li>
               Putting servers or plugins in usernames isn&apos;t allowed.
@@ -170,10 +169,8 @@ const CommunityGuidelines: NextPage = () => (
           reason.
           <ol className="list-alpha list-inside ml-6 space-y-2 py-1">
             <li>
-              For reporting dupe glitches or critical bugs, please make use of
-              the &quot;paper-exploit-report&quot; channel on Discord. This
-              notifies the developers and keeps the issue confidential. This
-              channel isn&apos;t for regular support.
+              Valid reasons include when normal users may not be able to help,
+              or when reporting dupe glitches or critical bugs.
             </li>
             <li>
               Someone pinging a particular person because they are responding to
@@ -230,13 +227,8 @@ const CommunityGuidelines: NextPage = () => (
         </li>
       </ol>
       <p>
-        If someone is violating those feel free to use the <code>@mods</code>{" "}
-        ping on Discord to notify the moderation team. You can also contact the
-        team privately using the <code>/modmail</code> command or sending a
-        direct message to our bot <code>Pencil#7974 (811281085723705395)</code>,
-        however this does not alert us in the same way that the{" "}
-        <code>@mods</code> ping does, so don&apos;t use it for time sensitive
-        issues.
+        If someone is violating those feel free to use the{" "}
+        <code>@LeavesMC Team</code> ping on Discord to notify the LeavesMC team.
       </p>
     </section>
     <section
@@ -246,8 +238,8 @@ const CommunityGuidelines: NextPage = () => (
       <h2 className="text-2xl font-medium mb-4">Zero Tolerance Items</h2>
       <p>
         Particularly severe issues represent a behavior and a kind of person we
-        don&apos;t want associated with PaperMC in any way. These behaviors will
-        result in an immediate ban without warning:
+        don&apos;t want associated with LeavesMC in any way. These behaviors
+        will result in an immediate ban without warning:
       </p>
       <ul className="list-disc list-inside my-4 ml-4">
         <li>Racial slurs or racist speech</li>
@@ -290,7 +282,7 @@ const CommunityGuidelines: NextPage = () => (
         Topic Specific Channels on Discord
       </h2>
       <p>
-        PaperMC has channels dedicated to specific topics, and conversations in
+        LeavesMC has channels dedicated to specific topics, and conversations in
         these channels should stay on-topic. This can help newer members in
         particular to feel more comfortable asking questions in the help
         channels if other members aren&apos;t also talking over them about
@@ -303,28 +295,10 @@ const CommunityGuidelines: NextPage = () => (
       </p>
       <ul className="list-disc list-inside my-4 ml-4">
         <li>
-          <code>#paper-help</code>
+          <code>#support</code>
         </li>
         <li>
-          <code>#paper-dev</code>
-        </li>
-        <li>
-          <code>#velocity-help</code>
-        </li>
-        <li>
-          <code>#velocity-dev</code>
-        </li>
-        <li>
-          <code>#waterfall-help</code>
-        </li>
-        <li>
-          <code>#waterfall-dev</code>
-        </li>
-        <li>
-          <code>#folia-help</code>
-        </li>
-        <li>
-          <code>#folia-dev</code>
+          <code>#feature-suggestions</code>
         </li>
       </ul>
     </section>
@@ -334,16 +308,15 @@ const CommunityGuidelines: NextPage = () => (
     >
       <h2 className="text-2xl font-medium mb-4">Support Channels</h2>
       <p>
-        Our support channels <code>#paper-help</code>,{" "}
-        <code>#velocity-help</code> and <code>#waterfall-help</code> are there
-        for people who need support using our software. While we are very happy
-        that so many members of the community actively support there and answer
-        questions, please make sure to follow our guidelines there as well. Many
-        people that go there to ask questions are new to Minecraft Servers and
-        to the community itself. We should be welcoming towards newcomers,
-        especially since we all started somewhere. In general, &quot;Rule 1:
-        Don&apos;t be a jerk&quot; applies here as well, but we would like to
-        add the following points:
+        Our support channels <code>#support</code>, is there for people who need
+        support using our software. While we are very happy that so many members
+        of the community actively support there and answer questions, please
+        make sure to follow our guidelines there as well. Many people that go
+        there to ask questions are new to Minecraft Servers and to the community
+        itself. We should be welcoming towards newcomers, especially since we
+        all started somewhere. In general, &quot;Rule 1: Don&apos;t be a
+        jerk&quot; applies here as well, but we would like to add the following
+        points:
       </p>
       <ol className="list-decimal list-inside my-4 ml-4 space-y-2">
         <li>
@@ -357,7 +330,7 @@ const CommunityGuidelines: NextPage = () => (
           and let someone else answer.
         </li>
         <li>
-          Please be polite even when turning down help. PaperMC does not
+          Please be polite even when turning down help. LeavesMC does not
           officially support older versions of our software, and that is not
           likely to change. We generally discourage people from using our older
           software, and we stipulate that it comes with no support. This does
@@ -366,29 +339,12 @@ const CommunityGuidelines: NextPage = () => (
         </li>
       </ol>
     </section>
-    <section id="ban-appeal" className="px-4 py-4 max-w-7xl mx-auto leading-7">
-      <h2 className="text-2xl font-medium mb-4">Ban Appeal</h2>
-      <p>
-        If you have been banned on our Discord server, we offer a way to appeal
-        that ban. To do that, simply join{" "}
-        <a
-          className="text-blue-800 dark:text-blue-300"
-          href="https://discord.gg/cTKAXWy5eP"
-          rel="noreferrer"
-          target="_blank"
-        >
-          this server{" "}
-        </a>
-        to start the appeal process. Please make sure to follow the
-        instructions. You only get one chance to appeal a ban.
-      </p>
-    </section>
     <section
       id="last-updated"
       className="px-4 py-4 max-w-7xl mx-auto leading-7"
     >
       <h2 className="text-2xl font-medium mb-4">
-        Last Updated <code>2023-08-19</code>
+        Last Updated <code>2024-01-25</code>
       </h2>
       <p>
         This document is licensed under{" "}
@@ -396,7 +352,7 @@ const CommunityGuidelines: NextPage = () => (
           href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-800 dark:text-blue-300"
+          className="text-green-800 dark:text-green-300"
         >
           CC BY-SA 4.0
           <CCIcon className="ml-2 w-6 align-sub" />

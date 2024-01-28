@@ -11,7 +11,7 @@ export interface Contributor {
 }
 
 const CONTRIBUTORS_BASE_URL =
-  "https://api.github.com/repos/PaperMC/Paper/contributors?per_page=100";
+  "https://api.github.com/repos/LeavesMC/Leaves/contributors?per_page=100";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

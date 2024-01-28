@@ -1,4 +1,4 @@
-# papermc.io
+# LeavesMC Website
 
 ## Development
 

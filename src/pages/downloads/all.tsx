@@ -7,7 +7,7 @@ import SEO from "@/components/util/SEO";
 import type { Project } from "@/lib/service/types";
 import { useVersionBuilds, getProject } from "@/lib/service/v2";
 
-const INITIAL_PROJECT = "paper";
+const INITIAL_PROJECT = "leaves";
 
 interface LegacyDownloadProps {
   initialProjectId: string;
@@ -37,7 +37,7 @@ const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
     <>
       <SEO
         title="Build explorer"
-        description="Build explorer for PaperMC projects. Proceed with caution!"
+        description="Build explorer for LeavesMC projects. Proceed with caution!"
         keywords={[]}
       />
       <div className="flex flex-col h-screen">

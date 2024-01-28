@@ -29,7 +29,7 @@ const NavDropDown = ({
   return (
     <div
       className={clsx(
-        "color-gray-200 hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors px-2.5 relative inline-block h-full",
+        "color-gray-200 hover:text-green-600 dark:hover:text-green-400 text-sm transition-colors px-2.5 relative inline-block h-full",
         className,
       )}
       onMouseEnter={handleEnter}

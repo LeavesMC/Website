@@ -8,7 +8,7 @@ import Button from "@/components/input/Button";
 import SEO from "@/components/util/SEO";
 import { useGitHubContributors } from "@/lib/service/github";
 
-const HIDDEN_USERS = [1007849, 23557539, 49699333]; // md_5, EcoCityCraftCI, dependabot
+const HIDDEN_USERS = [49699333]; // dependabot
 
 const Team: NextPage = () => {
   const { data: contributors } = useGitHubContributors();
@@ -17,9 +17,9 @@ const Team: NextPage = () => {
     <>
       <SEO
         title="Team"
-        description="Meet the team behind PaperMC, a Minecraft software organization focusing on improving
-          the game’s ecosystem with faster and more secure software."
-        keywords={["papermc", "paper", "minecraft", "team"]}
+        description="Meet the team behind LeavesMC, a Minecraft software organization focusing on improving
+            the game’s ecosystem with faster and more secure software."
+        keywords={["leavesmc", "leaves", "minecraft", "team"]}
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46) gap-16">
         <div className="flex-1">
@@ -27,7 +27,7 @@ const Team: NextPage = () => {
             Meet our team
           </h1>
           <p className="text-xl mt-4">
-            Meet the members behind PaperMC, a Minecraft software organization
+            Meet the members behind LeavesMC, a Minecraft software organization
             focusing on improving the game’s ecosystem with faster and more
             secure software.
           </p>
@@ -37,7 +37,7 @@ const Team: NextPage = () => {
             </Button>
             <Button
               variant="outlined"
-              href="https://github.com/PaperMC"
+              href="https://github.com/LeavesMC"
               external
             >
               GitHub
@@ -77,7 +77,7 @@ const Team: NextPage = () => {
                     {member.github && (
                       <a
                         href={`https://github.com/${member.github}`}
-                        className="flex flex-row items-center gap-2 mt-2 text-blue-800 dark:text-blue-300 text-sm font-medium"
+                        className="flex flex-row items-center gap-2 mt-2 text-green-800 dark:text-green-300 text-sm font-medium"
                         rel="noreferrer"
                         target="_blank"
                       >
@@ -86,7 +86,7 @@ const Team: NextPage = () => {
                       </a>
                     )}
                     {member.discord && (
-                      <div className="flex flex-row items-center gap-2 mt-1 text-blue-800 dark:text-blue-300 text-sm font-medium">
+                      <div className="flex flex-row items-center gap-2 mt-1 text-green-800 dark:text-green-300 text-sm font-medium">
                         <DiscordIcon className="w-4 h-4 fill-gray-700 dark:fill-gray-300" />
                         {member.discord}
                       </div>
