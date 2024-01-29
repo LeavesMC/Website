@@ -13,6 +13,7 @@ export default defineConfig({
       fontFamily: {
         sans: [
           "Poppins",
+          "MiSans",
           "Roboto",
           "Open Sans",
           "ui-sans-serif",

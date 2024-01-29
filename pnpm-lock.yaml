@@ -17,6 +17,9 @@ dependencies:
   clsx:
     specifier: 2.0.0
     version: 2.0.0
+  misans:
+    specifier: ^4.0.0
+    version: 4.0.0
   next:
     specifier: 13.5.4
     version: 13.5.4(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
@@ -3816,6 +3819,10 @@ packages:
 
   /minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+
+  /misans@4.0.0:
+    resolution: {integrity: sha512-8h69LK1puLLwKVMWD0WS3vVaKvg6yAFZJ0LGmKJixf35ZjKyeo3oLxor908yEQYv6BGekvK8tIBuGuHhgYlMcQ==}
+    dev: false
 
   /mkdirp-classic@0.5.3:
     resolution: {integrity: sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==}
