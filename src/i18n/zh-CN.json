@@ -121,6 +121,10 @@
       "title": "核心团队",
       "description": "核心团队成员负责项目的方向和重大决策。无论是专注于代码还是社区，他们是一切运行的关键，对任何事情都有最终决定权。"
     },
+    "leaves-developers": {
+      "title": "Leaves 开发者",
+      "description": "Leaves 开发者帮助编写代码、审核拉取请求并保持项目的活力。通过贡献新功能和帮助完善旧代码，他们使 Leaves 得以运行。"
+    },
     "web-developers": {
       "title": "网络开发者",
       "description": "网络开发者使 LeavesMC 驶上了信息高速公路。通过他们的努力，您可以更方便地接触到 LeavesMC 的软件。"

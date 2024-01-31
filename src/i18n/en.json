@@ -121,6 +121,10 @@
       "title": "Core Team",
       "description": "Core Team members are responsible for the direction of the project, and for making the big decisions. Whether they focus on the code or the community, they're essential to making everything run and have final say in just about anything."
     },
+    "leaves-developers": {
+      "title": "Leaves Developers",
+      "description": "Leaves Developers help with writing code, reviewing PRs, and keeping the project lively. By contributing new features and helping to polish off old code, they make Leaves run."
+    },
     "web-developers": {
       "title": "Web Developers",
       "description": "Web Developers make LeavesMC onto the information superhighway. Through their efforts, you can touch the software of LeavesMC more conveniently."
