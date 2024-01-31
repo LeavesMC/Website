@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { NextPage } from "next";
 import Image from "next/image";
 
@@ -15,7 +16,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
   return (
     <>
       <SEO
-        title="Home"
+        title={t("title.index")}
         description="LeavesMC is a Minecraft software organization focusing on improving
           the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "vanilla"]}
@@ -23,24 +24,21 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Pure software. <br />
-            <span className="text-green-500">Born for vanilla.</span>
+            {t("index.title.line1")}
+            <br />
+            <span className="text-green-500">{t("index.title.line2")}</span>
           </h1>
-          <p className="text-xl mt-4">
-            LeavesMC improves Minecraft’s ecosystem with fast, secure and stable
-            software available, providing quick releases and helpful support as
-            the most maverick.
-          </p>
+          <p className="text-xl mt-4">{t("index.description")}</p>
           <div className="flex flex-row gap-4 mt-8">
             <Button variant="filled" href="/downloads">
-              Downloads
+              {t("index.downloads")}
             </Button>
             <Button
               variant="outlined"
               href="https://docs.leavesmc.top"
               external
             >
-              Documentation
+              {t("index.documentation")}
             </Button>
           </div>
         </div>
@@ -65,17 +63,16 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
           </div>
           <div className="flex-1">
             <h2 className="font-semibold text-2xl md:text-4xl break-all">
-              Powering&nbsp;
+              {t("index.image.1.title.powering")}&nbsp;
               {playerData ? (
                 <span className="text-green-500">{playerData[0][1]}+</span>
               ) : (
                 <Skeleton className="w-30 h-6 inline-block" />
               )}
-              &nbsp;players
+              &nbsp;{t("index.image.1.title.players")}
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              LeavesMC’s software is designed with utility and performance in
-              mind, it can handle whatever you throw at it.
+              {t("index.image.1.description")}
             </p>
           </div>
         </div>

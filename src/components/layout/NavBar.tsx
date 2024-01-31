@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { t } from "i18next";
 import type { NextComponentType, NextPageContext } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -14,6 +15,7 @@ import NavDropDown from "@/components/layout/NavDropDown";
 import NavDropDownLink from "@/components/layout/NavDropDownLink";
 import NavLink from "@/components/layout/NavLink";
 import type { PageSoftwareProps } from "@/lib/util/types";
+import i18n from "i18n";
 
 export interface NavBarProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -53,7 +55,7 @@ const NavBar = ({ component }: NavBarProps) => {
     >
       <div className="max-w-7xl flex flex-row items-center mx-auto px-4 py-2 gap-2">
         <button
-          title={"Toggle nav"}
+          title={t("components.layout.NavBar.toggle")}
           className="leading-0 mr-2 md:hidden"
           onClick={() => setShowMenu((show) => !show)}
         >
@@ -68,7 +70,7 @@ const NavBar = ({ component }: NavBarProps) => {
             !showMenu && "hidden",
           )}
         >
-          <NavDropDown label="Software">
+          <NavDropDown label={t("components.layout.NavBar.software")}>
             <NavDropDownLink href="/software/leaves">Leaves</NavDropDownLink>
           </NavDropDown>
           <NavLink
@@ -76,14 +78,34 @@ const NavBar = ({ component }: NavBarProps) => {
             target="_blank"
             className="inline-flex items-center"
           >
-            Docs
+            {t("components.layout.NavBar.documentation")}
             <ExternalUrlIcon className="h-4 w-4 ml-1 align-sub" />
           </NavLink>
-          <NavLink href="/team">Team</NavLink>
-          <NavLink href="/contribute">Contribute</NavLink>
+          <NavLink href="/team">{t("components.layout.NavBar.team")}</NavLink>
+          <NavLink href="/contribute">
+            {t("components.layout.NavBar.contribute")}
+          </NavLink>
         </div>
 
         <div className="flex-grow" />
+        <NavDropDown label={t("Language")}>
+          <NavDropDownLink
+            href=""
+            onClick={() => {
+              i18n.changeLanguage("en");
+            }}
+          >
+            English
+          </NavDropDownLink>
+          <NavDropDownLink
+            href=""
+            onClick={() => {
+              i18n.changeLanguage("zh-CN");
+            }}
+          >
+            简体中文
+          </NavDropDownLink>
+        </NavDropDown>
         <IconButton
           icon={DiscordIcon}
           label="Discord"

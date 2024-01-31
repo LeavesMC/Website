@@ -1,7 +1,9 @@
 import clsx from "clsx";
+import { t } from "i18next";
 import Link from "next/link";
 import type { FunctionComponent, ReactElement } from "react";
 import { useState } from "react";
+import { Trans } from "react-i18next";
 
 import SoftwareBuilds from "@/components/data/SoftwareBuilds";
 import SoftwareDownloadButton from "@/components/input/SoftwareDownloadButton";
@@ -42,10 +44,12 @@ const SoftwareDownload = ({
             <div className="w-12 h-12 rounded-lg bg-gray-800 p-3">
               {Icon && <Icon />}
             </div>
-            <h1 className="font-medium text-xl">Downloads</h1>
+            <h1 className="font-medium text-xl">
+              {t("components.layout.SoftwareDownload.downloads")}
+            </h1>
           </div>
           <h2 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Get {project.name}&nbsp;
+            {t("components.layout.SoftwareDownload.get")} {project.name}&nbsp;
             <span className={isStable ? "text-green-600" : "text-red-500"}>
               {version}
             </span>
@@ -72,8 +76,8 @@ const SoftwareDownload = ({
                 onClick={toggleStable}
               >
                 {isStable
-                  ? "Toggle experimental builds for "
-                  : "Back to stable builds for "}
+                  ? t("components.layout.SoftwareDownload.toggleExperimental")
+                  : t("components.layout.SoftwareDownload.toggleStable")}
                 {isStable
                   ? project.latestExperimentalVersion
                   : project.latestStableVersion}
@@ -84,20 +88,21 @@ const SoftwareDownload = ({
         <div className="flex-1 lg:flex hidden justify-end"></div>
       </header>
       <section id="builds" className="max-w-7xl mx-auto py-8">
-        <h2 className="text-center text-xl font-medium">Older builds</h2>
+        <h2 className="text-center text-xl font-medium">
+          {t("components.layout.SoftwareDownload.builds.title")}
+        </h2>
         <p className="text-center text-gray-800 dark:text-gray-200 text-lg mt-2 mb-8 px-4">
-          Looking for older builds - or changelogs? We got you!&nbsp;
+          {t("components.layout.SoftwareDownload.builds.description.line1")}
+          &nbsp;
           <br />
-          <span className="text-gray-700 dark:text-gray-400">
-            Even older builds are available in our&nbsp;
-            <Link
-              href="/downloads/all"
-              className="text-gray-700 dark:text-gray-400 underline"
-            >
-              build explorer
-            </Link>
-            .
-          </span>
+          <Trans i18nKey="components.layout.SoftwareDownload.builds.description.line2">
+            <span className="text-gray-700 dark:text-gray-400">
+              <Link
+                href="/downloads/all"
+                className="text-gray-700 dark:text-gray-400 underline"
+              />
+            </span>
+          </Trans>
         </p>
         <SoftwareBuilds
           project={id}

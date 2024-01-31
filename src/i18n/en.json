@@ -1,0 +1,263 @@
+{
+  "title": {
+    "index": "Home",
+    "downloads": {
+      "index": "Downloads",
+      "all": "Build explorer",
+      "leaves": "Leaves Downloads"
+    },
+    "sponsor": "Sponsor",
+    "team": "Team",
+    "community": {
+      "index": "Community",
+      "guidelines": "Community Guidelines"
+    },
+    "contribute": "Contributing"
+  },
+  "index": {
+    "title": {
+      "line1": "Pure software.",
+      "line2": "Born for vanilla."
+    },
+    "description": "LeavesMC improves Minecraft’s ecosystem with fast, secure and stable software available, providing quick releases and helpful support as the most maverick.",
+    "downloads": "Downloads",
+    "documentation": "Documentation",
+    "image": {
+      "1": {
+        "title": {
+          "powering": "Powering",
+          "players": "players"
+        },
+        "description": "LeavesMC’s software is designed with utility and performance in mind, it can handle whatever you throw at it."
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "Downloads",
+      "description": "Select the software you want to download.",
+      "softwares": {
+        "leaves": {
+          "description": "Leaves is a Minecraft game server, aimed at repairing broken vanilla properties."
+        }
+      }
+    },
+    "all": {
+      "description": "Legacy builds are not supported. Proceed at your own risk!"
+    },
+    "leaves": {
+      "description": "Download Leaves, our Minecraft server software offering unrivaled performance and stability.",
+      "experimentalWarning": "Download experimental builds of Leaves, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "Following vanilla properties",
+          "line2": "Minecraft server"
+        },
+        "description": "Leaves is a Minecraft game server based on Paper, aimed at repairing broken vanilla properties.",
+        "why": {
+          "title": "Why Leaves?",
+          "reason": {
+            "1": {
+              "label": "It's stupidly fast",
+              "description": "Leaves contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
+            },
+            "2": {
+              "label": "An active and growing community",
+              "description": "Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
+            },
+            "3": {
+              "label": "An expanded API",
+              "description": "Leaves extends and improves the Bukkit, Spigot and Paper APIs so that you and your developers have more features and functionality at your fingertips."
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "Getting Started",
+            "description": "To get started with Leaves, you will need to download and install the latest version of the server software. Once you're ready, take a look at our extensive documentation."
+          },
+          "2": {
+            "title": "Together with a community of server owners",
+            "description": "Whether you need help with your server settings, server lag, or need a guide for formatting your chat, our knowledgeable staff and friendly community are always around to lend a hand."
+          }
+        },
+        "button": {
+          "downloads": "Downloads",
+          "documentation": "Documentation",
+          "discord": "Join our Discord"
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "description": "LeavesMC is an open community, and part of managing the community involves paying for services, servers, and infrastructure. We do what we can to keep our costs reasonable and sustainable, but still some costs are unavoidable.",
+    "why": {
+      "title": "Why You Should Donate",
+      "reason": {
+        "1": {
+          "label": "Sustainability",
+          "description": "Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
+        },
+        "2": {
+          "label": "Future plans",
+          "description": "We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Afdian."
+        },
+        "3": {
+          "label": "Giving back",
+          "description": "If we receive more in donations than our monthly costs, we may consider distributing funds to contributors in a fair and transparent way."
+        }
+      }
+    }
+  },
+  "team": {
+    "title": "Meet our team",
+    "description": "Meet the members behind LeavesMC, a Minecraft software organization focusing on improving the game’s ecosystem with faster and more secure software.",
+    "core-team": {
+      "title": "Core Team",
+      "description": "Core Team members are responsible for the direction of the project, and for making the big decisions. Whether they focus on the code or the community, they're essential to making everything run and have final say in just about anything."
+    },
+    "web-developers": {
+      "title": "Web Developers",
+      "description": "Web Developers make LeavesMC onto the information superhighway. Through their efforts, you can touch the software of LeavesMC more conveniently."
+    },
+    "button": {
+      "sponsor": "Sponsor"
+    },
+    "contributors": {
+      "title": "Contributors",
+      "description": "Contributors are those people who have helped the organization by making important contributions to our codebases. From adding a new redstone engine to PRing a fix for a nasty bug, our contributors have helped us to provide the best software we possibly can."
+    },
+    "avatar": "'s avatar"
+  },
+  "community": {
+    "index": {
+      "title": "Join Our Community",
+      "description": "We're happy to have you as a part of the LeavesMC community! Please read our community guidelines before participating.",
+      "discord": {
+        "description": "Discord is a popular option for many gamers to communicate with each other. We have a Discord community server that anyone can join."
+      },
+      "giscus": {
+        "description": "You can use GitHub to discuss with other administrators, developers, project staff, and more.",
+        "lang": "en"
+      },
+      "button": {
+        "guidelines": "Community Guidelines",
+        "discord": "Join Our Discord"
+      }
+    },
+    "guidelines": {
+      "title": "LeavesMC Community Guidelines",
+      "last-updated": "Last Updated",
+      "license": "This document is licensed under {{license}}{{icons}}"
+    }
+  },
+  "contribute": {
+    "title": "You can contribute",
+    "description": "Our projects are based on community contributions and wouldn't be possible without them. There are a lot of ways to contribute, even without programming knowledge.",
+    "donate": {
+      "title": "...Financially",
+      "description": "LeavesMC uses Pateron and Afdian to manage various recurring expenses, mostly related to infrastructure."
+    },
+    "code": {
+      "title": "...Code",
+      "description": "A big chunk of the code in our projects is written by community members, and we welcome your contributions!"
+    },
+    "support": {
+      "title": "...Support",
+      "description": "A lot of users result in a lot of questions. Everyone is welcome to answer questions or provide support, whether on our Discord server or in GitHub Discussions."
+    },
+    "documentation": {
+      "title": "...Documentation",
+      "description": "Constantly evolving software needs constantly updated documentation. No matter if you want to report missing information or add guides yourself, we always appreciate help."
+    },
+    "button": {
+      "more": "Learn More",
+      "support": "Our Community",
+      "documentation": "Docs Repository"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "No changes"
+      },
+      "SoftwareBuildsTable": {
+        "build": "Build",
+        "changelog": "Changelog",
+        "timestamp": "Timestamp",
+        "download": "Download"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "Download",
+        "build": "Build",
+        "copied": "Copied",
+        "ghproxy": "Powered by ghproxy.com"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "Software",
+        "documentation": "Docs",
+        "team": "Team",
+        "contribute": "Contribute",
+        "language": "Language",
+        "toggle": "Toggle nav"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "Getting Started",
+          "downloads": "Downloads",
+          "documentation": "Documentation"
+        },
+        "community": {
+          "title": "Community",
+          "our_community": "Our Community"
+        },
+        "LeavesMC": {
+          "our_team": "Our Team",
+          "contribute": "Contribute",
+          "sponsor": "Sponsor"
+        },
+        "terms": {
+          "title": "Terms",
+          "community_guidelines": "Community Guidelines"
+        },
+        "copyright": "The LeavesMC Team"
+      },
+      "SoftwareHeader": {
+        "downloads": "Downloads",
+        "documentation": "Documentation"
+      },
+      "SoftwareDownload": {
+        "downloads": "Downloads",
+        "get": "Get",
+        "toggleExperimental": "Toggle experimental builds for ",
+        "toggleStable": "Back to stable builds for ",
+        "builds": {
+          "title": "Older builds",
+          "description": {
+            "line1": "Looking for older builds - or changelogs? We got you!",
+            "line2": "Even older builds are available in our <0><0>build explorer</0></0>."
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "second",
+    "minute": "minute",
+    "hour": "hour",
+    "day": "day",
+    "past": " ago",
+    "plural_past": "s ago"
+  },
+  "Language": "Language",
+  "translator": "Translated by LittleChest and The PaperMC Team"
+}

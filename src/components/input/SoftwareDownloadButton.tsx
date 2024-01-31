@@ -1,5 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import clsx from "clsx";
+import { t } from "i18next";
 import { Fragment, useState } from "react";
 
 import CloneIcon from "@/assets/icons/fontawesome/clone-icon.svg";
@@ -75,14 +76,19 @@ const SoftwareDownloadButton = ({
           </div>
           <div className="text-left flex-1 border-r border-gray-300/50 pr-3">
             {compact ? (
-              <span className="font-medium text-sm">Download</span>
+              <span className="font-medium text-sm">
+                {t("components.input.SoftwareDownloadButton.download")}
+              </span>
             ) : projectId && build ? (
               <>
                 <span className="font-medium text-lg">
                   {project?.name ?? projectId} {version}
                 </span>
                 <p className="text-gray-100">
-                  {build && `Build #${build.build}`}
+                  {build &&
+                    `${t("components.input.SoftwareDownloadButton.build")} #${
+                      build.build
+                    }`}
                 </p>
               </>
             ) : (
@@ -150,7 +156,9 @@ const SoftwareDownloadButton = ({
                           )}
                           {name !== "ghproxy" && copied === download.sha256 && (
                             <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
-                              Copied
+                              {t(
+                                "components.input.SoftwareDownloadButton.copied",
+                              )}
                             </span>
                           )}
                         </div>
@@ -172,7 +180,9 @@ const SoftwareDownloadButton = ({
                         {name === "ghproxy" && (
                           <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
                             <span className="truncate">
-                              Powered by ghproxy.com
+                              {t(
+                                "components.input.SoftwareDownloadButton.ghproxy",
+                              )}
                             </span>
                           </div>
                         )}

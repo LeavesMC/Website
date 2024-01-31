@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { NextPage } from "next";
 import Image from "next/image";
 
@@ -16,7 +17,7 @@ const Team: NextPage = () => {
   return (
     <>
       <SEO
-        title="Team"
+        title={t("title.team")}
         description="Meet the team behind LeavesMC, a Minecraft software organization focusing on improving
             the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "team"]}
@@ -24,16 +25,12 @@ const Team: NextPage = () => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46) gap-16">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Meet our team
+            {t("team.title")}
           </h1>
-          <p className="text-xl mt-4">
-            Meet the members behind LeavesMC, a Minecraft software organization
-            focusing on improving the game’s ecosystem with faster and more
-            secure software.
-          </p>
+          <p className="text-xl mt-4">{t("team.description")}</p>
           <div className="flex flex-row gap-4 mt-8">
             <Button variant="filled" href="/sponsor">
-              Sponsor
+              {t("team.button.sponsor")}
             </Button>
             <Button
               variant="outlined"
@@ -52,8 +49,10 @@ const Team: NextPage = () => {
           key={team.id}
           className="px-4 py-8 max-w-7xl mx-auto"
         >
-          <h2 className="text-2xl font-medium mb-2">{team.name}</h2>
-          <p>{team.description}</p>
+          <h2 className="text-2xl font-medium mb-2">
+            {t(`team.${team.id}.title`)}
+          </h2>
+          <p>{t(`team.${team.id}.description`)}</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
             {team.members.map((member) => (
               <article
@@ -64,7 +63,7 @@ const Team: NextPage = () => {
                   <div className="w-20 h-20 relative bg-gray-600 rounded-md overflow-clip ">
                     {member.avatar && (
                       <Image
-                        alt={`${member.name}'s avatar`}
+                        alt={`${member.name}${t("team.avatar")}`}
                         src={member.avatar}
                         unoptimized
                         fill
@@ -99,13 +98,10 @@ const Team: NextPage = () => {
         </section>
       ))}
       <section id="contributors" className="px-4 py-8 max-w-7xl mx-auto">
-        <h2 className="text-2xl font-medium mb-2">Contributors</h2>
-        <p>
-          Contributors are those people who have helped the organization by
-          making important contributions to our codebases. From adding a new
-          redstone engine to PRing a fix for a nasty bug, our contributors have
-          helped us to provide the best software we possibly can.
-        </p>
+        <h2 className="text-2xl font-medium mb-2">
+          {t("team.contributors.title")}
+        </h2>
+        <p>{t("team.contributors.description")}</p>
         <div className="grid grid-cols-8 md:grid-cols-16 lg:grid-cols-18 xl:grid-cols-20 mt-8 gap-2">
           {contributors?.map((page) =>
             page
@@ -121,7 +117,7 @@ const Team: NextPage = () => {
                 >
                   {contributor.login[0]}
                   <Image
-                    alt={`${contributor.login}'s avatar`}
+                    alt={`${contributor.login}${t("team.avatar")}`}
                     src={contributor.avatar_url}
                     onError={(e) => (e.currentTarget.style.display = "none")}
                     onLoad={(e) => {

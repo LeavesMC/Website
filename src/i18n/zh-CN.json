@@ -1,0 +1,263 @@
+{
+  "title": {
+    "index": "主页",
+    "downloads": {
+      "index": "下载",
+      "all": "浏览构建",
+      "leaves": "下载 Leaves"
+    },
+    "sponsor": "赞助",
+    "team": "团队",
+    "community": {
+      "index": "社区",
+      "guidelines": "社区准则"
+    },
+    "contribute": "贡献"
+  },
+  "index": {
+    "title": {
+      "line1": "纯净",
+      "line2": "专为生电设计"
+    },
+    "description": "LeavesMC 改善了 Minecraft 的生态系统，提供快速、安全和稳定的软件，作为最特立独行的组织提供快速迭代和健康支持。",
+    "downloads": "下载",
+    "documentation": "文档",
+    "image": {
+      "1": {
+        "title": {
+          "powering": "为",
+          "players": "位玩家提供支持"
+        },
+        "description": "LeavesMC 的软件在设计之初就考虑到了实用性和性能，可以处理任何您需要处理的事物。"
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "下载",
+      "description": "选择想要下载的软件。",
+      "softwares": {
+        "leaves": {
+          "description": "Leaves 是一个 Minecraft 服务端，旨在修复被破坏的原版特性。"
+        }
+      }
+    },
+    "all": {
+      "description": "不支持旧版本。请自行承担风险！"
+    },
+    "leaves": {
+      "description": "下载 Leaves，我们具有无与伦比的性能和稳定性的 Minecraft 服务端。",
+      "experimentalWarning": "下载 Leaves 的测试版本，我们具有无与伦比的性能和稳定性的 Minecraft 服务端。请谨慎操作！"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "遵循原版特性的",
+          "line2": "Minecraft 服务端"
+        },
+        "description": "Leaves 是基于 Paper 的 Minecraft 服务端，旨在修复被破坏的原版特性。",
+        "why": {
+          "title": "为什么选择 Leaves？",
+          "reason": {
+            "1": {
+              "label": "速度快得离谱",
+              "description": "Leaves 包含大量改进和优化，从而显著提高了性能。这包括异步区块加载，以及对光照引擎、漏斗、实体等的重要改进。"
+            },
+            "2": {
+              "label": "活跃且不断发展的社区",
+              "description": "Leaves 拥有活跃且不断发展壮大的服主和开发者社区。如果您遇到任何问题，可以在 Discord 上与我们交流，获得实时支持。"
+            },
+            "3": {
+              "label": "扩展应用程序接口",
+              "description": "Leaves 扩展并改进了 Bukkit、Spigot 和 Paper 应用程序接口，使您和开发者可以随心所欲地使用更多特性和功能。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "让我们开始吧",
+            "description": "要开始使用 Leaves，您需要下载并安装最新版本。准备就绪后，请查阅我们丰富的文档。"
+          },
+          "2": {
+            "title": "与其他服主一起",
+            "description": "无论您是需要服务器设置、服务器延迟方面的帮助，还是需要聊天格式化指南，我们知识渊博的开发组成员和友好的社区都会随时伸出援手。"
+          }
+        },
+        "button": {
+          "downloads": "下载",
+          "documentation": "文档",
+          "discord": "加入我们的 Discord"
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "赞助",
+    "description": "LeavesMC 是一个开放的社区，社区的一部分涉及到服务器和基础设施的费用。我们会尽力保持成本的合理性和可持续性，但仍有一些成本是不可避免的。",
+    "why": {
+      "title": "为什么要赞助",
+      "reason": {
+        "1": {
+          "label": "持续发展",
+          "description": "赞助有助于保持 LeavesMC 的可持续发展并继续向所有人开放。只有有能力的人才可赞助，即使没有能力也不必感到遗憾。"
+        },
+        "2": {
+          "label": "未来规划",
+          "description": "我们需要升级服务器以满足对我们的服务日益增长的需求。这将增加成本，我们希望通过 Patreon 和爱发电的捐款来抵消。"
+        },
+        "3": {
+          "label": "回馈社会",
+          "description": "如果我们收到的捐款超出每月的成本，我们可以考虑以公平、透明的方式向赞助者分配资金。"
+        }
+      }
+    }
+  },
+  "team": {
+    "title": "了解我们的团队",
+    "description": "认识一下 LeavesMC 背后的成员，这是一个 Minecraft 软件组织，致力于通过更快、更安全的软件改善游戏生态系统。",
+    "core-team": {
+      "title": "核心团队",
+      "description": "核心团队成员负责项目的方向和重大决策。无论是专注于代码还是社区，他们是一切运行的关键，对任何事情都有最终决定权。"
+    },
+    "web-developers": {
+      "title": "网络开发者",
+      "description": "网络开发者使 LeavesMC 驶上了信息高速公路。通过他们的努力，您可以更方便地接触到 LeavesMC 的软件。"
+    },
+    "button": {
+      "sponsor": "赞助"
+    },
+    "contributors": {
+      "title": "贡献者",
+      "description": "贡献者是指那些对我们的代码库做出重要贡献，从而为我们的组织提供帮助的人。从添加一个新的红石引擎到提交一个令人讨厌的错误修复，我们的贡献者帮助我们尽可能提供最好的软件。"
+    },
+    "avatar": " 的头像"
+  },
+  "community": {
+    "index": {
+      "title": "加入我们的社区",
+      "description": "我们很高兴您成为 LeavesMC 社区的一员！在加入之前，请阅读我们的社区准则。",
+      "discord": {
+        "description": "Discord 是许多游戏玩家相互交流的热门选择。我们有一个任何人都可以加入的 Discord 社区服务器。"
+      },
+      "giscus": {
+        "description": "您可以使用 GitHub 与其他管理员、开发者、项目人员等进行讨论。",
+        "lang": "zh-CN"
+      },
+      "button": {
+        "guidelines": "社区准则",
+        "discord": "加入我们的 Discord"
+      }
+    },
+    "guidelines": {
+      "title": "LeavesMC 社区准则",
+      "last-updated": "上次更新于",
+      "license": "本文档采用 {{license}} 许可协议发布{{icons}}"
+    }
+  },
+  "contribute": {
+    "title": "您可以",
+    "description": "我们的项目以社区贡献为基础，没有社区贡献就不可能有我们的项目。即使没有编程知识，也可以通过多种方式作出贡献。",
+    "donate": {
+      "title": "...提供资金捐助",
+      "description": "LeavesMC 使用 Pateron 和爱发电来管理各种日常开支，其中大部分与基础设施有关。"
+    },
+    "code": {
+      "title": "...贡献代码",
+      "description": "我们项目中的大部分代码都是由社区成员编写的，我们欢迎您的贡献！"
+    },
+    "support": {
+      "title": "...提供支持",
+      "description": "大量的用户带来了大量的问题。无论是在我们的 Discord 服务器还是在 GitHub Discussions，我们都欢迎大家回答问题或提供支持。"
+    },
+    "documentation": {
+      "title": "...贡献文档",
+      "description": "不断发展的软件需要不断更新的文档。无论您是想报告缺失的信息，还是想自己添加指南，我们都非常感激您的帮助。"
+    },
+    "button": {
+      "more": "了解更多",
+      "support": "我们的社区",
+      "documentation": "文档存储库"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "无更改"
+      },
+      "SoftwareBuildsTable": {
+        "build": "构建",
+        "changelog": "更新日志",
+        "timestamp": "时间",
+        "download": "下载"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "下载",
+        "build": "构建",
+        "copied": "已复制",
+        "ghproxy": "由 ghproxy.com 强力驱动"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "软件",
+        "documentation": "文档",
+        "team": "团队",
+        "contribute": "贡献",
+        "language": "语言",
+        "toggle": "切换导航栏"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "入门",
+          "downloads": "下载",
+          "documentation": "文档"
+        },
+        "community": {
+          "title": "社区",
+          "our_community": "我们的社区"
+        },
+        "LeavesMC": {
+          "our_team": "我们的团队",
+          "contribute": "贡献",
+          "sponsor": "赞助"
+        },
+        "terms": {
+          "title": "条款",
+          "community_guidelines": "社区准则"
+        },
+        "copyright": "LeavesMC 团队"
+      },
+      "SoftwareHeader": {
+        "downloads": "下载",
+        "documentation": "文档"
+      },
+      "SoftwareDownload": {
+        "downloads": "下载",
+        "get": "获取",
+        "toggleExperimental": "切换到测试版 ",
+        "toggleStable": "回到稳定版 ",
+        "builds": {
+          "title": "较旧的构建",
+          "description": {
+            "line1": "寻找旧版本或更新日志？我们为您提供！",
+            "line2": "我们的<0><0>构建资源管理器</0></0>中还提供了更早的构建版本。"
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "秒",
+    "minute": "分钟",
+    "hour": "小时",
+    "day": "天",
+    "past": "前",
+    "plural_past": "前"
+  },
+  "Language": "语言",
+  "translator": "由 LittleChest 翻译"
+}

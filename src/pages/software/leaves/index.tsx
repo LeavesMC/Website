@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import Image from "next/image";
 import type { ReactElement } from "react";
 
@@ -38,12 +39,14 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
         icon={LeavesIcon}
         header={
           <>
-            Following vanilla properties
+            {t("software.leaves.index.title.line1")}
             <br />
-            <span className="text-green-500">Minecraft server</span>
+            <span className="text-green-500">
+              {t("software.leaves.index.title.line2")}
+            </span>
           </>
         }
-        description="Leaves is a Minecraft game server based on Paper, aimed at repairing broken vanilla properties."
+        description={t("software.leaves.index.description")}
       />
       <section
         id="why"
@@ -51,23 +54,23 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4">
-            Why Leaves?
+            {t("software.leaves.index.why.title")}
           </h2>
           <div className="grid md:grid-cols-3 mt-6 gap-2 px-2 xl:gap-4">
             <FeatureCard
               icon={BoltIcon}
-              label="It's stupidly fast"
-              description="Leaves contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
+              label={t("software.leaves.index.why.reason.1.label")}
+              description={t("software.leaves.index.why.reason.1.description")}
             />
             <FeatureCard
               icon={ChatBubbleLeftRightIcon}
-              label="An active and growing community"
-              description="Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
+              label={t("software.leaves.index.why.reason.2.label")}
+              description={t("software.leaves.index.why.reason.2.description")}
             />
             <FeatureCard
               icon={CodeBracketIcon}
-              label="An expanded API"
-              description="Leaves extends and improves the Bukkit, Spigot and Paper APIs so that you and your developers have more features and functionality at your fingertips."
+              label={t("software.leaves.index.why.reason.3.label")}
+              description={t("software.leaves.index.why.reason.3.description")}
             />
           </div>
         </div>
@@ -89,16 +92,14 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
           </div>
           <div className="flex-1">
             <h2 className="font-semibold text-2xl md:text-4xl break-all">
-              Getting Started
+              {t("software.leaves.index.image.1.title")}
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              To get started with Leaves, you will need to download and install
-              the latest version of the server software. Once you&apos;re ready,
-              take a look at our extensive documentation.
+              {t("software.leaves.index.image.1.description")}
             </p>
             <div className="flex flex-row gap-4 mt-8">
               <Button variant="filled" href="/downloads/leaves" dense>
-                Downloads
+                {t("software.leaves.index.button.downloads")}
               </Button>
               <Button
                 variant="outlined"
@@ -106,7 +107,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
                 external
                 dense
               >
-                Documentation
+                {t("software.leaves.index.button.documentation")}
               </Button>
             </div>
           </div>
@@ -124,12 +125,10 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
           </div>
           <div className="flex-1">
             <h2 className="font-semibold text-2xl md:text-4xl">
-              Together with a community of server owners
+              {t("software.leaves.index.image.2.title")}
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              Whether you need help with your server settings, server lag, or
-              need a guide for formatting your chat, our knowledgeable staff and
-              friendly community are always around to lend a hand.
+              {t("software.leaves.index.image.2.description")}
             </p>
             <div className="flex flex-row gap-4 mt-8">
               <Button
@@ -138,7 +137,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
                 external
                 dense
               >
-                Join our Discord
+                {t("software.leaves.index.button.discord")}
               </Button>
             </div>
           </div>

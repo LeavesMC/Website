@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { GetStaticProps, NextPage } from "next";
 import { useState } from "react";
 
@@ -36,14 +37,14 @@ const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
   return (
     <>
       <SEO
-        title="Build explorer"
+        title={t("title.downloads.all")}
         description="Build explorer for LeavesMC projects. Proceed with caution!"
         keywords={[]}
       />
       <div className="flex flex-col h-screen">
         <div className="h-14" />
         <div className="text-center px-4 py-2 font-bold bg-red-400 dark:bg-red-500 shadow-md">
-          Legacy builds are not supported. Proceed at your own risk!
+          {t("downloads.all.description")}
         </div>
         <div className="flex-1 flex flex-row min-h-0">
           <DownloadsTree

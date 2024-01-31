@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { NextPage } from "next";
 
 import LeavesIcon from "@/assets/brand/leaves.svg";
@@ -8,23 +9,23 @@ const Downloads: NextPage = () => {
   return (
     <>
       <SEO
-        title="Downloads"
+        title={t("title.downloads.index")}
         description="Find downloads for our software – including Leaves."
         keywords={["leavesmc", "minecraft", "vanilla", "leaves", "downloads"]}
       />
       <header className="max-w-4xl flex flex-col items-center mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-26) gap-2">
         <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-          Downloads
+          {t("downloads.index.title")}
         </h1>
         <p className="text-xl text-center mb-6">
-          {"Select the software you want to download."}
+          {t("downloads.index.description")}
         </p>
         <div className="grid md:grid-cols-2 gap-2 px-2 xl:gap-4">
           <SoftwarePreview
             id="leaves"
             name="Leaves"
             icon={LeavesIcon}
-            description="Leaves is a Minecraft game server, aimed at repairing broken vanilla properties."
+            description={t("downloads.index.softwares.leaves.description")}
             download
           />
         </div>

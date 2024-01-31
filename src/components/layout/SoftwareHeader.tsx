@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { FunctionComponent, ReactElement } from "react";
 
 import Button from "@/components/input/Button";
@@ -33,14 +34,14 @@ const SoftwareHeader = ({
       <p className="text-xl mt-4">{description}</p>
       <div className="flex flex-row gap-4 mt-8">
         <Button variant="filled" href={`/downloads/${id}`}>
-          Downloads
+          {t("components.layout.SoftwareHeader.downloads")}
         </Button>
         <Button
           variant="outlined"
           href={`https://docs.leavesmc.top/${id}`}
           external
         >
-          Documentation
+          {t("components.layout.SoftwareHeader.documentation")}
         </Button>
         <Button
           variant="outlined"

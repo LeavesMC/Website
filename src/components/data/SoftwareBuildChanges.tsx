@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { ReactElement } from "react";
 import { Fragment } from "react";
 
@@ -27,7 +28,11 @@ const SoftwareBuildChanges = ({
         {highlightIssues(change.summary, project, styles.issue)}
       </p>
     ))}
-    {build.changes.length === 0 && <i className="text-gray-600">No changes</i>}
+    {build.changes.length === 0 && (
+      <i className="text-gray-600">
+        {t("components.data.SoftwareBuildChanges.zero")}
+      </i>
+    )}
   </>
 );
 

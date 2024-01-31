@@ -1,4 +1,5 @@
 import Giscus from "@giscus/react";
+import { t } from "i18next";
 import type { NextPage } from "next";
 
 import Button from "@/components/input/Button";
@@ -7,22 +8,19 @@ import SEO from "@/components/util/SEO";
 const CommunityIndex: NextPage = () => (
   <>
     <SEO
-      title="Community"
+      title={t("title.community.index")}
       description="We're happy to have you as a part of the LeavesMC community!"
       keywords={["leavesmc", "leaves", "minecraft", "sponsor", "community"]}
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">
         <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-          Join Our Community
+          {t("community.index.title")}
         </h1>
-        <p className="text-xl mt-4">
-          We&apos;re happy to have you as a part of the LeavesMC community!
-          Please read our community guidelines before participating.
-        </p>
+        <p className="text-xl mt-4">{t("community.index.description")}</p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="/community/guidelines" dense>
-            Community Guidelines
+            {t("community.index.button.guidelines")}
           </Button>
         </div>
       </div>
@@ -35,8 +33,7 @@ const CommunityIndex: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">Discord</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          Discord is a popular option for many gamers to communicate with each
-          other. We have a Discord community server that anyone can join.
+          {t("community.index.discord.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
@@ -45,7 +42,7 @@ const CommunityIndex: NextPage = () => (
             external
             dense
           >
-            Join Our Discord
+            {t("community.index.button.discord")}
           </Button>
         </div>
       </div>
@@ -58,8 +55,7 @@ const CommunityIndex: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">GitHub Discussions</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          You can use GitHub to discuss with other administrators, developers,
-          project staff, and more.
+          {t("community.index.giscus.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Giscus
@@ -71,7 +67,7 @@ const CommunityIndex: NextPage = () => (
             emitMetadata="0"
             inputPosition="top"
             theme="preferred_color_scheme"
-            lang="en"
+            lang={t("community.index.giscus.lang")}
           />
         </div>
       </div>

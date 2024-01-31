@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { ReactElement } from "react";
 
 import LeavesIcon from "@/assets/brand/leaves.svg";
@@ -10,7 +11,7 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
   return (
     <>
       <SEO
-        title="Leaves Downloads"
+        title={t("title.downloads.leaves")}
         description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
         keywords={[
           "leavesmc",
@@ -25,8 +26,8 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
         id="leaves"
         project={project}
         icon={LeavesIcon}
-        description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
-        experimentalWarning="Download experimental builds of Leaves, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
+        description={t("downloads.leaves.description")}
+        experimentalWarning={t("downloads.leaves.experimentalWarning")}
       />
     </>
   );

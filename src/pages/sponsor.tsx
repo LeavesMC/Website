@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import type { NextPage } from "next";
 
 import BoltIcon from "@/assets/icons/heroicons/bolt.svg";
@@ -11,7 +12,7 @@ const Sponsor: NextPage = () => {
   return (
     <>
       <SEO
-        title="Sponsor"
+        title={t("title.sponsor")}
         description="Without contributors our projects wouldn't be possible. Find out how you can help."
         keywords={[
           "leavesmc",
@@ -24,14 +25,9 @@ const Sponsor: NextPage = () => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Sponsor
+            {t("sponsor.title")}
           </h1>
-          <p className="text-xl mt-4">
-            LeavesMC is an open community, and part of managing the community
-            involves paying for services, servers, and infrastructure. We do
-            what we can to keep our costs reasonable and sustainable, but still
-            some costs are unavoidable.
-          </p>
+          <p className="text-xl mt-4">{t("sponsor.description")}</p>
           <div className="flex flex-row gap-4 mt-8">
             <Button
               variant="filled"
@@ -57,23 +53,23 @@ const Sponsor: NextPage = () => {
       >
         <div className="max-w-7xl mx-auto py-2">
           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4">
-            Why You Should Donate
+            {t("sponsor.why.title")}
           </h2>
           <div className="grid md:grid-cols-3 mt-6 gap-2 px-2 xl:gap-4">
             <FeatureCard
               icon={GlobeAmericasIcon}
-              label="Sustainability"
-              description="Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
+              label={t("sponsor.why.reason.1.label")}
+              description={t("sponsor.why.reason.1.description")}
             />
             <FeatureCard
               icon={BoltIcon}
-              label="Future plans"
-              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Afdian."
+              label={t("sponsor.why.reason.2.label")}
+              description={t("sponsor.why.reason.2.description")}
             />
             <FeatureCard
               icon={HeartIcon}
-              label="Giving back"
-              description="If we receive more in donations than our monthly costs, we may consider distributing funds to contributors in a fair and transparent way."
+              label={t("sponsor.why.reason.3.label")}
+              description={t("sponsor.why.reason.3.description")}
             />
           </div>
         </div>

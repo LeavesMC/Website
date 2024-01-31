@@ -11,6 +11,8 @@ import type { AppProps } from "next/app";
 
 import Footer from "@/components/layout/Footer";
 import NavBar from "@/components/layout/NavBar";
+import i18n from "i18n";
+i18n;
 
 const MyApp = ({ Component, pageProps, router }: AppProps) => (
   <>

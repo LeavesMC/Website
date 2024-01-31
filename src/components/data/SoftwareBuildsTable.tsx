@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { t } from "i18next";
 
 import SoftwareDownloadButton from "../input/SoftwareDownloadButton";
 
@@ -22,10 +23,10 @@ const SoftwareBuildsTable = ({
     <table className="w-full relative">
       <thead className="sticky top-0 z-40 bg-background-light-10 dark:bg-background-dark-90 shadow-sm">
         <tr className={styles.header}>
-          <th>Build</th>
-          <th>Changelog</th>
-          <th>Timestamp</th>
-          <th>Download</th>
+          <th>{t("components.data.SoftwareBuildsTable.build")}</th>
+          <th>{t("components.data.SoftwareBuildsTable.changelog")}</th>
+          <th>{t("components.data.SoftwareBuildsTable.timestamp")}</th>
+          <th>{t("components.data.SoftwareBuildsTable.download")}</th>
         </tr>
       </thead>
       <tbody className={styles.body}>

@@ -7,6 +7,7 @@ export interface NavDropDownLinkProps {
   target?: string;
   className?: string;
   children: ReactNode;
+  onClick?: () => void;
 }
 
 const NavDropDownLink = ({
@@ -14,6 +15,7 @@ const NavDropDownLink = ({
   target,
   className,
   children,
+  onClick,
 }: NavDropDownLinkProps): ReactElement => (
   <li
     className={clsx(
@@ -26,6 +28,7 @@ const NavDropDownLink = ({
       className="px-4 py-2 w-full block"
       role="button"
       target={target}
+      onClick={onClick}
     >
       {children}
     </Link>

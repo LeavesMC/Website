@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { t } from "i18next";
 import Link from "next/link";
 
 import Logo from "@/assets/brand/logo.svg";
@@ -9,15 +10,19 @@ const Footer = () => (
     <div className="max-w-7xl m-auto px-4">
       <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-sm text-white">
         <div>
-          <span className="font-semibold">Getting Started</span>
+          <span className="font-semibold">
+            {t("components.layout.Footer.getting_started.title")}
+          </span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              <Link href="/downloads">Downloads</Link>
+              <Link href="/downloads">
+                {t("components.layout.Footer.getting_started.downloads")}
+              </Link>
             </li>
             <li>
               {/* eslint-disable-next-line react/jsx-no-target-blank */}
               <a href="https://docs.leavesmc.top" target="_blank">
-                Documentation
+                {t("components.layout.Footer.getting_started.documentation")}
               </a>
             </li>
             <li>
@@ -29,10 +34,14 @@ const Footer = () => (
           </ul>
         </div>
         <div>
-          <span className="font-semibold">Community</span>
+          <span className="font-semibold">
+            {t("components.layout.Footer.community.title")}
+          </span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              <Link href="/community">Our Community</Link>
+              <Link href="/community">
+                {t("components.layout.Footer.community.our_community")}
+              </Link>
             </li>
             <li>
               <a
@@ -58,21 +67,31 @@ const Footer = () => (
           <span className="font-semibold">LeavesMC</span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              <Link href="/team">Our Team</Link>
+              <Link href="/team">
+                {t("components.layout.Footer.LeavesMC.our_team")}
+              </Link>
             </li>
             <li>
-              <Link href="/contribute">Contribute</Link>
+              <Link href="/contribute">
+                {t("components.layout.Footer.LeavesMC.contribute")}
+              </Link>
             </li>
             <li>
-              <Link href="/sponsor">Sponsor</Link>
+              <Link href="/sponsor">
+                {t("components.layout.Footer.LeavesMC.sponsor")}
+              </Link>
             </li>
           </ul>
         </div>
         <div>
-          <span className="font-semibold">Terms</span>
+          <span className="font-semibold">
+            {t("components.layout.Footer.terms.title")}
+          </span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              <Link href="/community/guidelines">Community Guidelines</Link>
+              <Link href="/community/guidelines">
+                {t("components.layout.Footer.terms.community_guidelines")}
+              </Link>
             </li>
           </ul>
         </div>
@@ -80,8 +99,11 @@ const Footer = () => (
       <div className="flex flex-row items-center gap-2 border-t border-gray-600/50 mt-8 pt-10">
         <Logo className="h-12 cursor-pointer" alt="LeavesMC" />
         <div className="flex-1" />
-        <span className="text-gray-300 text-sm">
-          © {new Date().getFullYear()} The LeavesMC Team
+        <span className="text-gray-300 text-sm" style={{ textAlign: "right" }}>
+          © {new Date().getFullYear()}{" "}
+          {t("components.layout.Footer.copyright")}
+          <br />
+          {t("translator")}
         </span>
       </div>
     </div>
