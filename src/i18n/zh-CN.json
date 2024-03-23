@@ -202,7 +202,8 @@
         "download": "下载",
         "build": "构建",
         "copied": "已复制",
-        "ghproxy": "由 ghproxy.com 强力驱动"
+        "ghproxy": "由 ghproxy.com 强力驱动",
+        "label": "下载其它文件"
       }
     },
     "layout": {
@@ -211,7 +212,6 @@
         "documentation": "文档",
         "team": "团队",
         "contribute": "贡献",
-        "language": "语言",
         "toggle": "切换导航栏"
       },
       "Footer": {
@@ -262,6 +262,6 @@
     "past": "前",
     "plural_past": "前"
   },
-  "Language": "语言",
+  "Language": "   语言",
   "translator": "由 LittleChest 翻译"
 }

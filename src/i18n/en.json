@@ -202,7 +202,8 @@
         "download": "Download",
         "build": "Build",
         "copied": "Copied",
-        "ghproxy": "Powered by ghproxy.com"
+        "ghproxy": "Powered by ghproxy.com",
+        "label": "Other download variants"
       }
     },
     "layout": {
@@ -211,7 +212,6 @@
         "documentation": "Docs",
         "team": "Team",
         "contribute": "Contribute",
-        "language": "Language",
         "toggle": "Toggle nav"
       },
       "Footer": {
