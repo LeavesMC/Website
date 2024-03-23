@@ -99,7 +99,10 @@ const SoftwareDownloadButton = ({
             )}
           </div>
         </a>
-        <Menu.Button aria-label="Other download variants" className="leading-0">
+        <Menu.Button
+          aria-label={t("components.input.SoftwareDownloadButton.label")}
+          className="leading-0"
+        >
           <ChevronDownIcon
             className={clsx(
               "text-gray-200",
