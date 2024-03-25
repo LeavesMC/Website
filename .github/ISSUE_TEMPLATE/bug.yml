@@ -28,7 +28,7 @@ body:
     attributes:
       label: URL path
       description: Please copy the URL you are visiting here.
-      placeholder: eg. https://leavesmc.top/downloads/leaves
+      placeholder: eg. https://leavesmc.org/downloads/leaves
     validations:
       required: true
   - type: textarea

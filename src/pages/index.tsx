@@ -35,7 +35,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             </Button>
             <Button
               variant="outlined"
-              href="https://docs.leavesmc.top"
+              href="https://docs.leavesmc.org"
               external
             >
               {t("index.documentation")}

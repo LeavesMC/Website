@@ -74,7 +74,7 @@ const NavBar = ({ component }: NavBarProps) => {
             <NavDropDownLink href="/software/leaves">Leaves</NavDropDownLink>
           </NavDropDown>
           <NavLink
-            href="https://docs.leavesmc.top/"
+            href="https://docs.leavesmc.org/"
             target="_blank"
             className="inline-flex items-center"
           >
