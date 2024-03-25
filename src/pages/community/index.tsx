@@ -49,6 +49,30 @@ const CommunityIndex: NextPage = () => (
       <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
     </section>
     <section
+      id="qq-group"
+      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
+    >
+      <div className="flex-1">
+        <h2 className="font-medium text-2xl md:text-4xl">
+          {t("community.index.qq-group.title")}
+        </h2>
+        <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
+          {t("community.index.qq-group.description")}
+        </p>
+        <div className="flex flex-row gap-4 mt-8">
+          <Button
+            variant="filled"
+            href="https://qm.qq.com/cgi-bin/qm/qr?k=nisbmnCFeEJCcYWBQ10th4Fu99XWklH4&group_code=815857713"
+            external
+            dense
+          >
+            {t("community.index.button.qq-group")}
+          </Button>
+        </div>
+      </div>
+      <div className="justify-start flex w-full lg:(flex-1 justify-end)"></div>
+    </section>
+    <section
       id="giscus"
       className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
     >

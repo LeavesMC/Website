@@ -88,7 +88,8 @@
         "button": {
           "downloads": "Downloads",
           "documentation": "Documentation",
-          "discord": "Join our Discord"
+          "discord": "Join our Discord",
+          "qq-group": "Join our QQ group"
         }
       }
     }
@@ -145,13 +146,18 @@
       "discord": {
         "description": "Discord is a popular option for many gamers to communicate with each other. We have a Discord community server that anyone can join."
       },
+      "qq-group": {
+        "title": "QQ Group",
+        "description": "You can join the QQ group and chat with other administrators, developers, project staff, and more. However, this group is maintained by the community and all of its content is unrelated to LeavesMC."
+      },
       "giscus": {
-        "description": "You can use GitHub to discuss with other administrators, developers, project staff, and more.",
+        "description": "You can use GitHub to leave a comment or share some tips here.",
         "lang": "en"
       },
       "button": {
         "guidelines": "Community Guidelines",
-        "discord": "Join Our Discord"
+        "discord": "Join our Discord",
+        "qq-group": "Join our QQ group"
       }
     },
     "guidelines": {
@@ -173,7 +179,7 @@
     },
     "support": {
       "title": "...Support",
-      "description": "A lot of users result in a lot of questions. Everyone is welcome to answer questions or provide support, whether on our Discord server or in GitHub Discussions."
+      "description": "A lot of users result in a lot of questions. Everyone is welcome to answer questions or provide support, whether on our Discord server or in our QQ group."
     },
     "documentation": {
       "title": "...Documentation",

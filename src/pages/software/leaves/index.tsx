@@ -139,6 +139,14 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               >
                 {t("software.leaves.index.button.discord")}
               </Button>
+              <Button
+                variant="outlined"
+                href="https://qm.qq.com/cgi-bin/qm/qr?k=nisbmnCFeEJCcYWBQ10th4Fu99XWklH4&group_code=815857713"
+                external
+                dense
+              >
+                {t("software.leaves.index.button.qq-group")}
+              </Button>
             </div>
           </div>
         </div>

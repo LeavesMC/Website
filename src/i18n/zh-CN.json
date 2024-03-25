@@ -88,7 +88,8 @@
         "button": {
           "downloads": "下载",
           "documentation": "文档",
-          "discord": "加入我们的 Discord"
+          "discord": "加入我们的 Discord",
+          "qq-group": "加入我们的 QQ 群"
         }
       }
     }
@@ -145,13 +146,18 @@
       "discord": {
         "description": "Discord 是许多游戏玩家相互交流的热门选择。我们有一个任何人都可以加入的 Discord 社区服务器。"
       },
+      "qq-group": {
+        "title": "QQ 群",
+        "description": "您可以加入 QQ 群，与其他管理员、开发者、项目人员等聊天。不过，此 QQ 群由社区维护，其所有内容均与 LeavesMC 无关。"
+      },
       "giscus": {
-        "description": "您可以使用 GitHub 与其他管理员、开发者、项目人员等进行讨论。",
+        "description": "您可以使用 GitHub 在这里留言或分享一些技巧。",
         "lang": "zh-CN"
       },
       "button": {
         "guidelines": "社区准则",
-        "discord": "加入我们的 Discord"
+        "discord": "加入我们的 Discord",
+        "qq-group": "加入我们的 QQ 群"
       }
     },
     "guidelines": {
@@ -173,7 +179,7 @@
     },
     "support": {
       "title": "...提供支持",
-      "description": "大量的用户带来了大量的问题。无论是在我们的 Discord 服务器还是在 GitHub Discussions，我们都欢迎大家回答问题或提供支持。"
+      "description": "大量的用户带来了大量的问题。无论是在我们的 Discord 服务器还是在 QQ 群，我们都欢迎大家回答问题或提供支持。"
     },
     "documentation": {
       "title": "...贡献文档",
