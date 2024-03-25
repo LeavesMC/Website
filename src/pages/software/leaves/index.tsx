@@ -103,7 +103,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               </Button>
               <Button
                 variant="outlined"
-                href="https://docs.leavesmc.top/leaves/getting-started"
+                href="https://docs.leavesmc.org/leaves/getting-started"
                 external
                 dense
               >

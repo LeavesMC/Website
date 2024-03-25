@@ -21,13 +21,13 @@ const Footer = () => (
             </li>
             <li>
               {/* eslint-disable-next-line react/jsx-no-target-blank */}
-              <a href="https://docs.leavesmc.top" target="_blank">
+              <a href="https://docs.leavesmc.org" target="_blank">
                 {t("components.layout.Footer.getting_started.documentation")}
               </a>
             </li>
             <li>
               {/* eslint-disable-next-line react/jsx-no-target-blank */}
-              <a href="https://repo.leavesmc.top" target="_blank">
+              <a href="https://repo.leavesmc.org" target="_blank">
                 Javadocs
               </a>
             </li>

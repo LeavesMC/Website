@@ -38,14 +38,14 @@ const SoftwareHeader = ({
         </Button>
         <Button
           variant="outlined"
-          href={`https://docs.leavesmc.top/${id}`}
+          href={`https://docs.leavesmc.org/${id}`}
           external
         >
           {t("components.layout.SoftwareHeader.documentation")}
         </Button>
         <Button
           variant="outlined"
-          href={`https://repo.leavesmc.top`}
+          href={`https://repo.leavesmc.org`}
           className="hidden md:block"
           external
         >
