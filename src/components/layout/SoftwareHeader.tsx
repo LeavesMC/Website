@@ -36,11 +36,7 @@ const SoftwareHeader = ({
         <Button variant="filled" href={`/downloads/${id}`}>
           {t("components.layout.SoftwareHeader.downloads")}
         </Button>
-        <Button
-          variant="outlined"
-          href={`https://docs.leavesmc.org/${id}`}
-          external
-        >
+        <Button variant="outlined" href={`https://docs.leavesmc.org`} external>
           {t("components.layout.SoftwareHeader.documentation")}
         </Button>
         <Button
