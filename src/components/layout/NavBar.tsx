@@ -85,10 +85,29 @@ const NavBar = ({ component }: NavBarProps) => {
           <NavLink href="/contribute">
             {t("components.layout.NavBar.contribute")}
           </NavLink>
+          <div className="md:hidden" />
+          <NavDropDown label={t("Language")} className="md:hidden">
+            <NavDropDownLink
+              href=""
+              onClick={() => {
+                i18n.changeLanguage("en");
+              }}
+            >
+              English
+            </NavDropDownLink>
+            <NavDropDownLink
+              href=""
+              onClick={() => {
+                i18n.changeLanguage("zh-CN");
+              }}
+            >
+              简体中文
+            </NavDropDownLink>
+          </NavDropDown>
         </div>
 
         <div className="flex-grow" />
-        <NavDropDown label={t("Language")}>
+        <NavDropDown label={t("Language")} className="invisible md:visible">
           <NavDropDownLink
             href=""
             onClick={() => {
