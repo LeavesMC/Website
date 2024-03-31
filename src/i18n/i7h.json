@@ -1,0 +1,273 @@
+{
+  "title": {
+    "index": "H2e",
+    "downloads": {
+      "index": "D7s",
+      "all": "B3d e6r",
+      "leaves": "L4s D7s"
+    },
+    "sponsor": "S5r",
+    "team": "T2m",
+    "community": {
+      "index": "C7y",
+      "guidelines": "C7y G8s"
+    },
+    "contribute": "C10g"
+  },
+  "index": {
+    "title": {
+      "line1": "P2e s6e.",
+      "line2": "B2n f1r v5a."
+    },
+    "description": "L6C i6s M7t’s e7m w2h f2t, s4e a1d s4e s6e a7e, p7g q3k r6s a1d h5l s5t as t1e m2t m6k.",
+    "downloads": "D7s",
+    "documentation": "D11n",
+    "image": {
+      "1": {
+        "title": {
+          "powering": "P6g",
+          "players": "p5s"
+        },
+        "description": "L6C’s s6e is d6d w2h u5y a1d p9e in m2d, it c1n h4e w6r y1u t3w at it."
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "D7s",
+      "description": "S4t t1e s6e y1u w2t to d6d.",
+      "softwares": {
+        "leaves": {
+          "description": "L4s is a M7t g2e s4r, a3d at r7g b4n v5a p8s."
+        }
+      }
+    },
+    "all": {
+      "description": "L4y b4s a1e n1t s7d. P5d at y2r o1n r2k!"
+    },
+    "leaves": {
+      "description": "D6d L4s, o1r M7t s4r s6e o6g u7d p9e a1d s7y.",
+      "experimentalWarning": "D6d e10l b4s of L4s, o1r M7t s4r s6e o6g u7d p9e a1d s7y. P5d w2h c5n!"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "F7g v5a p8s",
+          "line2": "M7t s4r"
+        },
+        "description": "L4s is a M7t g2e s4r b3d on P3r, a3d at r7g b4n v5a p8s.",
+        "why": {
+          "title": "W1y L4s?",
+          "reason": {
+            "1": {
+              "label": "It's s6y f2t",
+              "description": "L4s c6s n6s i10s a1d o11s r7g in a s9t i6e in p9e. T2s i6s a10s c3k l5g, as w2l as m3r o11s to t1e l3t e4e, h5s, e6s, a1d m2e."
+            },
+            "2": {
+              "label": "An a4e a1d g5g c7y",
+              "description": "L4s h1s an a4e a1d g5g c7y of s4r a12s a1d d8s. If y1u e7r a1y p6s, y1u c1n c2e t2k w2h us on D5d a1d g1t r2l t2e s5t."
+            },
+            "3": {
+              "label": "An e6d A1I",
+              "description": "L4s e5s a1d i6s t1e B4t, S4t a1d P3r A2s so t2t y1u a1d y2r d8s h2e m2e f6s a1d f11y at y2r f8s."
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "G5g S5d",
+            "description": "To g1t s5d w2h L4s, y1u w2l n2d to d6d a1d i5l t1e l4t v5n of t1e s4r s6e. O2e y1u're r3y, t2e a l2k at o1r e7e d11n."
+          },
+          "2": {
+            "title": "T6r w2h a c7y of s4r o4s",
+            "description": "W5r y1u n2d h2p w2h y2r s4r s6s, s4r l1g, or n2d a g3e f1r f8g y2r c2t, o1r k11e s3f a1d f6y c7y a1e a4s a4d to l2d a h2d."
+          }
+        },
+        "button": {
+          "downloads": "D7s",
+          "documentation": "D11n",
+          "discord": "J2n o1r D5d",
+          "qq-group": "J2n o1r QQ g3p"
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "S5r",
+    "description": "L6C is an o2n c7y, a1d p2t of m6g t1e c7y i6s p4g f1r s6s, s5s, a1d i12e. We do w2t we c1n to k2p o1r c3s r8e a1d s9e, b1t s3l s2e c3s a1e u9e.",
+    "why": {
+      "title": "W1y Y1u S4d D4e",
+      "reason": {
+        "1": {
+          "label": "S12y",
+          "description": "D7s h2p k2p L6C s9e a1d o2n to a1l. O2y t3e w1o c1n a4d to d4e s4d do so, a1d no o1e s4d f2l b1d if t2y c1n't."
+        },
+        "2": {
+          "label": "F4e p3s",
+          "description": "We n2d to u5e o1r h5g to m2t t1e g5g d4d f1r o1r s6s a1d A2s. T2s w2l i6e c3s, w3h we h2e to o4t w2h d7s t5h P5n a1d A4n."
+        },
+        "3": {
+          "label": "G4g b2k",
+          "description": "If we r5e m2e in d7s t2n o1r m5y c3s, we m1y c6r d10g f3s to c10s in a f2r a1d t9t w1y."
+        }
+      }
+    }
+  },
+  "team": {
+    "title": "M2t o1r t2m",
+    "description": "M2t t1e m5s b4d L6C, a M7t s6e o10n f6g on i7g t1e g2e’s e7m w2h f4r a1d m2e s4e s6e.",
+    "core-team": {
+      "title": "C2e T2m",
+      "description": "C2e T2m m5s a1e r9e f1r t1e d7n of t1e p5t, a1d f1r m4g t1e b1g d7s. W5r t2y f3s on t1e c2e or t1e c7y, t2y're e7l to m4g e8g r1n a1d h2e f3l s1y in j2t a3t a6g."
+    },
+    "leaves-developers": {
+      "title": "L4s D8s",
+      "description": "L4s D8s h2p w2h w5g c2e, r7g P1s, a1d k5g t1e p5t l4y. By c10g n1w f6s a1d h5g to p4h o1f o1d c2e, t2y m2e L4s r1n."
+    },
+    "web-developers": {
+      "title": "W1b D8s",
+      "description": "W1b D8s m2e L6C o2o t1e i9n s10y. T5h t3r e5s, y1u c1n t3h t1e s6e of L6C m2e c10y."
+    },
+    "button": {
+      "sponsor": "S5r"
+    },
+    "contributors": {
+      "title": "C10s",
+      "description": "C10s a1e t3e p4e w1o h2e h4d t1e o10n by m4g i7t c11s to o1r c7s. F2m a4g a n1w r6e e4e to P3g a f1x f1r a n3y b1g, o1r c10s h2e h4d us to p5e t1e b2t s6e we p6y c1n."
+    },
+    "avatar": "'s a4r"
+  },
+  "community": {
+    "index": {
+      "title": "J2n O1r C7y",
+      "description": "We're h3y to h2e y1u as a p2t of t1e L6C c7y! P4e r2d o1r c7y g8s b4e p11g.",
+      "discord": {
+        "description": "D5d is a p5r o4n f1r m2y g4s to c9e w2h e2h o3r. We h2e a D5d c7y s4r t2t a4e c1n j2n."
+      },
+      "qq-group": {
+        "title": "QQ G3p",
+        "description": "Y1u c1n j2n t1e QQ g3p a1d c2t w2h o3r a12s, d8s, p5t s3f, a1d m2e. H5r, t2s g3p is m8d by t1e c7y a1d a1l of i1s c5t is u7d to L6C."
+      },
+      "giscus": {
+        "description": "Y1u c1n u1e G4b to d5s w2h o3r a12s, d8s, p5t s3f, a1d m2e.",
+        "lang": "en"
+      },
+      "button": {
+        "guidelines": "C7y G8s",
+        "discord": "J2n o1r D5d",
+        "qq-group": "J2n o1r QQ g3p"
+      }
+    },
+    "guidelines": {
+      "title": "L6C C7y G8s",
+      "last-updated": "L2t U5d",
+      "license": "T2s d6t is l6d u3r {{license}}{{icons}}"
+    }
+  },
+  "contribute": {
+    "title": "Y1u c1n c8e",
+    "description": "O1r p6s a1e b3d on c7y c11s a1d w4n't be p6e w5t t2m. T3e a1e a l1t of w2s to c8e, e2n w5t p9g k7e.",
+    "donate": {
+      "title": "...F9y",
+      "description": "L6C u2s P5n a1d A4n to m4e v5s r7g e6s, m4y r5d to i12e."
+    },
+    "code": {
+      "title": "...C2e",
+      "description": "A b1g c3k of t1e c2e in o1r p6s is w5n by c7y m5s, a1d we w5e y2r c11s!"
+    },
+    "support": {
+      "title": "...S5t",
+      "description": "A l1t of u3s r4t in a l1t of q7s. E6e is w5e to a4r q7s or p5e s5t, w5r on o1r D5d s4r or in G4b D9s."
+    },
+    "documentation": {
+      "title": "...D11n",
+      "description": "C8y e6g s6e n3s c8y u5d d11n. No m4r if y1u w2t to r4t m5g i9n or a1d g4s y6f, we a4s a8e h2p."
+    },
+    "button": {
+      "more": "L3n M2e",
+      "support": "O1r C7y",
+      "documentation": "D2s R8y"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "No c5s"
+      },
+      "SoftwareBuildsTable": {
+        "build": "B3d",
+        "changelog": "C7g",
+        "timestamp": "T7p",
+        "download": "D6d"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "D6d",
+        "build": "B3d",
+        "copied": "C4d",
+        "ghproxy": "P5d by g5y.c1m",
+        "label": "O3r d6d v6s"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "S6e",
+        "documentation": "D2s",
+        "team": "T2m",
+        "contribute": "C8e",
+        "toggle": "T4e n1v"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "G5g S5d",
+          "downloads": "D7s",
+          "documentation": "D11n"
+        },
+        "community": {
+          "title": "C7y",
+          "our_community": "O1r C7y"
+        },
+        "LeavesMC": {
+          "our_team": "O1r T2m",
+          "contribute": "C8e",
+          "sponsor": "S5r"
+        },
+        "terms": {
+          "title": "T3s",
+          "community_guidelines": "C7y G8s"
+        },
+        "copyright": "T1e L6C T2m"
+      },
+      "SoftwareHeader": {
+        "downloads": "D7s",
+        "documentation": "D11n"
+      },
+      "SoftwareDownload": {
+        "downloads": "D7s",
+        "get": "G1t",
+        "toggleExperimental": "T4e e10l b4s f1r ",
+        "toggleStable": "B2k to s4e b4s f1r ",
+        "builds": {
+          "title": "O3r b4s",
+          "description": {
+            "line1": "L5g f1r o3r b4s - or c8s? We g1t y1u!",
+            "line2": "E2n o3r b4s a1e a7e in o1r <0><0>b3d e6r</0></0>."
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "s4d",
+    "minute": "m4e",
+    "hour": "h2r",
+    "day": "d1y",
+    "past": " a1o",
+    "plural_past": "s a1o"
+  },
+  "Language": "i7h",
+  "translator": "T8d by R6n a1d L9t"
+}
