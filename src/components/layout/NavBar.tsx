@@ -103,6 +103,14 @@ const NavBar = ({ component }: NavBarProps) => {
             >
               简体中文
             </NavDropDownLink>
+            <NavDropDownLink
+              href=""
+              onClick={() => {
+                i18n.changeLanguage("i7h");
+              }}
+            >
+              i7h
+            </NavDropDownLink>
           </NavDropDown>
         </div>
 
@@ -123,6 +131,14 @@ const NavBar = ({ component }: NavBarProps) => {
             }}
           >
             简体中文
+          </NavDropDownLink>
+          <NavDropDownLink
+            href=""
+            onClick={() => {
+              i18n.changeLanguage("i7h");
+            }}
+          >
+            i7h
           </NavDropDownLink>
         </NavDropDown>
         <IconButton

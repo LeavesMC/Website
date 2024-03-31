@@ -6,6 +6,7 @@ import en from "src/i18n/en.json";
 import en_guidelines from "src/i18n/en_guidelines.json";
 import zh_CN from "src/i18n/zh-CN.json";
 import zh_CN_guidelines from "src/i18n/zh-CN_guidelines.json";
+import i7h from "src/i18n/i7h.json";
 
 i18n
   .use(LanguageDetector)
@@ -24,6 +25,9 @@ i18n
       zh: {
         translation: zh_CN,
         guidelines: zh_CN_guidelines,
+      },
+      i7h: {
+        translation: i7h,
       },
     },
   });
