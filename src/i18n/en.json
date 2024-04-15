@@ -113,7 +113,8 @@
           "description": "If we receive more in donations than our monthly costs, we may consider distributing funds to contributors in a fair and transparent way."
         }
       }
-    }
+    },
+    "sponsors": "Our Sponsors"
   },
   "team": {
     "title": "Meet our team",
