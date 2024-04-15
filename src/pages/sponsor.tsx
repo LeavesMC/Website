@@ -74,9 +74,17 @@ const Sponsor: NextPage = () => {
           </div>
         </div>
       </section>
+      <section id="sponsors" className="px-4 py-8 max-w-7xl mx-auto">
+        <h2 className="font-semibold text-xl md:text-2xl">
+          {t("sponsor.sponsors")}
+        </h2>
+        <div className="mt-8 flex justify-center pointer-events-none select-none">
+          <img src="https://api.leavesmc.org/afdian/sponsor.svg" />
+        </div>
+      </section>
     </>
   );
 };
 
-// TODO: Add 爱发电 sponsors & Patreon sponsors
+// TODO: Add Patreon sponsors
 export default Sponsor;
