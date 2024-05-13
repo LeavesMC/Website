@@ -152,22 +152,35 @@ const SoftwareDownloadButton = ({
                       <div className="px-4 py-3">
                         <div className="font-medium">
                           {download.name}
+                          {name === "application" && (
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-gray-200/80 text-gray-800">
+                              GitHub
+                            </span>
+                          )}
                           {name === "ghproxy" && (
                             <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-yellow-200/80 text-yellow-800">
                               GitHub Proxy
                             </span>
                           )}
-                          {name !== "ghproxy" && copied === download.sha256 && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
-                              {t(
-                                "components.input.SoftwareDownloadButton.copied",
-                              )}
+                          {name === "cloud" && (
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-blue-200/80 text-blue-800">
+                              剑客云
                             </span>
                           )}
+                          {download.sha256 !== null &&
+                            copied === download.sha256 && (
+                              <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
+                                {t(
+                                  "components.input.SoftwareDownloadButton.copied",
+                                )}
+                              </span>
+                            )}
                         </div>
-                        {name !== "ghproxy" && (
-                          <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
+                        <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
+                          {download.sha256 !== null && (
                             <span className="truncate">{download.sha256}</span>
+                          )}
+                          {download.sha256 !== null && (
                             <button
                               className="ml-2 h-6 w-6"
                               onClick={(evt) => {
@@ -178,17 +191,22 @@ const SoftwareDownloadButton = ({
                             >
                               <CloneIcon className="h-4 w-4" />
                             </button>
-                          </div>
-                        )}
-                        {name === "ghproxy" && (
-                          <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
-                            <span className="truncate">
+                          )}
+                          {download.sha256 === null && name === "ghproxy" && (
+                            <span>
                               {t(
                                 "components.input.SoftwareDownloadButton.ghproxy",
                               )}
                             </span>
-                          </div>
-                        )}
+                          )}
+                          {download.sha256 === null && name === "cloud" && (
+                            <a href="https://cloud.swordsman.com.cn/">
+                              <span className="underline">
+                                由剑客云提供下载支持 - 够快，够稳的服务器
+                              </span>
+                            </a>
+                          )}
+                        </div>
                       </div>
                     </a>
                   </div>
