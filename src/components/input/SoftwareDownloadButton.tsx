@@ -163,7 +163,7 @@ const SoftwareDownloadButton = ({
                             </span>
                           )}
                           {name === "cloud" && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-blue-200/80 text-blue-800">
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-red-200/80 text-red-800">
                               剑客云
                             </span>
                           )}
