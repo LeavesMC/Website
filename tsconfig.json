@@ -36,6 +36,9 @@
   },
   "include": [
     "next-env.d.ts",
+    "sentry.client.config.ts",
+    "sentry.edge.config.ts",
+    "sentry.server.config.ts",
     "**/*.ts",
     "**/*.tsx"
   ],
