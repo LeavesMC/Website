@@ -8,7 +8,7 @@ import { Trans } from "react-i18next";
 import SoftwareBuilds from "@/components/data/SoftwareBuilds";
 import SoftwareDownloadButton from "@/components/input/SoftwareDownloadButton";
 import type { ProjectProps } from "@/lib/context/downloads";
-import { useVersionBuilds } from "@/lib/service/v2";
+import { useVersionBuilds } from "@/lib/service/api";
 
 export interface SoftwareDownloadProps {
   id: string;

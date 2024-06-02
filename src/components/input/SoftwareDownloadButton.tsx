@@ -9,7 +9,7 @@ import DocumentDownloadIcon from "@/assets/icons/heroicons/document-download.svg
 import Skeleton from "@/components/data/Skeleton";
 import type { ProjectDescriptor } from "@/lib/context/downloads";
 import type { Build } from "@/lib/service/types";
-import { getVersionBuildDownloadURL } from "@/lib/service/v2";
+import { getVersionBuildDownloadURL } from "@/lib/service/api";
 import styles from "@/styles/components/input/SoftwareDownloadButton.module.css";
 
 export interface SoftwareDownloadButtonProps {

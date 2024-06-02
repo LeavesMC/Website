@@ -6,7 +6,7 @@ import SoftwareBuildsTable from "@/components/data/SoftwareBuildsTable";
 import DownloadsTree from "@/components/layout/DownloadsTree";
 import SEO from "@/components/util/SEO";
 import type { Project } from "@/lib/service/types";
-import { useVersionBuilds, getProject } from "@/lib/service/v2";
+import { useVersionBuilds, getProject } from "@/lib/service/api";
 
 const INITIAL_PROJECT = "leaves";
 
