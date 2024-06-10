@@ -47,6 +47,7 @@ export function Terminal({ project }: ProjectProps) {
   const handleCommand = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
       let currentCmdInfoOutput: string[] = [];
+      // eslint-disable-next-line prefer-const
       let currentCmdWarnOutput: string[] = [];
       switch (event.currentTarget.value) {
         case "help": {
@@ -75,10 +76,9 @@ export function Terminal({ project }: ProjectProps) {
           currentCmdInfoOutput = [
             "Trying to update Leaves, see the console for more info.",
             "[Leaves] Trying to get latest build info.",
+            `[Leaves] Got build info, trying to download leaves-${project.latestStableVersion}.jar`,
           ];
-          currentCmdWarnOutput = [
-            "[Leaves] Can't get build info, stopping update.",
-          ];
+          window.location.href = `https://api.leavesmc.org/projects/leaves/versions/${project.latestStableVersion}/builds/latest/downloads/leaves-${project.latestStableVersion}.jar`;
           break;
         }
         case "leaves peaceful": {
