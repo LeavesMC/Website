@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/nextjs";
-import Error from "next/error";
 import { t } from "i18next";
 import type { NextPage, NextPageContext } from "next";
+import Error from "next/error";
 
 const ErrorPage: NextPage = () => {
   const eventId = Sentry.lastEventId();

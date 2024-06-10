@@ -8,8 +8,8 @@ import ChevronDownIcon from "@/assets/icons/heroicons/chevron-down.svg";
 import DocumentDownloadIcon from "@/assets/icons/heroicons/document-download.svg";
 import Skeleton from "@/components/data/Skeleton";
 import type { ProjectDescriptor } from "@/lib/context/downloads";
-import type { Build } from "@/lib/service/types";
 import { getVersionBuildDownloadURL } from "@/lib/service/api";
+import type { Build } from "@/lib/service/types";
 import styles from "@/styles/components/input/SoftwareDownloadButton.module.css";
 
 export interface SoftwareDownloadButtonProps {

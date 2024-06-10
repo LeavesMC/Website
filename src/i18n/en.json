@@ -22,6 +22,9 @@
     "description": "LeavesMC improves Minecraft’s ecosystem with fast, secure and stable software available, providing quick releases and helpful support as the most maverick.",
     "downloads": "Downloads",
     "documentation": "Documentation",
+    "software": {
+      "title": "Your server deserves the <0>shine.</0>"
+    },
     "image": {
       "1": {
         "title": {
@@ -43,7 +46,8 @@
       }
     },
     "all": {
-      "description": "Legacy builds are not supported. Proceed at your own risk!"
+      "legacy": "Legacy builds are not supported. Proceed at your own risk!",
+      "experimental": "Experimental builds are not ready for production servers. Proceed at your own risk!"
     },
     "leaves": {
       "description": "Download Leaves, our Minecraft server software offering unrivaled performance and stability.",
@@ -114,7 +118,10 @@
         }
       }
     },
-    "sponsors": "Our Sponsors"
+    "sponsors": {
+      "title": "Our Sponsors",
+      "afdian": "Our Afdian sponsors"
+    }
   },
   "team": {
     "title": "Meet our team",

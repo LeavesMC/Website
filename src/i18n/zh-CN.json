@@ -22,6 +22,9 @@
     "description": "LeavesMC 改善了 Minecraft 的生态系统，提供快速、安全和稳定的软件，作为最特立独行的组织提供快速迭代和健康支持。",
     "downloads": "下载",
     "documentation": "文档",
+    "software": {
+      "title": "你的服务器值得<0>大放异彩。</0>"
+    },
     "image": {
       "1": {
         "title": {
@@ -43,7 +46,8 @@
       }
     },
     "all": {
-      "description": "不支持旧版本。请自行承担风险！"
+      "legacy": "不支持旧版本。请自行承担风险！",
+      "experimental": "测试构建尚未准备好部署到生产环境。请自行承担风险！"
     },
     "leaves": {
       "description": "下载 Leaves，我们具有无与伦比的性能和稳定性的 Minecraft 服务端。",
@@ -114,7 +118,10 @@
         }
       }
     },
-    "sponsors": "我们的赞助者"
+    "sponsors": {
+      "title": "我们的赞助者",
+      "afdian": "我们的爱发电赞助者"
+    }
   },
   "team": {
     "title": "了解我们的团队",

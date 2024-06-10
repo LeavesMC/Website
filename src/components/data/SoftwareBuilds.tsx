@@ -4,8 +4,8 @@ import type { ReactElement } from "react";
 import DownloadIcon from "@/assets/icons/heroicons/document-download.svg";
 import Skeleton from "@/components/data/Skeleton";
 import SoftwareBuildChanges from "@/components/data/SoftwareBuildChanges";
-import type { Build } from "@/lib/service/types";
 import { getVersionBuildDownloadURL } from "@/lib/service/api";
+import type { Build } from "@/lib/service/types";
 import { formatRelativeDate, formatISODateTime } from "@/lib/util/time";
 
 export interface SoftwareBuildsProps {

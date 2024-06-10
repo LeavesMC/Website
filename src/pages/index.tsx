@@ -1,9 +1,12 @@
 import { t } from "i18next";
 import type { NextPage } from "next";
 import Image from "next/image";
+import { Trans } from "react-i18next";
 
+import LeavesIcon from "@/assets/brand/leaves.svg";
 import HomeImage from "@/assets/images/home.png";
 import Skeleton from "@/components/data/Skeleton";
+import SoftwarePreview from "@/components/data/SoftwarePreview";
 import { Terminal } from "@/components/data/Terminal";
 import Button from "@/components/input/Button";
 import SEO from "@/components/util/SEO";
@@ -46,6 +49,26 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
           <Terminal project={project} />
         </div>
       </header>
+      <section
+        id="software"
+        className="w-full pt-12 pb-8 bg-green-100 dark:bg-background-dark-80"
+      >
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4 mb-4">
+            <Trans i18nKey="index.software.title">
+              <span className="text-green-500" />
+            </Trans>
+          </h2>
+          <div className="grid md:(grid-cols-3 -ml-4) gap-2 px-2 xl:gap-4">
+            <SoftwarePreview
+              id="leaves"
+              name="Leaves"
+              icon={LeavesIcon}
+              description={t("downloads.index.softwares.leaves.description")}
+            />
+          </div>
+        </div>
+      </section>
       <section
         id="facts"
         className="flex flex-col max-w-7xl mx-auto px-4 py-8 gap-8 md:(gap-12 py-16)"
