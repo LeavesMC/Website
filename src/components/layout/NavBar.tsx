@@ -87,7 +87,29 @@ const NavBar = ({ component }: NavBarProps) => {
           </NavLink>
           <div className="md:hidden" />
           <NavDropDown label={t("Language")} className="md:hidden">
-            {Array.from(i18n.languages).map((language) => (
+            {Array.from(i18n.languages)
+              .filter((language) => language !== "en")
+              .filter((language) => language !== "zh")
+              .map((language) => (
+                <NavDropDownLink
+                  href=""
+                  key={language}
+                  onClick={() => {
+                    i18n.changeLanguage(language);
+                  }}
+                >
+                  {i18n.getFixedT(language)("name")}
+                </NavDropDownLink>
+              ))}
+          </NavDropDown>
+        </div>
+
+        <div className="flex-grow" />
+        <NavDropDown label={t("Language")} className="invisible md:visible">
+          {Array.from(i18n.languages)
+            .filter((language) => language !== "en")
+            .filter((language) => language !== "zh")
+            .map((language) => (
               <NavDropDownLink
                 href=""
                 key={language}
@@ -98,22 +120,6 @@ const NavBar = ({ component }: NavBarProps) => {
                 {i18n.getFixedT(language)("name")}
               </NavDropDownLink>
             ))}
-          </NavDropDown>
-        </div>
-
-        <div className="flex-grow" />
-        <NavDropDown label={t("Language")} className="invisible md:visible">
-          {Array.from(i18n.languages).map((language) => (
-            <NavDropDownLink
-              href=""
-              key={language}
-              onClick={() => {
-                i18n.changeLanguage(language);
-              }}
-            >
-              {i18n.getFixedT(language)("name")}
-            </NavDropDownLink>
-          ))}
         </NavDropDown>
         <IconButton
           icon={DiscordIcon}
