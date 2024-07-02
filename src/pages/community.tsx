@@ -32,7 +32,7 @@ const CommunityIndex: NextPage = () => (
     </header>
     <section
       id="discord"
-      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center gap-8 lg:flex-row"
+      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse gap-8 lg:flex-row"
     >
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">Discord</h2>
@@ -54,7 +54,7 @@ const CommunityIndex: NextPage = () => (
     </section>
     <section
       id="qq-group"
-      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
+      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse mt-12 gap-8 lg:flex-row"
     >
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">
@@ -78,7 +78,7 @@ const CommunityIndex: NextPage = () => (
     </section>
     <section
       id="giscus"
-      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
+      className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse mt-12 gap-8 lg:flex-row"
     >
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">GitHub Discussions</h2>
