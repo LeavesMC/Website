@@ -8,10 +8,7 @@
     },
     "sponsor": "赞助",
     "team": "团队",
-    "community": {
-      "index": "社区",
-      "guidelines": "社区准则"
-    },
+    "community": "社区",
     "contribute": "贡献"
   },
   "index": {
@@ -148,7 +145,6 @@
     "avatar": " 的头像"
   },
   "community": {
-    "index": {
       "title": "加入我们的社区",
       "description": "我们很高兴您成为 LeavesMC 社区的一员！在加入之前，请阅读我们的社区准则。",
       "discord": {
@@ -167,12 +163,6 @@
         "discord": "加入我们的 Discord",
         "qq-group": "加入我们的 QQ 群"
       }
-    },
-    "guidelines": {
-      "title": "LeavesMC 社区准则",
-      "last-updated": "上次更新于",
-      "license": "本文档采用 {{license}} 许可协议发布{{icons}}"
-    }
   },
   "contribute": {
     "title": "您可以",

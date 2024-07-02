@@ -8,10 +8,7 @@
     },
     "sponsor": "Sponsor",
     "team": "Team",
-    "community": {
-      "index": "Community",
-      "guidelines": "Community Guidelines"
-    },
+    "community": "Community",
     "contribute": "Contributing"
   },
   "index": {
@@ -148,7 +145,6 @@
     "avatar": "'s avatar"
   },
   "community": {
-    "index": {
       "title": "Join Our Community",
       "description": "We're happy to have you as a part of the LeavesMC community! Please read our community guidelines before participating.",
       "discord": {
@@ -167,12 +163,6 @@
         "discord": "Join our Discord",
         "qq-group": "Join our QQ group"
       }
-    },
-    "guidelines": {
-      "title": "LeavesMC Community Guidelines",
-      "last-updated": "Last Updated",
-      "license": "This document is licensed under {{license}}{{icons}}"
-    }
   },
   "contribute": {
     "title": "You can contribute",

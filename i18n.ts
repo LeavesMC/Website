@@ -3,9 +3,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 import enUS from "src/i18n/en.json";
-import enUS_guidelines from "src/i18n/en_guidelines.json";
 import zhCN from "src/i18n/zh-CN.json";
-import zhCN_guidelines from "src/i18n/zh-CN_guidelines.json";
 
 i18n
   .use(LanguageDetector)
@@ -19,11 +17,9 @@ i18n
     resources: {
       "en-US": {
         translation: enUS,
-        guidelines: enUS_guidelines,
       },
       "zh-CN": {
         translation: zhCN,
-        guidelines: zhCN_guidelines,
       },
     },
   });

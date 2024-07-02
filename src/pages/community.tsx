@@ -8,19 +8,23 @@ import SEO from "@/components/util/SEO";
 const CommunityIndex: NextPage = () => (
   <>
     <SEO
-      title={t("title.community.index")}
+      title={t("title.community")}
       description="We're happy to have you as a part of the LeavesMC community!"
       keywords={["leavesmc", "leaves", "minecraft", "sponsor", "community"]}
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">
         <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-          {t("community.index.title")}
+          {t("community.title")}
         </h1>
-        <p className="text-xl mt-4">{t("community.index.description")}</p>
+        <p className="text-xl mt-4">{t("community.description")}</p>
         <div className="flex flex-row gap-4 mt-8">
-          <Button variant="filled" href="/community/guidelines" dense>
-            {t("community.index.button.guidelines")}
+          <Button
+            variant="filled"
+            href="https://discord.com/channels/1028563196040200272/1028563196782596118/1047082992666955867"
+            dense
+          >
+            {t("community.button.guidelines")}
           </Button>
         </div>
       </div>
@@ -33,7 +37,7 @@ const CommunityIndex: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">Discord</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          {t("community.index.discord.description")}
+          {t("community.discord.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
@@ -42,7 +46,7 @@ const CommunityIndex: NextPage = () => (
             external
             dense
           >
-            {t("community.index.button.discord")}
+            {t("community.button.discord")}
           </Button>
         </div>
       </div>
@@ -54,10 +58,10 @@ const CommunityIndex: NextPage = () => (
     >
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">
-          {t("community.index.qq-group.title")}
+          {t("community.qq-group.title")}
         </h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          {t("community.index.qq-group.description")}
+          {t("community.qq-group.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
@@ -66,7 +70,7 @@ const CommunityIndex: NextPage = () => (
             external
             dense
           >
-            {t("community.index.button.qq-group")}
+            {t("community.button.qq-group")}
           </Button>
         </div>
       </div>
@@ -79,7 +83,7 @@ const CommunityIndex: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">GitHub Discussions</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          {t("community.index.giscus.description")}
+          {t("community.giscus.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Giscus
@@ -91,7 +95,7 @@ const CommunityIndex: NextPage = () => (
             emitMetadata="0"
             inputPosition="top"
             theme="preferred_color_scheme"
-            lang={t("community.index.giscus.lang")}
+            lang={t("community.giscus.lang")}
           />
         </div>
       </div>
