@@ -82,6 +82,8 @@ const Sponsor: NextPage = () => {
         <div className="mt-8 flex justify-center pointer-events-none select-none">
           <Image
             src="https://api.leavesmc.org/afdian/sponsor.svg"
+            width="800"
+            height="805"
             alt={t("sponsor.sponsors.afdian")}
           />
         </div>
