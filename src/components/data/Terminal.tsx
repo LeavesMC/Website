@@ -70,6 +70,7 @@ export function Terminal({ project }: ProjectProps) {
         }
         case "leaves reload": {
           currentCmdInfoOutput = ["CONSOLE: Leaves config reload complete."];
+          window.location.href = "";
           break;
         }
         case "leaves update": {
