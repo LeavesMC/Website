@@ -23,6 +23,12 @@ const ErrorPage: NextPage = () => {
             >
               {t("error.500.report")}
             </button>
+            <button
+              className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+              onClick={() => window.location.reload()}
+            >
+              {t("error.500.refresh")}
+            </button>
           </div>
         </div>
         <div className="flex-1 lg:flex hidden justify-end"></div>
