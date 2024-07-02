@@ -270,11 +270,13 @@
     "500": {
       "title": "Error",
       "description": "We are very sorry for the inconvenience. If you would like, please report the bug, it will help us to fix the issue.",
-      "report": "Report"
+      "report": "Report",
+      "refresh": "Refresh"
     },
     "404": {
       "title": "Not Found",
       "description": "We could not find the page you requested. If you think this is an error, please report the bug.",
+      "back": "Back",
       "report": "Report"
     },
     "lang": "en"
