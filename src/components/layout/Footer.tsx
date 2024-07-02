@@ -89,7 +89,7 @@ const Footer = () => (
           </span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              <Link href="/community/guidelines">
+              <Link href="https://discord.com/channels/1028563196040200272/1028563196782596118/1047082992666955867">
                 {t("components.layout.Footer.terms.community_guidelines")}
               </Link>
             </li>
