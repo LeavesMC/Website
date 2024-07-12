@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-import { useProject } from "@/lib/service/api";
+import { useProject } from "@/lib/service/v2";
 
 interface ProjectSubTreeProps {
   id: string;
