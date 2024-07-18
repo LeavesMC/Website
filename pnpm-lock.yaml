@@ -18,7 +18,7 @@ importers:
         specifier: 1.7.17
         version: 1.7.17(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@sentry/nextjs':
-        specifier: ^8
+        specifier: ^8.4.0
         version: 8.4.0(@opentelemetry/api@1.8.0)(@opentelemetry/core@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/instrumentation@0.51.1(@opentelemetry/api@1.8.0))(@opentelemetry/sdk-trace-base@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/semantic-conventions@1.24.1)(next@14.1.1(@babel/core@7.23.3)(@opentelemetry/api@1.8.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(webpack@5.91.0)
       clsx:
         specifier: 2.0.0
@@ -7155,7 +7155,7 @@ snapshots:
 
   terser-webpack-plugin@5.3.10(webpack@5.91.0):
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.20
+      '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
