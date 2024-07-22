@@ -1,6 +1,5 @@
 import { t } from "i18next";
 import type { NextPage } from "next";
-import Image from "next/image";
 
 import BoltIcon from "@/assets/icons/heroicons/bolt.svg";
 import GlobeAmericasIcon from "@/assets/icons/heroicons/globe-americas.svg";
@@ -80,9 +79,11 @@ const Sponsor: NextPage = () => {
           {t("sponsor.sponsors.title")}
         </h2>
         <div className="mt-8 flex justify-center pointer-events-none select-none">
-          <Image
+          <img
             src="https://api.leavesmc.org/afdian/sponsor.svg"
             alt={t("sponsor.sponsors.afdian")}
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </section>
