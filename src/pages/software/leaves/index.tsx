@@ -139,12 +139,17 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               >
                 {t("software.leaves.index.button.discord")}
               </Button>
-              <Button
-                variant="outlined"
-                href="tencent://groupwpa/?param=7b2267726f757055696e223a3831353835373731332c2274696d655374616d70223a313732313734363039312c22617574684b6579223a223157355442357454674d31362b6174466b68725278555463586e76767079513265532b704151665a713837684a633661385530657a2b63324b6c673434414d61222c2261757468223a22227d"
-                dense
-              >
-                {t("software.leaves.index.button.qq-group")}
+              <Button variant="outlined" href="" dense>
+                <button
+                  onClick={() => {
+                    self.location.href =
+                      "tencent://groupwpa/?param=7b2267726f757055696e223a3831353835373731332c2274696d655374616d70223a313732313734363039312c22617574684b6579223a223157355442357454674d31362b6174466b68725278555463586e76767079513265532b704151665a713837684a633661385530657a2b63324b6c673434414d61222c2261757468223a22227d";
+                    self.location.href =
+                      "mqqopensdkapi://bizAgent/qm/qr?url=https%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Fk%3DIs52_cq1YV2oRj9QwBcspH_KgVIbnzhg";
+                  }}
+                >
+                  {t("software.leaves.index.button.qq-group")}
+                </button>
               </Button>
             </div>
           </div>
