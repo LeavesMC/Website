@@ -3,6 +3,8 @@ import { t } from "i18next";
 import type { NextPage, NextPageContext } from "next";
 import Error from "next/error";
 
+import Button from "@/components/input/Button";
+
 const ErrorPage: NextPage = () => {
   const eventId = Sentry.lastEventId();
 
@@ -15,20 +17,24 @@ const ErrorPage: NextPage = () => {
           </h1>
           <p className="text-xl mt-4">{t("error.500.description")}</p>
           <div className="flex flex-row gap-4 mt-8">
-            <button
-              className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md bg-green-600 hover:bg-green-500 text-white"
-              onClick={() =>
-                Sentry.showReportDialog({ eventId, lang: t("error.lang") })
-              }
-            >
-              {t("error.500.report")}
-            </button>
-            <button
-              className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
-              onClick={() => window.location.reload()}
-            >
-              {t("error.500.refresh")}
-            </button>
+            <Button variant="filled" href="">
+              <button
+                className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md bg-green-600 hover:bg-green-500 text-white"
+                onClick={() =>
+                  Sentry.showReportDialog({ eventId, lang: t("error.lang") })
+                }
+              >
+                {t("error.500.report")}
+              </button>
+            </Button>
+            <Button variant="outlined" href="">
+              <button
+                className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+                onClick={() => window.location.reload()}
+              >
+                {t("error.500.refresh")}
+              </button>
+            </Button>
           </div>
         </div>
         <div className="flex-1 lg:flex hidden justify-end"></div>

@@ -2,6 +2,8 @@ import * as Sentry from "@sentry/nextjs";
 import { t } from "i18next";
 import type { NextPage } from "next";
 
+import Button from "@/components/input/Button";
+
 const NotFound: NextPage = () => (
   <>
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
@@ -11,18 +13,18 @@ const NotFound: NextPage = () => (
         </h1>
         <p className="text-xl mt-4">{t("error.404.description")}</p>
         <div className="flex flex-row gap-4 mt-8">
-          <button
-            className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md bg-green-600 hover:bg-green-500 text-white"
-            onClick={() => window.history.back()}
-          >
-            {t("error.404.back")}
-          </button>
-          <button
-            className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
-            onClick={() => Sentry.showReportDialog({ lang: t("error.lang") })}
-          >
-            {t("error.404.report")}
-          </button>
+          <Button variant="filled" href="">
+            <button onClick={() => window.history.back()}>
+              {t("error.404.back")}
+            </button>
+          </Button>
+          <Button variant="outlined" href="">
+            <button
+              onClick={() => Sentry.showReportDialog({ lang: t("error.lang") })}
+            >
+              {t("error.404.report")}
+            </button>
+          </Button>
         </div>
       </div>
       <div className="flex-1 lg:flex hidden justify-end"></div>
