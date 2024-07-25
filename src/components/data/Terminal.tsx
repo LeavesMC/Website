@@ -52,7 +52,7 @@ export function Terminal({ project }: ProjectProps) {
       switch (event.currentTarget.value) {
         case "help": {
           currentCmdInfoOutput = [
-            "Existing commands: bot, help, leaves, plugins, version",
+            "Existing commands: bot, help, leaves, plugins, sh, version",
           ];
           break;
         }
@@ -79,7 +79,7 @@ export function Terminal({ project }: ProjectProps) {
             "[Leaves] Trying to get latest build info.",
             `[Leaves] Got build info, trying to download leaves-${project.latestStableVersion}.jar`,
           ];
-          self.location.href = `https://api.leavesmc.org/projects/leaves/versions/${project.latestStableVersion}/builds/latest/downloads/leaves-${project.latestStableVersion}.jar`;
+          self.location.href = `https://api.leavesmc.org/v2/projects/leaves/versions/${project.latestStableVersion}/builds/latest/downloads/leaves-${project.latestStableVersion}.jar`;
           break;
         }
         case "leaves peaceful": {
@@ -113,13 +113,46 @@ export function Terminal({ project }: ProjectProps) {
           break;
         }
         case "plugins": {
-          currentCmdInfoOutput = ["Server Plugins (0):"];
+          currentCmdInfoOutput = [
+            "Server Plugins (1):",
+            "Leaves Plugins:",
+            " - ShellRunner",
+          ];
           break;
         }
         case "version": {
           currentCmdInfoOutput = [
             `This server is running Leaves version ${project.latestStableVersion}`,
           ];
+          break;
+        }
+        case "sh": {
+          currentCmdInfoOutput = ["Usage: /sh [ls | fetch]"];
+          break;
+        }
+        case "sh ls": {
+          currentCmdInfoOutput = ["logo.png  logo.png.sig"];
+          break;
+        }
+        case "sh fetch": {
+          currentCmdInfoOutput = ["undefined"];
+          break;
+        }
+        case "sh fetch logo.png": {
+          currentCmdInfoOutput = ["Pending..."];
+          const a = document.createElement("a");
+          a.setAttribute("href", "/secret/logo.png");
+          a.setAttribute("download", "logo");
+          a.click();
+          break;
+        }
+        case "sh fetch logo.png.sig": {
+          currentCmdInfoOutput = ["Pending..."];
+          self.location.href = "/secret/logo.png.sig";
+          break;
+        }
+        case "": {
+          currentCmdInfoOutput = [""];
           break;
         }
         default: {
