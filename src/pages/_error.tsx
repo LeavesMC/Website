@@ -30,7 +30,7 @@ const ErrorPage: NextPage = () => {
             <Button variant="outlined" href="">
               <button
                 className="font-medium px-6 py-1.5 rounded-md hover:shadow-md transition text-md border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
-                onClick={() => window.location.reload()}
+                onClick={() => self.location.reload()}
               >
                 {t("error.500.refresh")}
               </button>

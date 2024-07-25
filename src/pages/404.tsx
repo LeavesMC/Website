@@ -14,7 +14,7 @@ const NotFound: NextPage = () => (
         <p className="text-xl mt-4">{t("error.404.description")}</p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="">
-            <button onClick={() => window.history.back()}>
+            <button onClick={() => self.history.back()}>
               {t("error.404.back")}
             </button>
           </Button>

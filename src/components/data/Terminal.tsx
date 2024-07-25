@@ -70,7 +70,7 @@ export function Terminal({ project }: ProjectProps) {
         }
         case "leaves reload": {
           currentCmdInfoOutput = ["CONSOLE: Leaves config reload complete."];
-          window.location.href = "";
+          self.location.href = "";
           break;
         }
         case "leaves update": {
@@ -79,7 +79,7 @@ export function Terminal({ project }: ProjectProps) {
             "[Leaves] Trying to get latest build info.",
             `[Leaves] Got build info, trying to download leaves-${project.latestStableVersion}.jar`,
           ];
-          window.location.href = `https://api.leavesmc.org/projects/leaves/versions/${project.latestStableVersion}/builds/latest/downloads/leaves-${project.latestStableVersion}.jar`;
+          self.location.href = `https://api.leavesmc.org/projects/leaves/versions/${project.latestStableVersion}/builds/latest/downloads/leaves-${project.latestStableVersion}.jar`;
           break;
         }
         case "leaves peaceful": {
