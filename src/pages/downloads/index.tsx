@@ -2,6 +2,7 @@ import { t } from "i18next";
 import type { NextPage } from "next";
 
 import LeavesIcon from "@/assets/brand/leaves.svg";
+import LuminaIcon from "@/assets/brand/lumina.svg";
 import SoftwarePreview from "@/components/data/SoftwarePreview";
 import SEO from "@/components/util/SEO";
 
@@ -27,6 +28,12 @@ const Downloads: NextPage = () => {
             icon={LeavesIcon}
             description={t("downloads.index.softwares.leaves.description")}
             download
+          />
+          <SoftwarePreview
+            id="lumina"
+            name="Lumina"
+            icon={LuminaIcon}
+            description={t("downloads.index.softwares.lumina.description")}
           />
         </div>
       </header>

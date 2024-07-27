@@ -6,11 +6,12 @@ import Button from "@/components/input/Button";
 export interface SoftwareHeaderProps {
   id: string;
   name: string;
-  versionGroup: string;
+  versionGroup?: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   icon?: FunctionComponent<any>;
   header: ReactElement;
   description: string;
+  github?: string;
 }
 
 const SoftwareHeader = ({
@@ -19,6 +20,7 @@ const SoftwareHeader = ({
   icon: Icon,
   header,
   description,
+  github,
 }: SoftwareHeaderProps): ReactElement => (
   <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46) gap-16">
     <div className="flex-1">
@@ -33,8 +35,12 @@ const SoftwareHeader = ({
       </h2>
       <p className="text-xl mt-4">{description}</p>
       <div className="flex flex-row gap-4 mt-8">
-        <Button variant="filled" href={`/downloads/${id}`}>
-          {t("components.layout.SoftwareHeader.downloads")}
+        <Button
+          variant="filled"
+          href={github ?? `/downloads/${id}`}
+          external={Boolean(github)}
+        >
+          {github ? "GitHub" : t("components.layout.SoftwareHeader.downloads")}
         </Button>
         <Button variant="outlined" href={`https://docs.leavesmc.org`} external>
           {t("components.layout.SoftwareHeader.documentation")}

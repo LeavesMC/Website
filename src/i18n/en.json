@@ -39,6 +39,9 @@
       "softwares": {
         "leaves": {
           "description": "Leaves is a Minecraft game server, aimed at repairing broken vanilla properties."
+        },
+        "lumina": {
+          "description": "Lumina is a fork of Folia, aimed at following vanilla survival technical redstone features while introducing regionized multithreading."
         }
       }
     },
@@ -93,6 +96,35 @@
           "qq-group": "Join our QQ group"
         }
       }
+    },
+    "lumina": {
+      "index": {
+        "title": "What is Lumina?",
+        "description": "Lumina is a fork of Folia, aimed at following vanilla survival technical redstone features while introducing regionized multithreading.",
+        "why": {
+          "title": "About Lumina",
+          "reason": {
+            "1": {
+              "label": "How's it different from Leaves?",
+              "description": "Lumina has a lower priority and supports fewer features due to the introduction of regionized multithreading."
+            },
+            "2": {
+              "label": "Is Folia for me?",
+              "description": "Lumina is better suited for large, player-dispersed servers with low plugin requirements, such as settlement survival servers."
+            },
+            "3": {
+              "label": "Where can I learn more?",
+              "description": "You can visit the GitHub repository for Lumina to read an overview of the project, and some frequently asked questions."
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "Still working on development",
+            "description": "Please continue to be patient and we will be providing builds soon."
+          }
+        }
+      }
     }
   },
   "sponsor": {
@@ -145,24 +177,24 @@
     "avatar": "'s avatar"
   },
   "community": {
-      "title": "Join Our Community",
-      "description": "We're happy to have you as a part of the LeavesMC community! Please read our community guidelines before participating.",
-      "discord": {
-        "description": "Discord is a popular option for many gamers to communicate with each other. We have a Discord community server that anyone can join."
-      },
-      "qq-group": {
-        "title": "QQ Group",
-        "description": "You can join the QQ group and chat with other administrators, developers, project staff, and more. However, this group is maintained by the community and all of its content is unrelated to LeavesMC."
-      },
-      "giscus": {
-        "description": "You can use GitHub to leave a comment or share some tips here.",
-        "lang": "en"
-      },
-      "button": {
-        "guidelines": "Community Guidelines",
-        "discord": "Join our Discord",
-        "qq-group": "Join our QQ group"
-      }
+    "title": "Join Our Community",
+    "description": "We're happy to have you as a part of the LeavesMC community! Please read our community guidelines before participating.",
+    "discord": {
+      "description": "Discord is a popular option for many gamers to communicate with each other. We have a Discord community server that anyone can join."
+    },
+    "qq-group": {
+      "title": "QQ Group",
+      "description": "You can join the QQ group and chat with other administrators, developers, project staff, and more. However, this group is maintained by the community and all of its content is unrelated to LeavesMC."
+    },
+    "giscus": {
+      "description": "You can use GitHub to leave a comment or share some tips here.",
+      "lang": "en"
+    },
+    "button": {
+      "guidelines": "Community Guidelines",
+      "discord": "Join our Discord",
+      "qq-group": "Join our QQ group"
+    }
   },
   "contribute": {
     "title": "You can contribute",
@@ -266,7 +298,7 @@
     "past": " ago",
     "plural_past": "s ago"
   },
-  "error":{
+  "error": {
     "500": {
       "title": "Error",
       "description": "We are very sorry for the inconvenience. If you would like, please report the bug, it will help us to fix the issue.",

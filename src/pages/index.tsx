@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Trans } from "react-i18next";
 
 import LeavesIcon from "@/assets/brand/leaves.svg";
+import LuminaIcon from "@/assets/brand/lumina.svg";
 import HomeImage from "@/assets/images/home.png";
 import Skeleton from "@/components/data/Skeleton";
 import SoftwarePreview from "@/components/data/SoftwarePreview";
@@ -65,6 +66,12 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
               name="Leaves"
               icon={LeavesIcon}
               description={t("downloads.index.softwares.leaves.description")}
+            />
+            <SoftwarePreview
+              id="lumina"
+              name="Lumina"
+              icon={LuminaIcon}
+              description={t("downloads.index.softwares.lumina.description")}
             />
           </div>
         </div>

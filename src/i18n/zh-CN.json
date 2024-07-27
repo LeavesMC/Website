@@ -39,6 +39,9 @@
       "softwares": {
         "leaves": {
           "description": "Leaves 是一个 Minecraft 服务端，旨在修复被破坏的原版特性。"
+        },
+        "lumina": {
+          "description": "Lumina 是 Folia 的分支，旨在遵循原版生电特性的同时引入区域化多线程。"
         }
       }
     },
@@ -93,6 +96,35 @@
           "qq-group": "加入我们的 QQ 群"
         }
       }
+    },
+    "lumina": {
+      "index": {
+        "title": "Lumina 是什么？",
+        "description": "Lumina 是 Folia 的分支，旨在遵循原版生电特性的同时引入区域化多线程。",
+        "why": {
+          "title": "关于 Lumina",
+          "reason": {
+            "1": {
+              "label": "它和 Leaves 有什么不同？",
+              "description": "Lumina 由于引入了区域化多线程，其优先级较低，支持的功能也较少。"
+            },
+            "2": {
+              "label": "Lumina 适合我吗？",
+              "description": "Lumina 更适合大型的，玩家分散的，对插件要求较低的服务器，例如聚落式生电服务器。"
+            },
+            "3": {
+              "label": "从哪里可以了解更多信息？",
+              "description": "您可以访问 Lumina 的 GitHub 存储库，阅读项目概述和一些常见问题。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "仍在开发中",
+            "description": "请继续保持耐心等待，我们将很快提供构建。"
+          }
+        }
+      }
     }
   },
   "sponsor": {
@@ -145,24 +177,24 @@
     "avatar": " 的头像"
   },
   "community": {
-      "title": "加入我们的社区",
-      "description": "我们很高兴您成为 LeavesMC 社区的一员！在加入之前，请阅读我们的社区准则。",
-      "discord": {
-        "description": "Discord 是许多游戏玩家相互交流的热门选择。我们有一个任何人都可以加入的 Discord 社区服务器。"
-      },
-      "qq-group": {
-        "title": "QQ 群",
-        "description": "您可以加入 QQ 群，与其他管理员、开发者、项目人员等聊天。不过，此 QQ 群由社区维护，其所有内容均与 LeavesMC 无关。"
-      },
-      "giscus": {
-        "description": "您可以使用 GitHub 在这里留言或分享一些技巧。",
-        "lang": "zh-CN"
-      },
-      "button": {
-        "guidelines": "社区准则",
-        "discord": "加入我们的 Discord",
-        "qq-group": "加入我们的 QQ 群"
-      }
+    "title": "加入我们的社区",
+    "description": "我们很高兴您成为 LeavesMC 社区的一员！在加入之前，请阅读我们的社区准则。",
+    "discord": {
+      "description": "Discord 是许多游戏玩家相互交流的热门选择。我们有一个任何人都可以加入的 Discord 社区服务器。"
+    },
+    "qq-group": {
+      "title": "QQ 群",
+      "description": "您可以加入 QQ 群，与其他管理员、开发者、项目人员等聊天。不过，此 QQ 群由社区维护，其所有内容均与 LeavesMC 无关。"
+    },
+    "giscus": {
+      "description": "您可以使用 GitHub 在这里留言或分享一些技巧。",
+      "lang": "zh-CN"
+    },
+    "button": {
+      "guidelines": "社区准则",
+      "discord": "加入我们的 Discord",
+      "qq-group": "加入我们的 QQ 群"
+    }
   },
   "contribute": {
     "title": "您可以",
@@ -266,7 +298,7 @@
     "past": "前",
     "plural_past": "前"
   },
-  "error":{
+  "error": {
     "500": {
       "title": "出现错误",
       "description": "非常抱歉带来不便。如果您愿意，请报告问题，这有助于我们修复这个问题。",
