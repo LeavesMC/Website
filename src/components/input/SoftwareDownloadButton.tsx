@@ -143,7 +143,7 @@ const SoftwareDownloadButton = ({
                           version,
                           build.build,
                           Object.keys(build.downloads).find(
-                            (key) => key !== "cloud",
+                            (key) => key === name,
                           )!,
                         )
                       }
