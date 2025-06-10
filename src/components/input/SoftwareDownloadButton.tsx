@@ -157,16 +157,6 @@ const SoftwareDownloadButton = ({
                               GitHub
                             </span>
                           )}
-                          {name === "ghproxy" && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-yellow-200/80 text-yellow-800">
-                              GitHub Proxy
-                            </span>
-                          )}
-                          {name === "cloud" && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-red-200/80 text-red-800">
-                              剑客云
-                            </span>
-                          )}
                           {download.sha256 !== null &&
                             copied === download.sha256 && (
                               <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
@@ -191,20 +181,6 @@ const SoftwareDownloadButton = ({
                             >
                               <CloneIcon className="h-4 w-4" />
                             </button>
-                          )}
-                          {download.sha256 === null && name === "ghproxy" && (
-                            <span>
-                              {t(
-                                "components.input.SoftwareDownloadButton.ghproxy",
-                              )}
-                            </span>
-                          )}
-                          {download.sha256 === null && name === "cloud" && (
-                            <a href="https://cloud.swordsman.com.cn/">
-                              <span className="underline">
-                                由剑客云提供下载支持 - 够快，够稳的服务器
-                              </span>
-                            </a>
                           )}
                         </div>
                       </div>
