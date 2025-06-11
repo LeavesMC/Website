@@ -157,6 +157,11 @@ const SoftwareDownloadButton = ({
                               GitHub
                             </span>
                           )}
+                          {name === "rainyun" && (
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-cyan-500/80 text-write-800">
+                              雨云
+                            </span>
+                          )}
                           {download.sha256 !== null &&
                             copied === download.sha256 && (
                               <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
@@ -167,10 +172,10 @@ const SoftwareDownloadButton = ({
                             )}
                         </div>
                         <div className="text-gray-700 dark:text-gray-300 text-xs inline-flex items-center w-full">
-                          {download.sha256 !== null && (
+                          {name === "application" && (
                             <span className="truncate">{download.sha256}</span>
                           )}
-                          {download.sha256 !== null && (
+                          {name === "application" && (
                             <button
                               className="ml-2 h-6 w-6"
                               onClick={(evt) => {
@@ -181,6 +186,14 @@ const SoftwareDownloadButton = ({
                             >
                               <CloneIcon className="h-4 w-4" />
                             </button>
+                          )}
+                          {name === "rainyun" && (
+                            <a href="https://www.rainyun.com/rgs/NzEwNzU3_?sp=DUE16q">
+                              <span className="underline">
+                                由<b>雨云</b>提供下载支持 -
+                                点此直接在雨云游戏服务器上运行！
+                              </span>
+                            </a>
                           )}
                         </div>
                       </div>
