@@ -163,6 +163,7 @@ const SoftwareDownloadButton = ({
                             </span>
                           )}
                           {download.sha256 !== null &&
+                            name === "application" &&
                             copied === download.sha256 && (
                               <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-green-200/80 text-green-800">
                                 {t(
