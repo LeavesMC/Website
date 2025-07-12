@@ -99,9 +99,39 @@ const Footer = () => (
       <div className="flex flex-row items-center gap-2 border-t border-gray-600/50 mt-8 pt-10">
         <Logo className="h-12 cursor-pointer" alt="LeavesMC" />
         <div className="flex-1" />
-        <span className="text-gray-300 text-sm" style={{ textAlign: "right" }}>
-          © {new Date().getFullYear()}{" "}
-          {t("components.layout.Footer.copyright")}
+        <div className={"flex flex-col"}>
+          <span className="text-gray-300 text-sm">
+            © {new Date().getFullYear()}
+            {t("components.layout.Footer.copyright")}
+          </span>
+          <span className="text-gray-300 text-sm">
+            <Link
+              className={
+                "text-blue-800 dark:text-green-300 text-sm font-medium"
+              }
+              href="https://github.com/LeavesMC/Website/"
+            >
+              LeavesMC/Website
+            </Link>
+            {" @ "}
+            <Link
+              className={
+                "text-green-800 dark:text-green-300 text-sm font-medium"
+              }
+              href={`https://github.com/LeavesMC/Website/commit/${process.env.CURRENT_COMMIT}`}
+            >
+              {process.env.CURRENT_COMMIT}
+            </Link>
+          </span>
+        </div>
+      </div>
+      <div className="flex flex-row items-center gap-2 mt-4 pt-4">
+        <span className="text-gray-300 text-sm">
+          This website is not an official Minecraft website and is not
+          associated with Mojang Studios or Microsoft. All product and company
+          names are trademarks or registered trademarks of their respective
+          holders. Use of these names does not imply any affiliation or
+          endorsement by them.
         </span>
       </div>
     </div>
