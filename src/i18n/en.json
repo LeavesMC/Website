@@ -41,7 +41,8 @@
           "description": "Leaves is a Minecraft game server, aimed at repairing broken vanilla properties."
         },
         "lumina": {
-          "description": "Lumina is a fork of Folia, aimed at following vanilla survival technical redstone features while introducing regionized multithreading."
+          "description": "Lumina is a fork of Folia, aimed at following vanilla survival technical redstone features while introducing regionized multithreading.",
+          "disabled": "Due to a lack of active developers, Lumina has been suspended."
         }
       }
     },

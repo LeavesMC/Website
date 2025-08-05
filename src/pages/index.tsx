@@ -71,7 +71,8 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
               id="lumina"
               name="Lumina"
               icon={LuminaIcon}
-              description={t("downloads.index.softwares.lumina.description")}
+              description={t("downloads.index.softwares.lumina.disabled")}
+              disabled
             />
           </div>
         </div>

@@ -41,7 +41,8 @@
           "description": "Leaves 是一个 Minecraft 服务端，旨在修复被破坏的原版特性。"
         },
         "lumina": {
-          "description": "Lumina 是 Folia 的分支，旨在遵循原版生电特性的同时引入区域化多线程。"
+          "description": "Lumina 是 Folia 的分支，旨在遵循原版生电特性的同时引入区域化多线程。",
+          "disabled": "由于缺乏活跃的开发者，Lumina 已被暂停。"
         }
       }
     },
