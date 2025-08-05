@@ -7,6 +7,7 @@ export interface NavDropDownLinkProps {
   target?: string;
   className?: string;
   children: ReactNode;
+  disabled?: boolean;
   onClick?: () => void;
 }
 
@@ -15,13 +16,21 @@ const NavDropDownLink = ({
   target,
   className,
   children,
+  disabled,
   onClick,
 }: NavDropDownLinkProps): ReactElement => (
   <li
-    className={clsx(
-      "color-gray-200 text-gray-800 hover:text-green-600 text-sm transition-colors dark:(text-gray-200 hover:text-green-400)",
-      className,
-    )}
+    className={
+      disabled
+        ? clsx(
+            "pointer-events-none opacity-50 color-gray-200 text-gray-800 hover:text-green-600 text-sm transition-colors dark:(text-gray-200 hover:text-green-400)",
+            className,
+          )
+        : clsx(
+            "color-gray-200 text-gray-800 hover:text-green-600 text-sm transition-colors dark:(text-gray-200 hover:text-green-400)",
+            className,
+          )
+    }
   >
     <Link
       href={href}

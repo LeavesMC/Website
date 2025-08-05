@@ -8,6 +8,7 @@ export interface SoftwarePreviewProps {
   icon: FunctionComponent<any>;
   description?: string;
   download?: boolean;
+  disabled?: boolean;
 }
 
 const SoftwarePreview = ({
@@ -16,8 +17,12 @@ const SoftwarePreview = ({
   icon: Icon,
   description,
   download,
+  disabled,
 }: SoftwarePreviewProps) => (
-  <Link href={download ? `/downloads/${id}` : `/software/${id}`}>
+  <Link
+    href={download ? `/downloads/${id}` : `/software/${id}`}
+    className={disabled ? "pointer-events-none opacity-50" : ""}
+  >
     <article className="rounded-xl transition-all h-full p-4 md:p-8 hover:(shadow-lg bg-green-200 dark:bg-gray-800)">
       <div className="flex flex-row items-center gap-4">
         <div className="rounded-lg w-12 h-12 bg-gray-800 p-3">
