@@ -19,8 +19,9 @@ const Team: NextPage = () => {
       <SEO
         title={t("title.team")}
         description="Meet the team behind LeavesMC, a Minecraft software organization focusing on improving
-            the game’s ecosystem with faster and more secure software."
+          the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "team"]}
+        canonical="/team"
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46) gap-16">
         <div className="flex-1">

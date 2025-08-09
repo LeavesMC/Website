@@ -14,6 +14,7 @@ const Contribute: NextPage = () => (
       title={t("title.contribute")}
       description="Without contributors our projects wouldn't be possible. Find out how you can help."
       keywords={["leavesmc", "leaves", "minecraft", "sponsor", "contributing"]}
+      canonical="/contribute"
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">

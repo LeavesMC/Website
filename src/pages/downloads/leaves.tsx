@@ -21,6 +21,7 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
           "downloads",
           "jar",
         ]}
+        canonical="/downloads/leaves"
       />
       <SoftwareDownload
         id="leaves"

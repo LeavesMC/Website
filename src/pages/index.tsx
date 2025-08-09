@@ -24,6 +24,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
         description="LeavesMC is a Minecraft software organization focusing on improving
           the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "vanilla"]}
+        canonical="/"
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">

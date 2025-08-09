@@ -28,6 +28,7 @@ const LuminaHome = (): ReactElement => {
           "multithreading",
           "fork",
         ]}
+        canonical="/software/lumina"
       />
       <SoftwareHeader
         id="lumina"

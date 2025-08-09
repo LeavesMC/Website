@@ -21,6 +21,7 @@ const Sponsor: NextPage = () => {
           "sponsor",
           "contributing",
         ]}
+        canonical="/sponsor"
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
         <div className="flex-1">

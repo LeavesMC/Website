@@ -31,6 +31,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
           "paper",
           "fork",
         ]}
+        canonical="/software/leaves"
       />
       <SoftwareHeader
         id="leaves"
