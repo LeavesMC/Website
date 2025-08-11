@@ -1,0 +1,314 @@
+{
+  "title": {
+    "index": "首頁",
+    "downloads": {
+      "index": "下載",
+      "all": "全部構建",
+      "leaves": "下載 Leaves"
+    },
+    "sponsor": "贊助",
+    "team": "團隊",
+    "community": "社群",
+    "contribute": "貢獻"
+  },
+  "index": {
+    "title": {
+      "line1": "你的體驗，",
+      "line2": "我們的目標。"
+    },
+    "description": "LeavesMC 始終遵循體驗與性能兼備的原則，提供穩定、安全的快速迭代和健康支援，讓每個人都能充分享受 Minecraft 的樂趣。",
+    "downloads": "下載",
+    "documentation": "文檔",
+    "software": {
+      "title": "你的伺服器值得<0>大放異彩。</0>"
+    },
+    "image": {
+      "1": {
+        "title": {
+          "powering": "為",
+          "players": "位玩家提供支援"
+        },
+        "description": "無論是大型紅石機器還是各類遊戲機制，LeavesMC 的軟體均可以處理。"
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "下載",
+      "description": "選擇想要下載的軟體。",
+      "softwares": {
+        "leaves": {
+          "description": "Leaves 是 Paper 的分支，旨在修復被破壞的原版特性。"
+        },
+        "lumina": {
+          "description": "Lumina 是 Folia 的分支，旨在遵循原版生電特性的同時引入區域化多執行緒。",
+          "disabled": "由於缺乏活躍的開發者，Lumina 已被暫停。"
+        }
+      }
+    },
+    "all": {
+      "legacy": "舊版本不受支援。請自行承擔風險！",
+      "experimental": "測試版構建尚未準備好部署到生產環境。請自行承擔風險！"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "遵循原版特性的",
+          "line2": "Minecraft 伺服器"
+        },
+        "description": "Leaves 是基於 Paper 的 Minecraft 伺服器，旨在修復被破壞的原版特性。",
+        "why": {
+          "title": "為什麼選擇 Leaves？",
+          "reason": {
+            "1": {
+              "label": "兼備體驗與性能",
+              "description": "Leaves 針對大型紅石機器與遊戲特性進行了大量改進和優化，使得體驗與性能並存。"
+            },
+            "2": {
+              "label": "活躍且不斷發展的社群",
+              "description": "Leaves 擁有活躍且不斷發展壯大的服主和開發者社群。如果您遇到任何問題，可以在 Discord 上與我們交流，獲得即時支援。"
+            },
+            "3": {
+              "label": "擴展的應用程式介面",
+              "description": "Leaves 擴展並改進了 Bukkit、Spigot 和 Paper 應用程式介面，使您和開發者可以隨心所欲地使用更多特性和功能。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "讓我們開始吧",
+            "description": "要開始使用 Leaves，您需要下載並安裝最新版本。準備就緒後，請查閱我們豐富的文檔。"
+          },
+          "2": {
+            "title": "與其他服主一起",
+            "description": "無論您是需要伺服器設置、伺服器延遲方面的幫助，還是需要修復紅石機器，我們知識淵博的開發組成員和友好的社群都會隨時伸出援手。"
+          }
+        },
+        "button": {
+          "downloads": "下載",
+          "documentation": "文檔",
+          "discord": "加入我們的 Discord",
+          "qq-group": "加入我們的 QQ 群"
+        }
+      }
+    },
+    "lumina": {
+      "index": {
+        "title": "Lumina 是什麼？",
+        "description": "Lumina 是 Folia 的分支，旨在遵循原版生電特性的同時引入區域化多執行緒。",
+        "why": {
+          "title": "關於 Lumina",
+          "reason": {
+            "1": {
+              "label": "它和 Leaves 有什麼不同？",
+              "description": "Lumina 由於引入了區域化多執行緒，其優先級較低，支援的功能也較少。"
+            },
+            "2": {
+              "label": "Lumina 適合我嗎？",
+              "description": "Lumina 更適合大型的，玩家分散的，對插件要求較低的伺服器，例如聚落式生電伺服器。"
+            },
+            "3": {
+              "label": "從哪裡可以了解更多資訊？",
+              "description": "您可以訪問 Lumina 的 GitHub 儲存庫，閱讀專案概述和一些常見問題。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "仍在開發中",
+            "description": "請繼續保持耐心等待，我們將很快提供構建。"
+          }
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "贊助",
+    "description": "LeavesMC 是一個開放的社群，社群的一部分涉及到伺服器和基礎設施的費用。我們會盡力保持成本的合理性和可持續性，但仍有一些成本是不可避免的。",
+    "why": {
+      "title": "為什麼要贊助",
+      "reason": {
+        "1": {
+          "label": "持續發展",
+          "description": "贊助有助於保持 LeavesMC 的可持續發展並繼續向所有人開放。我們強烈建議您只在有能力時贊助，即使沒有能力也可在其他方面「贊助」我們。"
+        },
+        "2": {
+          "label": "未來規劃",
+          "description": "我們會隨著我們的服務需求日益增長而升級伺服器。"
+        },
+        "3": {
+          "label": "回饋社會",
+          "description": "如果我們收到的捐款超出每月的成本，我們可以考慮以公平、透明的方式向贊助者分配資金。"
+        }
+      }
+    },
+    "sponsors": {
+      "title": "我們的贊助者",
+      "afdian": "我們的愛發電贊助者"
+    }
+  },
+  "team": {
+    "title": "了解我們的團隊",
+    "description": "認識一下 LeavesMC 背後的成員，由一群不將就的 Minecraft 愛好者組成。",
+    "core-team": {
+      "title": "核心團隊",
+      "description": "核心團隊成員負責專案的方向和重大決策。無論是專注於程式碼還是社群，他們是一切運行的關鍵，對任何事情都有最終決定權。"
+    },
+    "leaves-developers": {
+      "title": "Leaves 開發者",
+      "description": "Leaves 開發者幫助編寫程式碼、審核拉取請求並保持專案的活力。透過貢獻新功能和幫助完善舊程式碼，他們使 Leaves 得以運行。"
+    },
+    "web-developers": {
+      "title": "網頁開發者",
+      "description": "網頁開發者使 LeavesMC 駛上了資訊高速公路。透過他們的努力，您可以更方便地接觸到 LeavesMC 的軟體。"
+    },
+    "button": {
+      "sponsor": "贊助"
+    },
+    "contributors": {
+      "title": "貢獻者",
+      "description": "貢獻者是指那些對我們的程式庫做出重要貢獻，從而為我們的組織提供幫助的人。從新增新的生活品質功能到提交一個令人討厭的錯誤修復，我們的貢獻者幫助我們盡可能提供最好的軟體。"
+    },
+    "avatar": " 的頭像"
+  },
+  "community": {
+    "title": "加入我們的社群",
+    "description": "我們很高興您成為 LeavesMC 社群的一員！在加入之前，請閱讀我們的社群準則。",
+    "discord": {
+      "description": "Discord 是許多遊戲玩家相互交流的熱門選擇。我們有一個任何人都可以加入的 Discord 社群伺服器。"
+    },
+    "qq-group": {
+      "title": "QQ 群",
+      "description": "您可以加入 QQ 群，與其他管理員、開發者、專案人員等聊天。不過，此 QQ 群由社群維護，其所有內容均與 LeavesMC 無關。"
+    },
+    "giscus": {
+      "description": "您可以使用 GitHub 在這裡留言或分享一些技巧。",
+      "lang": "zh-TW"
+    },
+    "button": {
+      "guidelines": "社群準則",
+      "discord": "加入我們的 Discord",
+      "qq-group": "加入我們的 QQ 群"
+    }
+  },
+  "contribute": {
+    "title": "您可以",
+    "description": "我們的專案以社群貢獻為基礎，沒有社群貢獻就不可能有我們的專案。即使沒有程式設計知識，也可以透過多種方式作出貢獻。",
+    "donate": {
+      "title": "...提供資金捐助",
+      "description": "LeavesMC 使用 Patreon 和愛發電來管理各種日常開支，其中大部分與基礎設施有關。"
+    },
+    "code": {
+      "title": "...貢獻程式碼",
+      "description": "我們專案中的大部分程式碼都是由社群成員編寫的，我們歡迎您的貢獻！"
+    },
+    "support": {
+      "title": "...提供支援",
+      "description": "大量的使用者帶來了大量的問題。無論是在我們的 Discord 伺服器還是在 QQ 群，我們都歡迎大家回答問題或提供支援。"
+    },
+    "documentation": {
+      "title": "...貢獻文檔",
+      "description": "不斷發展的軟體需要不斷更新的文檔。無論您是想報告缺失的資訊，還是想自己添加指南，我們都非常感激您的幫助。"
+    },
+    "button": {
+      "more": "了解更多",
+      "support": "我們的社群",
+      "documentation": "文檔儲存庫"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "無更改"
+      },
+      "SoftwareBuildsTable": {
+        "build": "構建",
+        "changelog": "更新日誌",
+        "timestamp": "時間",
+        "download": "下載"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "下載",
+        "build": "構建",
+        "copied": "已複製",
+        "label": "下載其它文件"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "軟體",
+        "documentation": "文檔",
+        "team": "團隊",
+        "contribute": "貢獻",
+        "toggle": "切換導航欄"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "入門",
+          "downloads": "下載",
+          "documentation": "文檔"
+        },
+        "community": {
+          "title": "社群",
+          "our_community": "我們的社群"
+        },
+        "LeavesMC": {
+          "our_team": "我們的團隊",
+          "contribute": "貢獻",
+          "sponsor": "贊助"
+        },
+        "terms": {
+          "title": "條款",
+          "community_guidelines": "社群準則"
+        },
+        "copyright": "LeavesMC 團隊"
+      },
+      "SoftwareHeader": {
+        "downloads": "下載",
+        "documentation": "文檔"
+      },
+      "SoftwareDownload": {
+        "downloads": "下載",
+        "get": "獲取",
+        "toggleExperimental": "切換到測試版 ",
+        "toggleStable": "回到穩定版 ",
+        "builds": {
+          "title": "最近的構建",
+          "description": {
+            "line1": "正在尋找更多舊版構建或更新日誌？",
+            "line2": "我們的<0><0>構建資源管理器</0></0>中還提供了更早的構建版本。"
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "秒",
+    "minute": "分鐘",
+    "hour": "小時",
+    "day": "天",
+    "past": "前",
+    "plural_past": "前"
+  },
+  "error": {
+    "500": {
+      "title": "出現錯誤",
+      "description": "非常抱歉帶來不便。如果您願意，請回報問題，這有助於我們修復這個問題。",
+      "report": "回報問題",
+      "refresh": "刷新頁面"
+    },
+    "404": {
+      "title": "找不到頁面",
+      "description": "我們找不到您請求的頁面。如果您認為這是一個錯誤，請回報問題。",
+      "back": "返回",
+      "report": "回報問題"
+    },
+    "lang": "zh-TW"
+  },
+  "Language": "語言",
+  "name": "繁體中文（台灣）"
+}

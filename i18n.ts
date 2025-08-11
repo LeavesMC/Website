@@ -4,12 +4,13 @@ import { initReactI18next } from "react-i18next";
 
 import enUS from "src/i18n/en.json";
 import zhCN from "src/i18n/zh-CN.json";
+import zhTW from "src/i18n/zh-TW.json";
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: ["en-US", "zh-CN"],
+    fallbackLng: ["en-US", "zh-CN", "zh-TW"],
     debug: false,
     interpolation: {
       escapeValue: false,
@@ -20,6 +21,9 @@ i18n
       },
       "zh-CN": {
         translation: zhCN,
+      },
+      "zh-TW": {
+        translation: zhTW,
       },
     },
   });
