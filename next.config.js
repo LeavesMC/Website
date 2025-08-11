@@ -1,6 +1,5 @@
 const WindiCSSWebpackPlugin = require("windicss-webpack-plugin");
-
-import childProcess from "child_process";
+const childProcess = require("child_process");
 
 let currentCommit;
 try {
