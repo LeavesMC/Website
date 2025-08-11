@@ -12,6 +12,7 @@ const INITIAL_PROJECT = "leaves";
 
 interface LegacyDownloadProps {
   initialProjectId: string;
+  initialProjectName: string;
   initialProjectVersion: string;
 }
 
@@ -21,6 +22,7 @@ export const getStaticProps: GetStaticProps<LegacyDownloadProps> = async () => {
   return {
     props: {
       initialProjectId: project.project_id,
+      initialProjectName: project.project_name,
       initialProjectVersion: versions[versions.length - 1],
     },
   };
@@ -28,9 +30,12 @@ export const getStaticProps: GetStaticProps<LegacyDownloadProps> = async () => {
 
 const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
   initialProjectId,
+  initialProjectName,
   initialProjectVersion,
 }) => {
   const [selectedProject, setSelectedProject] = useState(initialProjectId);
+  const [selectedProjectName, setSelectedProjectName] =
+    useState(initialProjectName);
   const [selectedVersion, setSelectedVersion] = useState(initialProjectVersion);
   const { data: builds } = useVersionBuilds(selectedProject, selectedVersion);
   const { data: versions } = useProject(selectedProject);
@@ -53,9 +58,11 @@ const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
         <div className="flex-1 flex flex-row min-h-0">
           <DownloadsTree
             selectedProject={selectedProject}
+            selectedProjectName={selectedProjectName}
             selectedVersion={selectedVersion}
-            onSelect={(project, version) => {
+            onSelect={(project, projectName, version) => {
               setSelectedProject(project);
+              setSelectedProjectName(projectName);
               setSelectedVersion(version);
             }}
           />
@@ -76,6 +83,7 @@ const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
             )}
             <SoftwareBuildsTable
               project={selectedProject}
+              projectName={selectedProjectName}
               version={selectedVersion}
               builds={builds?.builds ?? []}
             />

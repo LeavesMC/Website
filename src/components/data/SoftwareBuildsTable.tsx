@@ -10,12 +10,14 @@ import styles from "@/styles/components/data/SoftwareBuildsTable.module.css";
 
 export interface SoftwareBuildsTableProps {
   project: string;
+  projectName: string;
   version: string;
   builds: Build[];
 }
 
 const SoftwareBuildsTable = ({
   project,
+  projectName,
   version,
   builds,
 }: SoftwareBuildsTableProps) => {
@@ -48,7 +50,7 @@ const SoftwareBuildsTable = ({
                 </span>
               </td>
               <td>
-                <SoftwareBuildChanges project={project} build={build} />
+                <SoftwareBuildChanges projectName={projectName} build={build} />
               </td>
               <td
                 className={"whitespace-nowrap"}

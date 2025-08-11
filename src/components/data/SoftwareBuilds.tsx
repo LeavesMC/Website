@@ -10,12 +10,14 @@ import { formatRelativeDate, formatISODateTime } from "@/lib/util/time";
 
 export interface SoftwareBuildsProps {
   project: string;
+  projectName: string;
   version: string;
   builds?: Build[];
 }
 
 const SoftwareBuilds = ({
   project,
+  projectName,
   version,
   builds,
 }: SoftwareBuildsProps): ReactElement => (
@@ -48,7 +50,7 @@ const SoftwareBuilds = ({
               <DownloadIcon className="w-4 h-4" />#{build.build}
             </a>
             <div className="flex-1 flex flex-col text-gray-900 dark:text-gray-200">
-              <SoftwareBuildChanges project={project} build={build} />
+              <SoftwareBuildChanges projectName={projectName} build={build} />
             </div>
             <div
               className="hidden md:block text-gray-500 dark:text-gray-300 mt-1 ml-2"

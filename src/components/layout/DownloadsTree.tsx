@@ -33,7 +33,7 @@ const ProjectSubTree = ({
                 selectedVersion === version &&
                 "bg-green-100 dark:bg-green-900",
             )}
-            onClick={() => onSelect(id, version)}
+            onClick={() => onSelect(id, name, version)}
           >
             {version}
           </button>
@@ -44,9 +44,10 @@ const ProjectSubTree = ({
 
 interface DownloadsTreeProps {
   selectedProject: string;
+  selectedProjectName: string;
   selectedVersion: string;
 
-  onSelect(project: string, version: string): void;
+  onSelect(project: string, projectName: string, version: string): void;
 }
 
 const DownloadsTree = (props: DownloadsTreeProps) => {

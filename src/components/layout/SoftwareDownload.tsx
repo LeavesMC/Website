@@ -102,6 +102,7 @@ const SoftwareDownload = ({
         </p>
         <SoftwareBuilds
           project={id}
+          projectName={project.name}
           version={version}
           builds={builds?.builds}
         />
