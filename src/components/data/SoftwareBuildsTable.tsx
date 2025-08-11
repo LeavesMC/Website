@@ -58,7 +58,7 @@ const SoftwareBuildsTable = ({
               >
                 {formatRelativeDate(new Date(build.time))}
               </td>
-              <td className={"gap-1"}>
+              <td className={"flex gap-1"}>
                 <SoftwareDownloadButton
                   projectId={project}
                   version={version}
