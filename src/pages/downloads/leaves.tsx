@@ -27,8 +27,7 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
         id="leaves"
         project={project}
         icon={LeavesIcon}
-        description={t("downloads.leaves.description")}
-        experimentalWarning={t("downloads.leaves.experimentalWarning")}
+        description={t("software.leaves.index.description")}
       />
     </>
   );

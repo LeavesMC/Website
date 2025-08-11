@@ -3,7 +3,7 @@
     "index": "Home",
     "downloads": {
       "index": "Downloads",
-      "all": "Build explorer",
+      "all": "All Builds",
       "leaves": "Leaves Downloads"
     },
     "sponsor": "Sponsor",
@@ -16,7 +16,7 @@
       "line1": "Your experience,",
       "line2": "Our goal."
     },
-    "description": "LeavesMC improves Minecraft’s ecosystem with fast, secure and stable software available, providing quick releases and helpful support as the most maverick.",
+    "description": "LeavesMC always follows the principle of balancing experience and performance, offering stable, secure, and rapidly evolving software so everyone can fully enjoy the fun of Minecraft.",
     "downloads": "Downloads",
     "documentation": "Documentation",
     "software": {
@@ -28,7 +28,7 @@
           "powering": "Powering",
           "players": "players"
         },
-        "description": "LeavesMC’s software is designed with utility and performance in mind, it can handle whatever you throw at it."
+        "description": "Whether it's large redstone machines or various game mechanics, LeavesMC's software can handle it all."
       }
     }
   },
@@ -38,7 +38,7 @@
       "description": "Select the software you want to download.",
       "softwares": {
         "leaves": {
-          "description": "Leaves is a Minecraft game server, aimed at repairing broken vanilla properties."
+          "description": "Leaves is a fork of Paper, aimed at repairing broken vanilla properties."
         },
         "lumina": {
           "description": "Lumina is a fork of Folia, aimed at following vanilla survival technical redstone features while introducing regionized multithreading.",
@@ -49,10 +49,6 @@
     "all": {
       "legacy": "Legacy builds are not supported. Proceed at your own risk!",
       "experimental": "Experimental builds are not ready for production servers. Proceed at your own risk!"
-    },
-    "leaves": {
-      "description": "Download Leaves, our Minecraft server software offering unrivaled performance and stability.",
-      "experimentalWarning": "Download experimental builds of Leaves, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
     }
   },
   "software": {
@@ -67,12 +63,12 @@
           "title": "Why Leaves?",
           "reason": {
             "1": {
-              "label": "It's stupidly fast",
-              "description": "Leaves contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
+              "label": "Balancing experience and performance",
+              "description": "Leaves has made numerous improvements and optimizations to handle large redstone machines and game features, achieving both great experience and performance."
             },
             "2": {
               "label": "An active and growing community",
-              "description": "Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
+              "description": "Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real-time support."
             },
             "3": {
               "label": "An expanded API",
@@ -87,7 +83,7 @@
           },
           "2": {
             "title": "Together with a community of server owners",
-            "description": "Whether you need help with your server settings, server lag, or need a guide for formatting your chat, our knowledgeable staff and friendly community are always around to lend a hand."
+            "description": "Whether you need help with your server settings, server lag, or need help with redstone machines, our knowledgeable staff and friendly community are always around to lend a hand."
           }
         },
         "button": {
@@ -110,19 +106,19 @@
               "description": "Lumina has a lower priority and supports fewer features due to the introduction of regionized multithreading."
             },
             "2": {
-              "label": "Is Folia for me?",
-              "description": "Lumina is better suited for large, player-dispersed servers with low plugin requirements, such as settlement survival servers."
+              "label": "Is Lumina for me?",
+              "description": "Lumina is better suited for large, player-dispersed servers with low plugin requirements, such as settlement-style survival servers."
             },
             "3": {
               "label": "Where can I learn more?",
-              "description": "You can visit the GitHub repository for Lumina to read an overview of the project, and some frequently asked questions."
+              "description": "You can visit the GitHub repository for Lumina to read an overview of the project and some frequently asked questions."
             }
           }
         },
         "image": {
           "1": {
-            "title": "Still working on development",
-            "description": "Please continue to be patient and we will be providing builds soon."
+            "title": "Still under development",
+            "description": "Please be patient, and we will soon be providing builds."
           }
         }
       }
@@ -130,21 +126,21 @@
   },
   "sponsor": {
     "title": "Sponsor",
-    "description": "LeavesMC is an open community, and part of managing the community involves paying for services, servers, and infrastructure. We do what we can to keep our costs reasonable and sustainable, but still some costs are unavoidable.",
+    "description": "LeavesMC is an open community, and part of managing the community involves paying for services, servers, and infrastructure. We do what we can to keep our costs reasonable and sustainable, but some costs are unavoidable.",
     "why": {
-      "title": "Why You Should Donate",
+      "title": "Why You Should Sponsor",
       "reason": {
         "1": {
           "label": "Sustainability",
-          "description": "Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
+          "description": "We strongly encourage donations from those who can afford to do so, and no one should feel bad if they cannot."
         },
         "2": {
           "label": "Future plans",
-          "description": "We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Afdian."
+          "description": "We will upgrade our servers as our service demand grows."
         },
         "3": {
           "label": "Giving back",
-          "description": "If we receive more in donations than our monthly costs, we may consider distributing funds to contributors in a fair and transparent way."
+          "description": "If we receive more donations than our monthly expenses, we may consider distributing the funds to contributors in a fair and transparent way."
         }
       }
     },
@@ -155,7 +151,7 @@
   },
   "team": {
     "title": "Meet our team",
-    "description": "Meet the members behind LeavesMC, a Minecraft software organization focusing on improving the game’s ecosystem with faster and more secure software.",
+    "description": "Meet the members behind LeavesMC, a group of uncompromising Minecraft enthusiasts.",
     "core-team": {
       "title": "Core Team",
       "description": "Core Team members are responsible for the direction of the project, and for making the big decisions. Whether they focus on the code or the community, they're essential to making everything run and have final say in just about anything."
@@ -173,22 +169,22 @@
     },
     "contributors": {
       "title": "Contributors",
-      "description": "Contributors are those people who have helped the organization by making important contributions to our codebases. From adding a new redstone engine to PRing a fix for a nasty bug, our contributors have helped us to provide the best software we possibly can."
+      "description": "Contributors are those who have made important contributions to our codebase, helping our organization grow. From adding new quality-of-life features to submitting a fix for a nasty bug, our contributors help us provide the best software possible."
     },
     "avatar": "'s avatar"
   },
   "community": {
     "title": "Join Our Community",
-    "description": "We're happy to have you as a part of the LeavesMC community! Please read our community guidelines before participating.",
+    "description": "We’re excited to have you as part of the LeavesMC community! Please read our community guidelines before getting involved.",
     "discord": {
-      "description": "Discord is a popular option for many gamers to communicate with each other. We have a Discord community server that anyone can join."
+      "description": "Discord is a popular platform for gamers to communicate. We have a community server on Discord that anyone can join."
     },
     "qq-group": {
       "title": "QQ Group",
-      "description": "You can join the QQ group and chat with other administrators, developers, project staff, and more. However, this group is maintained by the community and all of its content is unrelated to LeavesMC."
+      "description": "You can join our QQ group and chat with other admins, developers, and project staff. However, this group is maintained by the community and is not officially affiliated with LeavesMC."
     },
     "giscus": {
-      "description": "You can use GitHub to leave a comment or share some tips here.",
+      "description": "You can leave comments or share tips via GitHub here.",
       "lang": "en"
     },
     "button": {
@@ -199,14 +195,14 @@
   },
   "contribute": {
     "title": "You can contribute",
-    "description": "Our projects are based on community contributions and wouldn't be possible without them. There are a lot of ways to contribute, even without programming knowledge.",
+    "description": "Our projects are built on community contributions and wouldn't be possible without them. There are many ways to contribute, even without programming knowledge.",
     "donate": {
       "title": "...Financially",
-      "description": "LeavesMC uses Patreon and Afdian to manage various recurring expenses, mostly related to infrastructure."
+      "description": "LeavesMC uses Patreon and Afdian to manage recurring expenses, most of which are related to infrastructure."
     },
     "code": {
       "title": "...Code",
-      "description": "A big chunk of the code in our projects is written by community members, and we welcome your contributions!"
+      "description": "Much of the code in our projects is written by community members, and we welcome your contributions!"
     },
     "support": {
       "title": "...Support",
@@ -214,7 +210,7 @@
     },
     "documentation": {
       "title": "...Documentation",
-      "description": "Constantly evolving software needs constantly updated documentation. No matter if you want to report missing information or add guides yourself, we always appreciate help."
+      "description": "Constantly evolving software requires up-to-date documentation. Whether you want to report missing information or add guides, we always appreciate your help."
     },
     "button": {
       "more": "Learn More",
@@ -239,7 +235,6 @@
         "download": "Download",
         "build": "Build",
         "copied": "Copied",
-        "ghproxy": "Powered by ghproxy.com",
         "label": "Other download variants"
       }
     },
@@ -282,9 +277,9 @@
         "toggleExperimental": "Toggle experimental builds for ",
         "toggleStable": "Back to stable builds for ",
         "builds": {
-          "title": "Older builds",
+          "title": "Recent builds",
           "description": {
-            "line1": "Looking for older builds - or changelogs? We got you!",
+            "line1": "Looking for more older builds or changelogs?",
             "line2": "Even older builds are available in our <0><0>build explorer</0></0>."
           }
         }
@@ -302,7 +297,7 @@
   "error": {
     "500": {
       "title": "Error",
-      "description": "We are very sorry for the inconvenience. If you would like, please report the bug, it will help us to fix the issue.",
+      "description": "We are very sorry for the inconvenience. If you'd like, please report the bug to help us fix it.",
       "report": "Report",
       "refresh": "Refresh"
     },
@@ -315,6 +310,5 @@
     "lang": "en"
   },
   "Language": "Language",
-  "name": "English (US)",
-  "translator": "Translated by LittleChest and The PaperMC Team"
+  "name": "English (US)"
 }

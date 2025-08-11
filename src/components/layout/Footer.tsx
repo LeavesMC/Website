@@ -102,8 +102,6 @@ const Footer = () => (
         <span className="text-gray-300 text-sm" style={{ textAlign: "right" }}>
           © {new Date().getFullYear()}{" "}
           {t("components.layout.Footer.copyright")}
-          <br />
-          {t("translator")}
         </span>
       </div>
     </div>

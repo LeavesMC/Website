@@ -3,7 +3,7 @@
     "index": "主页",
     "downloads": {
       "index": "下载",
-      "all": "浏览构建",
+      "all": "全部构建",
       "leaves": "下载 Leaves"
     },
     "sponsor": "赞助",
@@ -16,7 +16,7 @@
       "line1": "你的体验，",
       "line2": "我们的目标。"
     },
-    "description": "LeavesMC 改善了 Minecraft 的生态系统，提供快速、安全和稳定的软件，作为最特立独行的组织提供快速迭代和健康支持。",
+    "description": "LeavesMC 始终遵循体验与性能兼备的原则，提供稳定、安全的快速迭代和健康支持，让每个人都能充分享受 Minecraft 的乐趣。",
     "downloads": "下载",
     "documentation": "文档",
     "software": {
@@ -28,7 +28,7 @@
           "powering": "为",
           "players": "位玩家提供支持"
         },
-        "description": "LeavesMC 的软件在设计之初就考虑到了实用性和性能，可以处理任何您需要处理的事物。"
+        "description": "无论是大型红石机器还是各类游戏机制，LeavesMC 的软件均可以处理。"
       }
     }
   },
@@ -38,7 +38,7 @@
       "description": "选择想要下载的软件。",
       "softwares": {
         "leaves": {
-          "description": "Leaves 是一个 Minecraft 服务端，旨在修复被破坏的原版特性。"
+          "description": "Leaves 是 Paper 的分支，旨在修复被破坏的原版特性。"
         },
         "lumina": {
           "description": "Lumina 是 Folia 的分支，旨在遵循原版生电特性的同时引入区域化多线程。",
@@ -47,12 +47,8 @@
       }
     },
     "all": {
-      "legacy": "不支持旧版本。请自行承担风险！",
-      "experimental": "测试构建尚未准备好部署到生产环境。请自行承担风险！"
-    },
-    "leaves": {
-      "description": "下载 Leaves，我们具有无与伦比的性能和稳定性的 Minecraft 服务端。",
-      "experimentalWarning": "下载 Leaves 的测试版本，我们具有无与伦比的性能和稳定性的 Minecraft 服务端。请谨慎操作！"
+      "legacy": "旧版本不受支持。请自行承担风险！",
+      "experimental": "测试版构建尚未准备好部署到生产环境。请自行承担风险！"
     }
   },
   "software": {
@@ -67,15 +63,15 @@
           "title": "为什么选择 Leaves？",
           "reason": {
             "1": {
-              "label": "速度快得离谱",
-              "description": "Leaves 包含大量改进和优化，从而显著提高了性能。这包括异步区块加载，以及对光照引擎、漏斗、实体等的重要改进。"
+              "label": "兼备体验与性能",
+              "description": "Leaves 针对大型红石机器与游戏特性进行了大量改进和优化，使得体验与性能并存。"
             },
             "2": {
               "label": "活跃且不断发展的社区",
               "description": "Leaves 拥有活跃且不断发展壮大的服主和开发者社区。如果您遇到任何问题，可以在 Discord 上与我们交流，获得实时支持。"
             },
             "3": {
-              "label": "扩展应用程序接口",
+              "label": "扩展的应用程序接口",
               "description": "Leaves 扩展并改进了 Bukkit、Spigot 和 Paper 应用程序接口，使您和开发者可以随心所欲地使用更多特性和功能。"
             }
           }
@@ -87,7 +83,7 @@
           },
           "2": {
             "title": "与其他服主一起",
-            "description": "无论您是需要服务器设置、服务器延迟方面的帮助，还是需要聊天格式化指南，我们知识渊博的开发组成员和友好的社区都会随时伸出援手。"
+            "description": "无论您是需要服务器设置、服务器延迟方面的帮助，还是需要修复红石机器，我们知识渊博的开发组成员和友好的社区都会随时伸出援手。"
           }
         },
         "button": {
@@ -136,11 +132,11 @@
       "reason": {
         "1": {
           "label": "持续发展",
-          "description": "赞助有助于保持 LeavesMC 的可持续发展并继续向所有人开放。只有有能力的人才可赞助，即使没有能力也不必感到遗憾。"
+          "description": "赞助有助于保持 LeavesMC 的可持续发展并继续向所有人开放。我们强烈建议您只在有能力时赞助，即使没有能力也可在其他方面“赞助”我们。"
         },
         "2": {
           "label": "未来规划",
-          "description": "我们需要升级服务器以满足对我们的服务日益增长的需求。这将增加成本，我们希望通过 Patreon 和爱发电的捐款来抵消。"
+          "description": "我们会随着我们的服务需求日益增长而升级服务器。"
         },
         "3": {
           "label": "回馈社会",
@@ -155,7 +151,7 @@
   },
   "team": {
     "title": "了解我们的团队",
-    "description": "认识一下 LeavesMC 背后的成员，这是一个 Minecraft 软件组织，致力于通过更快、更安全的软件改善游戏生态系统。",
+    "description": "认识一下 LeavesMC 背后的成员，由一群不将就的 Minecraft 爱好者组成。",
     "core-team": {
       "title": "核心团队",
       "description": "核心团队成员负责项目的方向和重大决策。无论是专注于代码还是社区，他们是一切运行的关键，对任何事情都有最终决定权。"
@@ -173,7 +169,7 @@
     },
     "contributors": {
       "title": "贡献者",
-      "description": "贡献者是指那些对我们的代码库做出重要贡献，从而为我们的组织提供帮助的人。从添加一个新的红石引擎到提交一个令人讨厌的错误修复，我们的贡献者帮助我们尽可能提供最好的软件。"
+      "description": "贡献者是指那些对我们的代码库做出重要贡献，从而为我们的组织提供帮助的人。从添加新的生活质量功能到提交一个令人讨厌的错误修复，我们的贡献者帮助我们尽可能提供最好的软件。"
     },
     "avatar": " 的头像"
   },
@@ -239,7 +235,6 @@
         "download": "下载",
         "build": "构建",
         "copied": "已复制",
-        "ghproxy": "由 ghproxy.com 强力驱动",
         "label": "下载其它文件"
       }
     },
@@ -282,9 +277,9 @@
         "toggleExperimental": "切换到测试版 ",
         "toggleStable": "回到稳定版 ",
         "builds": {
-          "title": "较旧的构建",
+          "title": "最近的构建",
           "description": {
-            "line1": "寻找旧版本或更新日志？我们为您提供！",
+            "line1": "正在寻找更多旧版构建或更新日志？",
             "line2": "我们的<0><0>构建资源管理器</0></0>中还提供了更早的构建版本。"
           }
         }
@@ -315,6 +310,5 @@
     "lang": "zh-CN"
   },
   "Language": "语言",
-  "name": "简体中文（中国大陆）",
-  "translator": "由 LittleChest 翻译"
+  "name": "简体中文（中国大陆）"
 }

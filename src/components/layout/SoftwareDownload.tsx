@@ -15,7 +15,6 @@ export interface SoftwareDownloadProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   icon?: FunctionComponent<any>;
   description: string;
-  experimentalWarning?: string;
 }
 
 const SoftwareDownload = ({
@@ -23,7 +22,6 @@ const SoftwareDownload = ({
   project,
   icon: Icon,
   description,
-  experimentalWarning,
 }: SoftwareDownloadProps & ProjectProps): ReactElement => {
   const [isStable, setStable] = useState(true);
   const version = isStable
@@ -54,9 +52,7 @@ const SoftwareDownload = ({
               {version}
             </span>
           </h2>
-          <p className="text-xl mt-4">
-            {isStable ? description : (experimentalWarning ?? description)}
-          </p>
+          <p className="text-xl mt-4">{description}</p>
           <div className="flex flex-col gap-4 mt-8">
             <SoftwareDownloadButton
               projectId={id}
