@@ -4,7 +4,7 @@
     "downloads": {
       "index": "Télécharger",
       "all": "Toutes les versions",
-      "leaves": "Leaves Downloads"
+      "leaves": "Téléchargement de Leaves"
     },
     "sponsor": "Sponsor",
     "team": "Équipe",
@@ -262,7 +262,7 @@
           "sponsor": "Sponsor"
         },
         "terms": {
-          "title": "Termes",
+          "title": "Règles",
           "community_guidelines": "Les règles de la communauté"
         },
         "copyright": "L'équipe de LeavesMC"
