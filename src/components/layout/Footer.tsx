@@ -101,7 +101,7 @@ const Footer = () => (
         <div className="flex-1" />
         <div className={"flex flex-col"}>
           <span className="text-gray-300 text-sm">
-            © {new Date().getFullYear()}
+            © {new Date().getFullYear()}{" "}
             {t("components.layout.Footer.copyright")}
           </span>
           <span className="text-gray-300 text-sm">
