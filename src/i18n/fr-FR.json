@@ -1,0 +1,314 @@
+{
+  "title": {
+    "index": "Accueil",
+    "downloads": {
+      "index": "Télécharger",
+      "all": "Toutes les versions",
+      "leaves": "Téléchargement de Leaves"
+    },
+    "sponsor": "Sponsor",
+    "team": "Équipe",
+    "community": "Communauté",
+    "contribute": "Contribuer"
+  },
+  "index": {
+    "title": {
+      "line1": "Votre expérience,",
+      "line2": "notre objectif."
+    },
+    "description": "LeavesMC respecte l'équilibre entre expérience et performance, proposant un logiciel stable, sûr et en évolution rapide pour que tous puissent profiter pleinement du plaisir de jouer à Minecraft.",
+    "downloads": "Télécharger",
+    "documentation": "Documentation",
+    "software": {
+      "title": "Votre serveur mérite le <0>meilleur.</0>"
+    },
+    "image": {
+      "1": {
+        "title": {
+          "powering": "Au service de",
+          "players": "joueurs"
+        },
+        "description": "Que ça soit pour de puissantes machines en redstone ou diverses mécaniques de jeu, LeavesMC est capable de tenir la charge."
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "Télécharger",
+      "description": "Sélectionner le logiciel que vous souhaitez télécharger.",
+      "softwares": {
+        "leaves": {
+          "description": "Leaves est un fork de Paper, qui s'oriente à réintroduire les mécaniques vanilla du jeu."
+        },
+        "lumina": {
+          "description": "Lumina est un fork de Folia, qui s'oriente à rester fidèle aux mécaniques techniques de la redstone en survie vanilla, tout en apportant un multithreading régionalisé.",
+          "disabled": "Dû à un manque de développeurs, Lumina a été suspendu."
+        }
+      }
+    },
+    "all": {
+      "legacy": "Les anciennes versions ne sont plus supportées. Utilisez-les à vos propre risques!",
+      "experimental": "Les versions expérimentales ne sont pas recommandées pour un environnement de production. Utilisez-les à vos propre risques!"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "Conformément aux propriétés de la version vanilla",
+          "line2": "Serveur minecraft"
+        },
+        "description": "Leaves est un fork de Paper, qui s'oriente à réintroduire les mécaniques vanilla du jeu.",
+        "why": {
+          "title": "Pourquoi Leaves?",
+          "reason": {
+            "1": {
+              "label": "Équilibrer l'expérience et la performance",
+              "description": "Leaves a apporté de nombreuses améliorations et optimisations pour gérer de grandes machines en redstone et diverses fonctionnalités de jeu, offrant à la fois une excellente expérience et de hautes performances."
+            },
+            "2": {
+              "label": "Une communauté active et en pleine croissance",
+              "description": "Leaves dispose d'une communauté dynamique et en expansion composée d'administrateurs de serveurs et de développeurs. En cas de problème, vous pouvez venir échanger avec nous sur Discord pour obtenir une assistance en temps réel."
+            },
+            "3": {
+              "label": "Une API étendue",
+              "description": "Leaves étend et améliore les API de Bukkit, Spigot et Paper afin d'offrir à vous et à vos développeurs davantage de fonctionnalités et de possibilités."
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "Premiers pas",
+            "description": "Pour commencer avec Leaves, vous devez télécharger et installer la dernière version du serveur. Une fois prêt, consultez notre documentation complète."
+          },
+          "2": {
+            "title": "Ensemble avec un ensemble d'administrateurs de serveurs",
+            "description": "Que vous ayez besoin d'aide pour la configuration de votre serveur, pour résoudre des problèmes de latence ou pour gérer des machines en redstone, notre équipe expérimentée et notre communauté sont toujours là pour vous aider."
+          }
+        },
+        "button": {
+          "downloads": "Télécharger",
+          "documentation": "Documentation",
+          "discord": "Rejoindre notre Discord",
+          "qq-group": "Rejoindre notre groupe QQ"
+        }
+      }
+    },
+    "lumina": {
+      "index": {
+        "title": "Qu'est ce que Lumina?",
+        "description": "Lumina est un fork de Folia, qui s'oriente à rester fidèle aux mécaniques techniques de la redstone en survie vanilla, tout en apportant un multithreading régionalisé.",
+        "why": {
+          "title": "À propos de Lumina",
+          "reason": {
+            "1": {
+              "label": "En quoi est-ce différent de Leaves ?",
+              "description": "La priorité de développement de Lumina est plus faible et prend en charge un nombre réduit de fonctionnalités, dû en partie de l'intégration du multithreading par région."
+            },
+            "2": {
+              "label": "Est-ce que Lumina répond à mon besoin?",
+              "description": "Lumina est plus adapté aux serveurs de grande taille où les joueurs sont répartis sur de vastes zones et dont les besoins en plugins sont limités, tels que les serveurs survie."
+            },
+            "3": {
+              "label": "Où puis-je en apprendre plus?",
+              "description": "Vous pouvez consulter le dépôt GitHub de Lumina afin de lire une présentation générale du projet ainsi que certaines questions fréquemment posées."
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "Toujours en cours de développement",
+            "description": "Soyez patient, et des versions seront bientôt disponibles."
+          }
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "description": "LeavesMC est une communauté ouverte, et la gestion de cette communauté implique la prise en charge des coûts liés aux services, aux serveurs et à l'infrastructure. Nous faisons tout notre possible pour maintenir des dépenses raisonnables et durables, mais certains coûts demeurent inévitables.",
+    "why": {
+      "title": "Pourquoi devenir sponsor",
+      "reason": {
+        "1": {
+          "label": "Durabilité",
+          "description": "Nous encourageons vivement les dons de la part de ceux qui en ont la possibilité, et personne ne devrait se sentir coupable s'il ne peut pas contribuer."
+        },
+        "2": {
+          "label": "Plans futurs",
+          "description": "Nous procéderons à la mise à niveau de nos serveurs à mesure que la demande pour nos services augmentera."
+        },
+        "3": {
+          "label": "Redistribution",
+          "description": "Si le montant des dons dépasse nos dépenses mensuelles, nous envisageons de redistribuer les fonds aux contributeurs de manière équitable et transparente."
+        }
+      }
+    },
+    "sponsors": {
+      "title": "Nos sponsors",
+      "afdian": "Nos sponsors Afdian "
+    }
+  },
+  "team": {
+    "title": "Rencontrez notre équipe",
+    "description": "Rencontrez l'équipe derrière LeavesMC, un groupe de passionnés de Minecraft.",
+    "core-team": {
+      "title": "Core Team",
+      "description": "Les membres de la Core Team sont responsables de l'orientation du projet et des grandes décisions. Qu'ils se consacrent au code ou à la communauté, ils sont essentiels au bon fonctionnement de l'ensemble et ont le dernier mot sur presque tout."
+    },
+    "leaves-developers": {
+      "title": "Les développeurs de Leaves",
+      "description": "Les développeurs de Leaves participent à l'écriture du code, à la révision des pull requests et au maintien du dynamisme du projet. En contribuant à l'ajout de nouvelles fonctionnalités et à l'optimisation du code existant, ils assurent le bon fonctionnement de Leaves."
+    },
+    "web-developers": {
+      "title": "Les développeurs web",
+      "description": "Les développeurs web assurent la présence de LeavesMC sur l'autoroute de l'information. Grâce à leurs efforts, l'accès à LeavesMC est rendu plus simple."
+    },
+    "button": {
+      "sponsor": "Sponsor"
+    },
+    "contributors": {
+      "title": "Contributeurs",
+      "description": "Les contributeurs regroupent toutes les personnes ayant apporté des améliorations significatives à notre base de code, contribuant à la croissance de notre organisation. De l'ajout de fonctionnalités pratiques à la résolution de bugs complexes, leur travail nous aide à offrir le meilleur logiciel possible."
+    },
+    "avatar": "'s avatar"
+  },
+  "community": {
+    "title": "Rejoindre notre Communauté",
+    "description": "Nous sommes ravis de vous compter parmi les membres de la communauté LeavesMC ! Veuillez lire nos règles de communauté avant de participer.",
+    "discord": {
+      "description": "Discord est une plateforme de communication largement utilisée par les joueurs. Nous disposons d'un serveur Discord que tout le monde peut rejoindre."
+    },
+    "qq-group": {
+      "title": "Groupe QQ",
+      "description": "Vous pouvez rejoindre notre groupe QQ et échanger avec d'autres administrateurs, développeurs et membres de l'équipe du projet. Cependant, ce groupe est géré par la communauté et n'est pas officiellement affilié à LeavesMC."
+    },
+    "giscus": {
+      "description": "Vous pouvez laisser des commentaires ou partager vos conseils sur GitHub.",
+      "lang": "fr"
+    },
+    "button": {
+      "guidelines": "Règles de la communauté",
+      "discord": "Rejoindre notre Discord",
+      "qq-group": "Rejoindre notre groupe QQ"
+    }
+  },
+  "contribute": {
+    "title": "Vous pouvez contribuer",
+    "description": "Nos projets sont construits autour de la contribution communautaire et ne seraient pas possibles sans elle. Il existe différentes manières de contribuer, même sans connaissances en programmation.",
+    "donate": {
+      "title": "...Financièrement",
+      "description": "LeavesMC utilise Patreon et Afdian pour gérer ses dépenses, qui sont majoritairement en rapport avec l'infrastructure."
+    },
+    "code": {
+      "title": "...Code",
+      "description": "Une grande partie du code de nos projets est écrite par la communauté, et vos contributions sont les bienvenues !"
+    },
+    "support": {
+      "title": "...Support",
+      "description": "Plus il y a d'utilisateurs, plus il y a de questions ! N'hésitez pas à aider ou à répondre, que ce soit sur notre serveur Discord ou dans notre groupe QQ."
+    },
+    "documentation": {
+      "title": "...Documentation",
+      "description": "Un logiciel en évolution permanente requiert une documentation à jour. Que vous souhaitiez signaler un manque d'information ou contribuer de nouveaux guides, votre aide est grandement appréciée."
+    },
+    "button": {
+      "more": "En apprendre plus",
+      "support": "Notre Communauté",
+      "documentation": "Dépôt de la documentation"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "Aucun changement"
+      },
+      "SoftwareBuildsTable": {
+        "build": "Versions",
+        "changelog": "Changelog",
+        "timestamp": "Horodatage",
+        "download": "Télécharger"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "Télécharger",
+        "build": "Versions",
+        "copied": "Copié",
+        "label": "Autres options de téléchargement"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "Logiciel",
+        "documentation": "Documentation",
+        "team": "Équipe",
+        "contribute": "Contribuer",
+        "toggle": "Menu"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "Commencer",
+          "downloads": "Télécharger",
+          "documentation": "Documentation"
+        },
+        "community": {
+          "title": "Communauté",
+          "our_community": "Notre Communauté"
+        },
+        "LeavesMC": {
+          "our_team": "Notre équipe",
+          "contribute": "Contribuer",
+          "sponsor": "Sponsor"
+        },
+        "terms": {
+          "title": "Règles",
+          "community_guidelines": "Les règles de la communauté"
+        },
+        "copyright": "L'équipe de LeavesMC"
+      },
+      "SoftwareHeader": {
+        "downloads": "Télécharger",
+        "documentation": "Documentation"
+      },
+      "SoftwareDownload": {
+        "downloads": "Télécharger",
+        "get": "Obtenir",
+        "toggleExperimental": "Basculer les versions expérimentales de ",
+        "toggleStable": "Revenir aux versions stables de ",
+        "builds": {
+          "title": "Versions récentes",
+          "description": {
+            "line1": "Vous recherchez des versions plus anciennes ou des changelogs?",
+            "line2": "Des versions encore plus anciennes sont disponibles dans notre <0><0>explorateur de versions</0></0>."
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "seconde",
+    "minute": "minute",
+    "hour": "heure",
+    "day": "jour",
+    "past": "Il y a {{count}} {{unit}}",
+    "plural_past": "Il y a {{count}} {{unit}}s"
+  },
+  "error": {
+    "500": {
+      "title": "Erreur",
+      "description": "Nous sommes désolés pour cette inconvenient. Si vous le voulez, merci de nous signaler le problème que l'on puisse le corriger.",
+      "report": "Signaler",
+      "refresh": "Rafraîchir"
+    },
+    "404": {
+      "title": "Introuvable",
+      "description": "Nous ne trouvons pas la page que vous avez demandé. Si vous pensez que c'est une erreur, merci de nous signaler le problème.",
+      "back": "Retour",
+      "report": "Signaler"
+    },
+    "lang": "fr"
+  },
+  "Language": "Langues",
+  "name": "Français"
+}
