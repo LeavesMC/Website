@@ -21,10 +21,10 @@ export const formatRelativeDate = (date: Date): string => {
 const formatRelativeUnit = (count: number, unit: string): string => {
   count = Math.round(count);
   if (count !== 1) {
-    return `${count} ${unit}${t("time.plural_past")}`;
+    return t("time.plural_past", { count, unit });
   }
 
-  return `${count} ${unit}${t("time.past")}`;
+  return t("time.past", { count, unit });
 };
 
 export const formatISODate = (date: Date): string => {

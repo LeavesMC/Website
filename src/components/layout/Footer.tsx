@@ -101,7 +101,7 @@ const Footer = () => (
         <div className="flex-1" />
         <div className={"flex flex-col"}>
           <span className="text-gray-300 text-sm">
-            © {new Date().getFullYear()}
+            © {new Date().getFullYear()}{" "}
             {t("components.layout.Footer.copyright")}
           </span>
           <span className="text-gray-300 text-sm">
@@ -124,15 +124,6 @@ const Footer = () => (
             </Link>
           </span>
         </div>
-      </div>
-      <div className="flex flex-row items-center gap-2 mt-4 pt-4">
-        <span className="text-gray-300 text-sm">
-          This website is not an official Minecraft website and is not
-          associated with Mojang Studios or Microsoft. All product and company
-          names are trademarks or registered trademarks of their respective
-          holders. Use of these names does not imply any affiliation or
-          endorsement by them.
-        </span>
       </div>
     </div>
   </footer>

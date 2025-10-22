@@ -291,8 +291,8 @@
     "minute": "分鐘",
     "hour": "小時",
     "day": "天",
-    "past": "前",
-    "plural_past": "前"
+    "past": "{{count}} {{unit}}前",
+    "plural_past": "{{count}} {{unit}}前"
   },
   "error": {
     "500": {

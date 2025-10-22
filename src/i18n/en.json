@@ -291,8 +291,8 @@
     "minute": "minute",
     "hour": "hour",
     "day": "day",
-    "past": " ago",
-    "plural_past": "s ago"
+    "past": "{{count}} {{unit}} ago",
+    "plural_past": "{{count}} {{unit}}s ago"
   },
   "error": {
     "500": {
