@@ -12,8 +12,14 @@ export interface Contributor {
 
 const CONTRIBUTORS_BASE_URL =
   "https://api.github.com/repos/LeavesMC/Leaves/contributors?per_page=100";
-
-const fetcher = (url: string) => fetch(url).then((res) => res.json());
+const fetcher = (url: string) => {
+  return fetch(url)
+    .then((res) => res.json())
+    .catch((error) => {
+      console.error("Failed to fetch: ", error);
+      return [];
+    });
+};
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getURL = (pageIndex: number, previousPageData: any): string | null => {
   if (previousPageData && previousPageData.length < 100) return null;
