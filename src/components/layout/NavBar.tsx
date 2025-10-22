@@ -92,6 +92,7 @@ const NavBar = ({ component }: NavBarProps) => {
           <NavDropDown label={t("Language")} className="md:hidden">
             {Array.from(i18n.languages)
               .filter((language) => language !== "en")
+              .filter((language) => language !== "fr")
               .filter((language) => language !== "zh")
               .map((language) => (
                 <NavDropDownLink
@@ -111,6 +112,7 @@ const NavBar = ({ component }: NavBarProps) => {
         <NavDropDown label={t("Language")} className="invisible md:visible">
           {Array.from(i18n.languages)
             .filter((language) => language !== "en")
+            .filter((language) => language !== "fr")
             .filter((language) => language !== "zh")
             .map((language) => (
               <NavDropDownLink
