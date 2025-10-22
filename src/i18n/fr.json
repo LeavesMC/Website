@@ -291,8 +291,8 @@
     "minute": "minute",
     "hour": "heure",
     "day": "jour",
-    "past": " plus tôt",
-    "plural_past": "s plus tôt"
+    "past": "Il y a {{count}} {{unit}}",
+    "plural_past": "Il y a {{count}} {{unit}}s"
   },
   "error": {
     "500": {
