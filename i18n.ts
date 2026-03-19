@@ -4,12 +4,14 @@ import { initReactI18next } from "react-i18next";
 
 import enUS from "src/i18n/en.json";
 import frFR from "src/i18n/fr-FR.json";
+import zhBone from "src/i18n/zh-Bone.json";
+
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: ["en-US", "fr-FR"],
+    fallbackLng: ["en-US", "fr-FR","zh-Bone"],
     debug: false,
     interpolation: {
       escapeValue: false,
@@ -21,6 +23,9 @@ i18n
       "fr-FR": {
         translation: frFR,
       },
+      "zh-Bone": {
+        translation: zhBone
+      }
     },
   });
 
