@@ -1,0 +1,314 @@
+{
+  "title": {
+    "index": "首",
+    "downloads": {
+      "index": "取",
+      "all": "诸器",
+      "leaves": "取 Leaves"
+    },
+    "sponsor": "助",
+    "team": "众工",
+    "community": "群",
+    "contribute": "献"
+  },
+  "index": {
+    "title": {
+      "line1": "君之用,",
+      "line2": "吾之心。"
+    },
+    "description": "LeavesMC 以利与速并重，献安、稳、日新之器，使人尽乐 Minecraft。",
+    "downloads": "取",
+    "documentation": "典",
+    "software": {
+      "title": "汝之器，宜有<0>光。</0>"
+    },
+    "image": {
+      "1": {
+        "title": {
+          "powering": "载",
+          "players": "人"
+        },
+        "description": "无论大作、诸巧，LeavesMC 皆能御之。"
+      }
+    }
+  },
+  "downloads": {
+    "index": {
+      "title": "取器",
+      "description": "择汝欲取之器。",
+      "softwares": {
+        "leaves": {
+          "description": "Leaves 出自 Paper，以补原器之失。"
+        },
+        "lumina": {
+          "description": "Lumina 出自 Folia，守原法，并行多工。",
+          "disabled": "无工主事，Lumina 暂止。"
+        }
+      }
+    },
+    "all": {
+      "legacy": "旧器不护，用之自担！",
+      "experimental": "试器不宜正事，用之自担！"
+    }
+  },
+  "software": {
+    "leaves": {
+      "index": {
+        "title": {
+          "line1": "守原法",
+          "line2": "Minecraft 器"
+        },
+        "description": "Leaves 依 Paper 而作，补原器之失。",
+        "why": {
+          "title": "何用 Leaves？",
+          "reason": {
+            "1": {
+              "label": "利速两全",
+              "description": "Leaves 多有改良，御大作、诸巧，利速皆佳。"
+            },
+            "2": {
+              "label": "群人日盛",
+              "description": "Leaves 有众，工、主皆在。有难可问，即得助。"
+            },
+            "3": {
+              "label": "法备易用",
+              "description": "Leaves 增 Bukkit、Spigot、Paper 之法，工者易为。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "始用",
+            "description": "欲用 Leaves，先取新器。器就，阅我典。"
+          },
+          "2": {
+            "title": "与众共济",
+            "description": "无论设、滞、巧之难，我众皆助汝。"
+          }
+        },
+        "button": {
+          "downloads": "取",
+          "documentation": "典",
+          "discord": "入 Discord",
+          "qq-group": "入 QQ 群"
+        }
+      }
+    },
+    "lumina": {
+      "index": {
+        "title": "何是 Lumina？",
+        "description": "Lumina 出自 Folia，守原法，并行多工。",
+        "why": {
+          "title": "言 Lumina",
+          "reason": {
+            "1": {
+              "label": "与 Leaves 何异？",
+              "description": "Lumina 事缓、能少，以行多工故。"
+            },
+            "2": {
+              "label": "Lumina 宜汝乎？",
+              "description": "Lumina 宜人众、人散、少插件之器，如聚族而居。"
+            },
+            "3": {
+              "label": "何知其详？",
+              "description": "可往 Lumina 之 GitHub，阅其概与问。"
+            }
+          }
+        },
+        "image": {
+          "1": {
+            "title": "尚在作",
+            "description": "请待，我将出器。"
+          }
+        }
+      }
+    }
+  },
+  "sponsor": {
+    "title": "助",
+    "description": "LeavesMC 为公开之群，治群需费。我节用，然费不可无。",
+    "why": {
+      "title": "汝何助我",
+      "reason": {
+        "1": {
+          "label": "可久",
+          "description": "力能助者，我望之；不能，无愧。"
+        },
+        "2": {
+          "label": "来日",
+          "description": "用者日增，我将新其器。"
+        },
+        "3": {
+          "label": "报众",
+          "description": "助多费少，以余分予献功之人。"
+        }
+      }
+    },
+    "sponsors": {
+      "title": "助我者",
+      "afdian": "爱发电助我者"
+    }
+  },
+  "team": {
+    "title": "我众工",
+    "description": "此 LeavesMC 之众，皆好 Minecraft 之士。",
+    "core-team": {
+      "title": "主工",
+      "description": "主工掌事，定大计。主事或代码，皆为根本，有终决。"
+    },
+    "leaves-developers": {
+      "title": "Leaves 工",
+      "description": "Leaves 工写书、审文，使事日新。献新能、修旧文，Leaves 以行。"
+    },
+    "web-developers": {
+      "title": "网工",
+      "description": "网工通我信息之路。汝易用 LeavesMC 之器。"
+    },
+    "button": {
+      "sponsor": "助"
+    },
+    "contributors": {
+      "title": "献功者",
+      "description": "献功者助我代码，使我日盛。增能、补缺，成至善之器。"
+    },
+    "avatar": "之像"
+  },
+  "community": {
+    "title": "入我群",
+    "description": "我喜汝入 LeavesMC 之群！先阅我群约。",
+    "discord": {
+      "description": "Discord 为游者通语之地。我有群，人皆可入。"
+    },
+    "qq-group": {
+      "title": "QQ 群",
+      "description": "汝可入 QQ 群，与主、工、执事语。此群自治，非 LeavesMC 主。"
+    },
+    "giscus": {
+      "description": "汝可于此 GitHub 留言，分享所知。",
+      "lang": "zh-Hans-oracle"
+    },
+    "button": {
+      "guidelines": "群约",
+      "discord": "入 Discord",
+      "qq-group": "入 QQ 群"
+    }
+  },
+  "contribute": {
+    "title": "汝亦可献",
+    "description": "我事皆依众力，无之不成。献之道多，不必知书。",
+    "donate": {
+      "title": "以财献",
+      "description": "LeavesMC 以 Patreon、爱发电支费，多用于器与基。"
+    },
+    "code": {
+      "title": "以书献",
+      "description": "我代码多出自众，我迎汝献！"
+    },
+    "support": {
+      "title": "以答献",
+      "description": "人多问多。无论 Discord、QQ 群，汝可答人问。"
+    },
+    "documentation": {
+      "title": "以典献",
+      "description": "器日新，典亦日新。告阙、增篇，我皆谢汝。"
+    },
+    "button": {
+      "more": "知更多",
+      "support": "我群",
+      "documentation": "典库"
+    }
+  },
+  "components": {
+    "data": {
+      "SoftwareBuildChanges": {
+        "zero": "无改"
+      },
+      "SoftwareBuildsTable": {
+        "build": "版",
+        "changelog": "改记",
+        "timestamp": "时",
+        "download": "取"
+      }
+    },
+    "input": {
+      "SoftwareDownloadButton": {
+        "download": "取",
+        "build": "版",
+        "copied": "已录",
+        "label": "他取法"
+      }
+    },
+    "layout": {
+      "NavBar": {
+        "software": "器",
+        "documentation": "典",
+        "team": "众",
+        "contribute": "献",
+        "toggle": "开导"
+      },
+      "Footer": {
+        "getting_started": {
+          "title": "始",
+          "downloads": "取",
+          "documentation": "典"
+        },
+        "community": {
+          "title": "群",
+          "our_community": "我群"
+        },
+        "LeavesMC": {
+          "our_team": "我众",
+          "contribute": "献",
+          "sponsor": "助"
+        },
+        "terms": {
+          "title": "约",
+          "community_guidelines": "群约"
+        },
+        "copyright": "LeavesMC 众"
+      },
+      "SoftwareHeader": {
+        "downloads": "取",
+        "documentation": "典"
+      },
+      "SoftwareDownload": {
+        "downloads": "取",
+        "get": "得",
+        "toggleExperimental": "示试版 ",
+        "toggleStable": "返正版 ",
+        "builds": {
+          "title": "近版",
+          "description": {
+            "line1": "求旧版、改记？",
+            "line2": "旧版可于我<0><0>版库</0></0>中求。"
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "second": "息",
+    "minute": "刻",
+    "hour": "时",
+    "day": "日",
+    "past": "{{count}}{{unit}}前",
+    "plural_past": "{{count}}{{unit}}前"
+  },
+  "error": {
+    "500": {
+      "title": "失",
+      "description": "我致歉，致汝不便。愿则告我，助我修正。",
+      "report": "告",
+      "refresh": "新"
+    },
+    "404": {
+      "title": "无",
+      "description": "不得汝所求页。以为误，则告我。",
+      "back": "返",
+      "report": "告"
+    },
+    "lang": "zh-Hans-oracle"
+  },
+  "Language": "语",
+  "name": "华夏语"
+}
