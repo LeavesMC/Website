@@ -4,8 +4,10 @@ import { initReactI18next } from "react-i18next";
 
 import enUS from "src/i18n/en-US.json";
 import frFR from "src/i18n/fr-FR.json";
+import zhCN from "src/i18n/zh-CN.json";
+import zhTW from "src/i18n/zh-TW.json";
 
-export const supportedLanguages = ["en-US", "fr-FR"];
+export const supportedLanguages = ["en-US", "zh-CN", "zh-TW", "fr-FR"];
 
 i18n
   .use(LanguageDetector)
@@ -22,6 +24,12 @@ i18n
       },
       "fr-FR": {
         translation: frFR,
+      },
+      "zh-CN": {
+        translation: zhCN,
+      },
+      "zh-TW": {
+        translation: zhTW,
       },
     },
   });
